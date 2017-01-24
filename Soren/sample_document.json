@@ -1,23 +1,18 @@
 {
-  "documents":[{
-    "id": 1,
-    "body":[{
-      "question":"What it is semicolon?",
-      "answers": [{
-        "ans1": "It is ;",
-        "ans2": ";"
-        }]
-      }]
+  "documents": [
+    {
+      "id" : "1",
+      "body" :{
+        "question":"What it is semicolon?",
+        "answers": "It is ;"
+        }
     },
     {
-    "id": 2,
-    "body":[{
-      "question":"What it is ***?",
-      "answers": [{
-        "ans1": "It is *",
-        "ans2": "*"
-        }]
-      }]
+      "id": "2",
+      "body":{
+        "question":"What it is ***?",
+        "answers": "It is *"
+      }
     }
   ]
 }
