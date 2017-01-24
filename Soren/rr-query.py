@@ -28,11 +28,10 @@ print(json.dumps(status, indent=2))
 with open('solr_config.zip', 'rb') as config:
     config_status = retrieve_and_rank.create_config(solr_cluster_id,'test-config', config)
     print(json.dumps(config_status, indent=2))
-
-# deleted_response = retrieve_and_rank.delete_config(solr_cluster_id,
-# 'test-config')
-# print(json.dumps(deleted_response, indent=2))
-
+#%%
+deleted_response = retrieve_and_rank.delete_config(solr_cluster_id, 'test-config')
+print(json.dumps(deleted_response, indent=2))
+#%%
 configs = retrieve_and_rank.list_configs(solr_cluster_id=solr_cluster_id)
 print(json.dumps(configs, indent=2))
 #%%
@@ -42,11 +41,21 @@ print(json.dumps(collection, indent=2))
 collections = retrieve_and_rank.list_collections(solr_cluster_id=solr_cluster_id)
 print(json.dumps(collections, indent=2))
 
+#%%
+deleted_response = retrieve_and_rank.delete_collection(solr_cluster_id, 'test-collection', 'test-config')
+print(json.dumps(deleted_response, indent=2))
+#%%
 pysolr_client = retrieve_and_rank.get_pysolr_client(solr_cluster_id, collections['collections'][0])
 # Can also refer to config by name
 
-results = pysolr_client.search('bananas')
+#Example search
+pysolr_client.add([{'id': '1', 'body':'Who is the father of computing ?'}])
+results = pysolr_client.search('who discovered computers ?')
 print('{0} documents found'.format(len(results.docs)))
+print(results.docs)
+
+#%%
+
 #%%
 # Rankers
 
