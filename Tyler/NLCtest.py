@@ -18,7 +18,10 @@ natural_language_classifier = NaturalLanguageClassifierV1(
 
 ## CHECK THE STATUS of the classifier
 status = natural_language_classifier.status('ff189ax155-nlc-4794')
-#print (json.dumps(status, indent=2))
+print (json.dumps(status, indent=2))
 
-classes = natural_language_classifier.classify('ff189ax155-nlc-4794', 'is it raining?')
-print(json.dumps(classes, indent=2))
+# #ACTUALLY CLASSIFY INTO A CLASS
+# def classify(id, question):
+#   classes = natural_language_classifier.classify(id, question)
+#   print(json.dumps(classes, indent=2))
+

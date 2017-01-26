@@ -1,0 +1,33 @@
+{
+  "documents": [
+    {
+      "id" : "1",
+      "body" :{
+        "question":"Are there clouds?",
+        "answers": "No clouds today."
+        }
+    },
+    {
+      "id": "2",
+      "body":{
+        "question":"Is it raining today?",
+        "answers": "Not raining today."
+      }
+    },
+    {
+      "id": "3",
+      "body":{
+        "question":"What is the chance of a thunderstorm?",
+        "answers": "42%"
+      }
+    },
+    {
+      "id": "4",
+      "body":{
+        "question":"How cold is it?",
+        "answers": "35 degrees"
+      }
+    }
+  ]
+}
+    
