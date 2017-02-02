@@ -25,4 +25,4 @@ def retriveRank(question, topic):
     results = pysolr_client.search(question)
     return results.docs[0]['body'][0]
     
-retriveRank('semicolon', 'programming')
+results = retriveRank('semicolon', 'programming')

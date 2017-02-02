@@ -60,7 +60,7 @@ with open('sample_document.json') as docs_file:
 pysolr_client = retrieve_and_rank.get_pysolr_client(solr_cluster_id, 'programming')
 pysolr_client.add(documents['documents'])
 #%%
-results = pysolr_client.search('who discovered computers ?')
+results = pysolr_client.search("Can I create a new operator in C++ and how")
 print('{0} documents found'.format(len(results.docs)))
 print(results.docs)
 #%%
