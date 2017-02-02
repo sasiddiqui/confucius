@@ -1,0 +1,2000 @@
+What does the &quot;yield&quot; keyword do?,python
+What is a metaclass in Python?,python
+How do I check whether a file exists using Python?,python
+Does Python have a ternary conditional operator?,python
+Calling an external command in Python,python
+What does if __name__ == &quot;__main__&quot;: do?,python
+How to merge two Python dictionaries in a single expression?,python
+How to make a chain of function decorators in Python?,python
+Sort a Python dictionary by value,python
+How to check if a directory exists and create it if necessary?,python
+Using global variables in a function other than the one that created them,python
+Best way to check if a list is empty,python
+append vs. extend,python
+How do I install pip on Windows?,python
+What is the difference between @staticmethod and @classmethod in Python?,python
+How to list all files of a directory in Python,python
+Does Python have a string contains substring method?,python
+Accessing the index in Python &#39;for&#39; loops,python
+&quot;Least Astonishment&quot; and the Mutable Default Argument,python
+How do I pass a variable by reference?,python
+Explain Python&#39;s slice notation,python
+Difference between __str__ and __repr__ in Python,python
+Understanding Python super() with __init__() methods,python
+Is there a way to run Python on Android?,python
+Hidden features of Python,python
+Finding the index of an item given a list containing it in Python,python
+Check if a given key already exists in a dictionary,python
+Catch multiple exceptions in one line (except block),python
+Add key to a dictionary in Python?,python
+How to get current time in Python,python
+Parse String to Float or Int,python
+Iterating over dictionaries using for loops in Python,python
+How can I make a time delay in Python?,python
+Making a flat list out of list of lists in Python,python
+How can I represent an &#39;Enum&#39; in Python?,python
+Print in terminal with colors using Python?,python
+Static class variables in Python,python
+How to get the size of a list,python
+Is there a way to substring a string in Python?,python
+How to append list to second list (concatenate lists),python
+Static methods in Python?,python
+How do you split a list into evenly sized chunks?,python
+How to clone or copy a list?,python
+What IDE to use for Python?,python
+How to read a file line by line into a list with Python,python
+How can I remove (chomp) a newline in Python?,python
+How to install pip on Mac OS X?,python
+Python join: why is it string.join(list) instead of list.join(string)?,python
+Upgrading all packages with pip,python
+Why is reading lines from stdin much slower in C++ than Python?,python
+What does ** (double star) and * (star) do for parameters?,python
+How do I check if a string is a number (float) in Python?,python
+Determine the type of a Python object,python
+Python string formatting: % vs. .format,python
+How to convert string to lowercase in Python?,python
+Converting string into datetime,python
+How do you read from stdin in Python?,python
+Getting the last element of a list in Python,python
+How do I copy a file in python?,python
+How do I randomly select an item from a list using Python?,python
+Manually raising (throwing) an exception in Python,python
+How do I sort a list of dictionaries by values of the dictionary in Python?,python
+Replacements for switch statement in Python?,python
+Find current directory and file&#39;s directory,python
+How to print without newline or space?,python
+Why is &quot;1000000000000000 in range(1000000000000001)&quot; so fast in Python 3?,python
+*args and **kwargs?,python
+What is __init__.py for?,python
+Reverse a string in Python,python
+Calling a function of a module from a string with the function&#39;s name in Python,python
+How do you append to a file?,python
+Python @classmethod and @staticmethod for beginner?,python
+How to know if an object has an attribute in Python,python
+Why use pip over easy_install?,python
+Delete a file or folder in Python,python
+Find all files in directory with extension .txt in Python,python
+How can you profile a script?,python
+Getting the class name of an instance in Python,python
+Create a dictionary with list comprehension in Python,python
+How do I connect to a MySQL Database in Python?,python
+Random string generation with upper case letters and digits in Python,python
+How to print to stderr in Python?,python
+error: Unable to find vcvarsall.bat,python
+Single quotes vs. double quotes in Python,python
+How to leave/exit/deactivate a python virtualenv?,python
+Converting integer to string in Python?,python
+The meaning of a single- and a double-underscore before an object name in Python,python
+Access environment variables from Python,python
+Nicest way to pad zeroes to string,python
+How to remove an element from a list by index in Python?,python
+Limiting floats to two decimal points,python
+Does Django scale?,python
+How can I count the occurrences of a list item in Python?,python
+How to determine the variable type in Python?,python
+How to trim whitespace (including tabs)?,python
+Python progression path - From apprentice to guru,python
+Trimming a string in Python,python
+What is the difference between old style and new style classes in Python?,python
+How to flush output of Python print?,python
+Peak detection in a 2D array,python
+Why does comparing strings in Python using either &#39;==&#39; or &#39;is&#39; sometimes produce a different result?,python
+Extracting extension from filename in Python,python
+Why does Python code run faster in a function?,python
+Differences between isinstance() and type() in python,python
+What&#39;s the canonical way to check for type in python?,python
+Proper way to declare custom exceptions in modern Python?,python
+What is the purpose of self?,python
+Convert bytes to a Python string,python
+In Python, how do I determine if an object is iterable?,python
+Why are Python lambdas useful?,python
+How to remove a key from a python dictionary?,python
+What&#39;s the difference between lists and tuples?,python
+Why do people write #!/usr/bin/env python on the first line of a Python script?,python
+Most elegant way to check if the string is empty in Python?,python
+Parsing values from a JSON file using Python?,python
+How do I remove packages installed with Python&#39;s easy_install?,python
+Import a module from a relative path,python
+How do you change the size of figures drawn with matplotlib?,python
+ASCII value of a character in Python,python
+How to use threading in Python?,python
+How can I do a line break (line continuation) in Python?,python
+What is a mixin, and why are they useful?,python
+How can I get a list of locally installed Python modules?,python
+How do I check what version of Python is running my script?,python
+How can I print literal curly-brace characters in python string and also use .format on it?,python
+If Python is interpreted, what are .pyc files?,python
+How do I parse XML in Python?,python
+Use different Python version with virtualenv,python
+Renaming columns in pandas,python
+UnicodeEncodeError: &#39;ascii&#39; codec can&#39;t encode character u&#39;\xa0&#39; in position 20: ordinal not in range(128),python
+Way to create multiline comments in Python?,python
+How to import a module given the full path?,python
+Installing specific package versions with pip,python
+Correct way to write line to file in Python,python
+How do I download a file over HTTP using Python?,python
+Python @property versus getters and setters,python
+Terminating a Python script,python
+python setup.py uninstall,python
+How to get line count cheaply in Python?,python
+null object in Python?,python
+How do I remove/delete a folder that is not empty with Python?,python
+&#39;has_key()&#39; or &#39;in&#39;?,python
+What are &quot;named tuples&quot; in Python?,python
+How to find if directory exists in Python,python
+Speed comparison with Project Euler: C vs Python vs Erlang vs Haskell,python
+Generate random integers between 0 and 9,python
+pip install mysql-python fails with EnvironmentError: mysql_config not found,python
+How to get file creation &amp; modification date/times in Python?,python
+How do you return multiple values in Python?,python
+Why shouldn&#39;t I use PyPy over CPython if PyPy is 6.3 times faster?,python
+Delete an item from a dictionary,python
+Why is [] faster than list()?,python
+How can I force division to be floating point? Division keeps rounding down to 0,python
+Remove items from a list while iterating,python
+Is there a function in Python to print all the current properties and values of an object?,python
+Differences between distribute, distutils, setuptools and distutils2?,python
+Which Python memory profiler is recommended?,python
+Count occurrence of a character in a string,python
+Map two lists into a dictionary in Python,python
+mkdir -p functionality in Python,python
+&quot;Large data&quot; work flows using pandas,python
+How to create a constant in Python,python
+How do you remove duplicates from a list in whilst preserving order?,python
+Checking whether a variable is an integer or not,python
+Can someone explain __all__ in Python?,python
+Understanding kwargs in Python,python
+Delete column from pandas DataFrame,python
+Convert hex string to int in Python,python
+Save plot to image file instead of displaying it using Matplotlib (so it can be used in batch scripts for example),python
+How can I reverse a list in python?,python
+How do I unload (reload) a Python module?,python
+How to pip install packages according to requirements.txt from a local directory?,python
+Is there any way to kill a Thread in Python?,python
+Getting the length of an array in Python,python
+What is the best project structure for a Python application?,python
+Try/Except in Python: How do you properly ignore Exceptions?,python
+Directory listing in Python,python
+Why does &quot;not(True) in [False, True]&quot; return False?,python
+How do I find the location of my Python site-packages directory?,python
+What is the difference between range and xrange functions in Python 2.X?,python
+How do I protect Python code?,python
+How do I check if a variable exists?,python
+Behaviour of increment and decrement operators in Python,python
+How to get the home directory in Python?,python
+Python class inherits object,python
+Pythonic way to create a long multi-line string,python
+How does Python&#39;s super() work with multiple inheritance?,python
+How can I sort a dictionary by key?,python
+What is a clean, pythonic way to have multiple constructors in Python?,python
+Python List Comprehension Vs. Map,python
+differentiate null=True, blank=True in django,python
+How to debug in Django, the good way?,python
+What is the Python 3 equivalent of &quot;python -m SimpleHTTPServer&quot;,python
+How does the @property decorator work?,python
+How to install psycopg2 with &quot;pip&quot; on Python?,python
+How do I read a text file into a string variable in Python,python
+Should you always favor xrange() over range()?,python
+Is there a simple way to delete a list element by value?,python
+Display number with leading zeros,python
+fatal error: Python.h: No such file or directory,python
+How to check file size in python?,python
+Emulate a do-while loop in Python?,python
+Is there a portable way to get the current username in Python?,python
+What is the difference between dict.items() and dict.iteritems()?,python
+Python `if x is not None` or `if not x is None`?,python
+Adding a Method to an Existing Object Instance,python
+Removing duplicates in lists,python
+Running shell command from Python and capturing the output,python
+What are the differences between the urllib, urllib2, and requests module?,python
+Python __init__ and self what do they do?,python
+How to fix &quot;Attempted relative import in non-package&quot; even with __init__.py,python
+How do I do a not equal in Django queryset filtering?,python
+Retrieving python module path,python
+How to install lxml on Ubuntu,python
+Python&#39;s equivalent of &amp;&amp; (logical-and) in an if-statement,python
+Converting unix timestamp string to readable date in Python,python
+List filtering: list comprehension vs. lambda + filter,python
+Writing unit tests in Python: How do I start?,python
+Why are Python&#39;s &#39;private&#39; methods not actually private?,python
+How do I &quot;cd&quot; in Python?,python
+How do I install a Python package with a .whl file?,python
+What is the naming convention in Python for variable and function names?,python
+Split Strings with Multiple Delimiters?,python
+Convert a String representation of a Dictionary to a dictionary?,python
+Argparse optional positional arguments?,python
+What is the standard Python docstring format?,python
+open() in Python does not create a file if it doesn&#39;t exist,python
+Python integer incrementing with ++,python
+How can I subtract a day from a Python date?,python
+Build a Basic Python Iterator,python
+Remove empty strings from a list of strings,python
+Convert date to datetime in Python,python
+How to put the legend out of the plot,python
+How to print date in a regular format in Python?,python
+how to detect whether a python variable is a function?,python
+String comparison in Python: is vs. ==,python
+pg_config executable not found,python
+Convert Python dict to object?,python
+Python - time.clock() vs. time.time() - accuracy?,python
+Good way to append to a string,python
+How to change a string into uppercase,python
+How to make IPython notebook matplotlib plot inline,python
+JSON datetime between Python and JavaScript,python
+How to get an absolute file path in Python,python
+Is there a difference between `==` and `is` in Python?,python
+What does the Star operator mean?,python
+Non-blocking read on a subprocess.PIPE in python,python
+How to get the filename without the extension from a path in Python?,python
+How to make a class JSON serializable,python
+Is there any pythonic way to combine two dicts (adding values for keys that appear in both)?,python
+How to do relative imports in Python?,python
+Use a Glob() to find files recursively in Python?,python
+Usage of __slots__?,python
+How do you get the logical xor of two variables in Python?,python
+How do I write JSON data to a file in Python?,python
+What is the Python equivalent of static variables inside a function?,python
+How to define two-dimensional array in python,python
+How can I use Python to get the system hostname?,python
+How can I get the concatenation of two lists in Python without modifying either one?,python
+How to sort a list of objects , based on an attribute of the objects?,python
+How to parse an ISO 8601-formatted date?,python
+How to get time of a python program execution?,python
+Get Last Day of the Month in Python,python
+How to check for NaN in python?,python
+Importing files from different folder in Python,python
+Python&#39;s use of __new__ and __init__?,python
+Getting key with maximum value in dictionary?,python
+not None test in Python,python
+if/else in Python&#39;s list comprehension?,python
+Python try-else,python
+Best ways to teach a beginner to program?,python
+How can I tell if a string repeats itself in Python?,python
+Shuffling a list of objects in python,python
+Difference between abstract class and interface in Python,python
+Creating a singleton in Python,python
+How to get a function name as a string in Python?,python
+Recommendations of Python REST (web services) framework?,python
+Traverse a list in reverse order in Python,python
+Multiprocessing vs Threading Python,python
+Django - Set Up A Scheduled Job?,python
+How to detect a Christmas Tree?,python
+Proper indentation for Python multiline strings,python
+Running unittest with typical test directory structure,python
+Python remove all whitespace in a string,python
+How to print the full traceback without halting the program?,python
+How to print number with commas as thousands separators?,python
+What is the use of &quot;assert&quot; in Python?,python
+Best practice for Python Assert,python
+Python - Intersection of two lists,python
+How can I open multiple files using &quot;with open&quot; in Python?,python
+Favorite Django Tips &amp; Features?,python
+What is setup.py?,python
+Finding local IP addresses using Python&#39;s stdlib,python
+Flattening a shallow list in Python,python
+How do you test that a Python function throws an exception?,python
+PyLint, PyChecker or PyFlakes?,python
+How do I capture SIGINT in Python?,python
+How can I iterate through two lists in parallel in Python?,python
+Measure time elapsed in Python?,python
+How to get full path of current file&#39;s directory in Python?,python
+How do I remove the first Item from a Python list?,python
+Dynamic module import in Python,python
+Disable output buffering,python
+Best way to strip punctuation from a string in Python,python
+Putting a simple if-then statement on one line,python
+Python decimal range() step value,python
+Iterating over a string,python
+Comprehensive beginner&#39;s virtualenv tutorial?,python
+Command Line Arguments In Python,python
+What is a Python egg?,python
+Where do the Python unit tests go?,python
+Python reverse / invert a mapping,python
+How to generate all permutations of a list in Python,python
+How do I determine the size of an object in Python?,python
+Should I put #! (shebang) in Python scripts, and what form should it take?,python
+How do I convert datetime to date (in Python)?,python
+How to move a file in Python,python
+Call a parent class&#39;s method from child class in Python?,python
+What are the differences between json and simplejson Python modules?,python
+How to check what OS am I running on in Python?,python
+Does Python have “private” variables in classes?,python
+Python style: multiple-line conditions in IFs,python
+What is a &quot;slug&quot; in Django?,python
+Get difference between two lists,python
+How to check if type of a variable is string?,python
+Dead simple argparse example wanted: 1 argument, 3 results,python
+How do I do a case insensitive string comparison in Python?,python
+Calling C/C++ from python?,python
+What is the quickest way to HTTP GET in Python?,python
+Python Create unix timestamp five minutes in the future,python
+Why are there no ++ and --​ operators in Python?,python
+Convert a Unicode string to a string in Python (containing extra symbols),python
+How to capitalize the first letter of each word in a string (Python)?,python
+How do I get the path and name of the file that is currently executing?,python
+Is there a simple, elegant way to define singletons in Python?,python
+How do I find the location of Python module sources?,python
+What is the purpose of the single underscore &quot;_&quot; variable in Python?,python
+Python Flask vs Bottle,python
+Converting from a string to boolean in Python?,python
+Python: check if an object is a list or tuple (but not string),python
+super() raises &quot;TypeError: must be type, not classobj&quot; for new-style class,python
+What is the common header format of Python files?,python
+Find which version of package is installed with pip,python
+What SOAP client libraries exist for Python, and where is the documentation for them?,python
+&quot;is&quot; operator behaves unexpectedly with integers,python
+How to read large file, line by line in python,python
+How do I use Python&#39;s itertools.groupby()?,python
+What is a Python equivalent of PHP&#39;s var_dump()?,python
+What does functools.wraps do?,python
+How to sort (list/tuple) of lists/tuples?,python
+Fastest way to check if a value exist in a list,python
+InsecurePlatformWarning: A true SSLContext object is not available. This prevents urllib3 from configuring SSL appropriately,python
+Creating a JSON response using Django and Python,python
+Comment out a Python code block,python
+Pretty printing XML in Python,python
+How to re import an updated package while in Python Interpreter?,python
+Rename Files in Python,python
+Why are some float &lt; integer comparisons four times slower than others?,python
+How do I correctly clean up a Python object?,python
+Python module for converting PDF to text,python
+Python: about catching ANY exception,python
+No module named pkg_resources,python
+How to create a GUID/UUID in Python,python
+Flatten (an irregular) list of lists in Python,python
+How do you express binary literals in Python?,python
+Maximum and Minimum values for ints,python
+Transpose/Unzip Function (inverse of zip)?,python
+What&#39;s the idiomatic syntax for prepending to a short python list?,python
+What does Ruby have that Python doesn&#39;t, and vice versa?,python
+Python Image Library fails with message &quot;decoder JPEG not available&quot; - PIL,python
+What exactly do &quot;u&quot; and &quot;r&quot; string flags do in Python, and what are raw string literals?,python
+What blocks Ruby, Python to get Javascript V8 speed?,python
+Fastest way to list all primes below N,python
+Showing the stack trace from a running Python application,python
+clang error: unknown argument: &#39;-mno-fused-madd&#39; (python package installation failure),python
+How to install python3 version of package via pip on Ubuntu?,python
+Proper way to use **kwargs in Python,python
+IndentationError: unindent does not match any outer indentation level,python
+What is the most &quot;pythonic&quot; way to iterate over a list in chunks?,python
+Check if a Python list item contains a string inside another string,python
+Which exception should I raise on bad/illegal argument combinations in Python?,python
+How to check Django version,python
+How to urlencode a querystring in Python?,python
+What does &#39;super&#39; do in Python?,python
+How can I find script&#39;s directory with Python?,python
+How to save a Python interactive session?,python
+Is it worth using Python&#39;s re.compile?,python
+How to print a class or objects of class using print()?,python
+Python: How to import other Python files,python
+python open built-in function: difference between modes a, a+, w, w+, and r+?,python
+Find all packages installed with easy_install/pip?,python
+Why use def main()?,python
+Short Description of Scoping Rules,python
+Convert a list of characters into a string,python
+Does Python have an ordered set?,python
+Python add new item to dictionary,python
+Adding new column to existing DataFrame in Python pandas,python
+Convert list to tuple in Python,python
+How do I get my python program to sleep for 50 milliseconds?,python
+Split string into a list in Python,python
+How to overcome &quot;datetime.datetime not JSON serializable&quot; in python?,python
+Elegant Python function to convert CamelCase to snake_case?,python
+List of lists changes reflected across sublists unexpectedly,python
+Writing a list to a file with Python,python
+What is the best way to remove accents in a Python unicode string?,python
+How to make a Python script standalone executable to run without ANY dependency?,python
+Extract file name from path, no matter what the os/path format,python
+How to find out the number of CPUs using python,python
+Get unique values from a list in python,python
+Difference between Python&#39;s Generators and Iterators,python
+How do I determine if my python shell is executing in 32bit or 64bit mode on OS X?,python
+In Matplotlib, what does the argument mean in fig.add_subplot(111)?,python
+How do I run Python code from Sublime Text 2?,python
+Why is &#39;x&#39; in (&#39;x&#39;,) faster than &#39;x&#39; == &#39;x&#39;?,python
+Python: user input and commandline arguments,python
+How do I make python to wait for a pressed key,python
+What&#39;s the difference between eval, exec, and compile in Python?,python
+Remove specific characters from a string in python,python
+Simple Digit Recognition OCR in OpenCV-Python,python
+How to break out of multiple loops in Python?,python
+Does Python&#39;s time.time() return the local or UTC timestamp?,python
+Working with utf-8 encoding in Python source,python
+How do I use raw_input in Python 3,python
+How to Python prettyprint a JSON file,python
+Setting the correct encoding when piping stdout in Python,python
+What&#39;s the best solution for OpenID with Django?,python
+Python Print String To Text File,python
+What&#39;s the difference between a Python module and a Python package?,python
+What is the python &quot;with&quot; statement designed for?,python
+What do the python file extensions, .pyc .pyd .pyo stand for?,python
+time.sleep -- sleeps thread or process?,python
+Preferred Python unit-testing framework,python
+Why NumPy instead of Python lists?,python
+python: list vs tuple, when to use each?,python
+pip install from github repo branch,python
+Python Graph Library,python
+Python: Find in list,python
+What is a monkey patch?,python
+Why isn&#39;t Python very good for functional programming?,python
+Elegant ways to support equivalence (&quot;equality&quot;) in Python classes,python
+Difference between exit() and sys.exit() in Python,python
+Convert all strings in a list to int,python
+Generator Expressions vs. List Comprehension,python
+How to convert strings into integers in Python?,python
+How to empty a list in Python?,python
+How to get the position of a character in Python?,python
+How do I sort a list of strings in Python?,python
+What is memoization and how can I use it in Python?,python
+What does the &#39;b&#39; character do in front of a string literal?,python
+How to copy a dictionary and only edit the copy,python
+How do I fix &#39;ImportError: cannot import name IncompleteRead&#39;?,python
+Getting &quot;Error loading MySQLdb module: No module named MySQLdb&quot; - have tried previously posted solutions,python
+django development IDE,python
+How do you convert a Python time.struct_time object into a datetime object?,python
+What are some common uses for Python decorators?,python
+Python &quot;extend&quot; for a dictionary,python
+How can I parse a YAML file in Python,python
+Importing modules from parent folder,python
+No module named MySQLdb,python
+Separation of business logic and data access in django,python
+Access an arbitrary element in a dictionary in Python,python
+Can I get JSON to load into an OrderedDict in Python?,python
+Relative imports in Python 3,python
+Tabs versus spaces in Python programming,python
+Why do some functions have underscores &quot;__&quot; before and after the function name?,python
+How can I fill out a Python string with spaces?,python
+Understanding dict.copy() - shallow or deep?,python
+C-like structures in Python,python
+What does the Python Ellipsis object do?,python
+How to calculate the angle between a line and the horizontal axis?,python
+How to make an unaware datetime timezone aware in python,python
+Should Python import statements always be at the top of a module?,python
+What&#39;s the proper way to install pip, virtualenv, and distribute for Python?,python
+mysql_config not found when installing mysqldb python interface,python
+add one row in a pandas.DataFrame,python
+Asking the user for input until they give a valid response,python
+Difference between __getattr__ vs __getattribute__,python
+How to set the current working directory in Python?,python
+What is the difference between Python&#39;s re.search and re.match?,python
+Cannot install Lxml on Mac os x 10.9,python
+How do I test one variable against multiple values?,python
+What does the at (@) symbol do in Python,python
+How to declare an array in Python?,python
+Can I use Python as a Bash replacement?,python
+Get key by value in dictionary,python
+How do I calculate number of days betwen two dates using Python?,python
+Create List of Single Item Repeated n Times in Python,python
+How do I execute a program from python? os.system fails due to spaces in path,python
+Chain-calling parent constructors in python,python
+Select rows from a DataFrame based on values in a column in pandas,python
+How can I install packages in my $HOME folder with pip?,python
+pip install lxml error ,python
+How do I resize an image using PIL and maintain its aspect ratio?,python
+Is it possible to break a long line to multiple lines in Python,python
+Using module &#39;subprocess&#39; with timeout,python
+How do I watch a file for changes using Python?,python
+Python List vs. Array - when to use?,python
+Python error &quot;ImportError: No module named&quot;,python
+How can I check for Python version in a program that uses new language features?,python
+Empty set literal in Python?,python
+SQLAlchemy: What&#39;s the difference between flush() and commit()?,python
+Reading binary file in Python and looping over each byte,python
+TypeError: &#39;str&#39; does not support the buffer interface,python
+What is the standard way to add N seconds to datetime.time in Python?,python
+How do I disable log messages from the Requests library?,python
+Syntax error on print with Python 3,python
+python: how to import the class within the same directory or sub directory,python
+Determine if variable is defined in Python,python
+Python int to binary?,python
+How do I translate a ISO 8601 datetime string into a Python datetime object?,python
+Install a Python package into a different directory using pip?,python
+Circular (or cyclic) imports in Python,python
+How to avoid .pyc files?,python
+Typical Angular.js workflow and project structure (with Python Flask),python
+Python Time Seconds to h:m:s,python
+Why is &quot;except: pass&quot; a bad programming practice?,python
+Getting file size in Python?,python
+How to iterate over rows in a DataFrame in Pandas?,python
+What is the python keyword &quot;with&quot; used for?,python
+How can I represent an infinite number in Python?,python
+How to find out if a Python object is a string?,python
+Pythonic way to avoid &quot;if x: return x&quot; statements,python
+What&#39;s the difference between raw_input() and input() in python3.x?,python
+What do *args and **kwargs mean?,python
+Is there a Numpy function to return the first index of something in an array?,python
+A clean, lightweight alternative to Python&#39;s twisted?,python
+Unicode (UTF-8) reading and writing to files in Python,python
+Get list from pandas DataFrame column headers,python
+How do I get the path of a the Python script I am running in?,python
+Reloading submodules in IPython,python
+Django - How to rename a model field using South?,python
+Python: import a file from a subdirectory,python
+What are Class methods in Python for?,python
+Python: Split string with multiple delimiters,python
+Plot logarithmic axes with matplotlib in python,python
+Getting a list of all subdirectories in the current directory,python
+How to delete a character from a string using python?,python
+Why doesn&#39;t Python have multiline comments?,python
+TypeError: &#39;module&#39; object is not callable,python
+How would you make a comma-separated string from a list?,python
+Representing and solving a maze given an image,python
+How to change the order of DataFrame columns?,python
+How can I check the syntax of Python script without executing it?,python
+How to split a string into array of characters with Python?,python
+Filter dict to contain only certain keys?,python
+Understanding __get__ and __set__ and Python descriptors,python
+Class method differences in Python: bound, unbound and static,python
+Is there any difference between &quot;foo is None&quot; and &quot;foo == None&quot;?,python
+Get exception description and stack trace which caused an exception, all as a string,python
+overloading __init__ in python,python
+What are the differences between Perl, Python, AWK and sed?,python
+Can a variable number of arguments be passed to a function?,python
+Most pythonic way to delete a file which may not exist,python
+Django - what is the difference between render(), render_to_response() and direct_to_template()?,python
+Python - Pytz - List of Timezones?,python
+Selecting columns,python
+Get HTML Source of WebElement in Selenium WebDriver using Python,python
+Removing a list of characters in string,python
+How do I update pip itself from inside my virtual environment?,python
+What does &quot;SyntaxError: Missing parentheses in call to &#39;print&#39;&quot; mean in Python?,python
+Test if executable exists in Python?,python
+Python thread pool similar to the multiprocessing Pool?,python
+Wrapping a C library in Python: C, Cython or ctypes?,python
+Get current time in milliseconds in Python?,python
+How to fix python indentation,python
+How many Python classes should I put in one file?,python
+Split string on whitespace in Python,python
+How to manage local vs production settings in Django?,python
+Why does python use &#39;else&#39; after for and while loops?,python
+How to convert list to string,python
+Python Dictionary Comprehension,python
+Best way to convert string to bytes in Python 3?,python
+Determine function name from within that function (without using traceback),python
+PyPy -- How can it possibly beat CPython?,python
+How to set environment variables in Python,python
+which day of week given a date python,python
+How to get string objects instead of Unicode ones from JSON in Python?,python
+How do you create a daemon in Python?,python
+Dump a NumPy array into a csv file,python
+How do I find out my python path using python?,python
+How can I color Python logging output?,python
+Checking whether a string starts with XXXX,python
+Why use argparse rather than optparse?,python
+Text Progress Bar in the Console,python
+if else in a list comprehension,python
+Python String and Integer concatenation,python
+Getting a map() to return a list in Python 3.x,python
+Python - How do I pass a string into subprocess.Popen (using the stdin argument)?,python
+Why is Python&#39;s &quot;append&quot; not &quot;push&quot;?,python
+Change one character in a string in Python?,python
+Python in Xcode 7,python
+Python unittest - opposite of assertRaises?,python
+How to drop rows of Pandas DataFrame whose value in certain columns is NaN,python
+Delete Folder Contents in Python,python
+Python dictionary from an object&#39;s fields,python
+How to define two fields &quot;unique&quot; as couple,python
+Post JSON using Python Requests,python
+What is the easiest way to remove all packages installed by pip?,python
+Is there a short contains function for lists?,python
+matplotlib Legend Markers Only Once,python
+Finding the average of a list,python
+SSL InsecurePlatform error when using Requests package,python
+Read .mat files in Python,python
+What are the differences between numpy arrays and matrices? Which one should I use?,python
+How to read csv into record array in numpy?,python
+When is del useful in python?,python
+Getting the SQL from a Django QuerySet,python
+What is a &quot;callable&quot; in Python?,python
+Python - The difference between sys.stdout.write and print,python
+Python and pip, list all versions of a package that&#39;s available?,python
+Pandas: change data type of columns,python
+Expanding tuples into arguments,python
+Is it a good practice to use try-except-else in Python?,python
+How can I create a directly-executable cross-platform GUI app using Python?,python
+Iterating through a range of dates in Python,python
+How can I improve my paw detection?,python
+Passing a dictionary to a function in python as keyword parameters,python
+What is __future__ in Python used for and how/when to use it, and how it works,python
+How can I compare two lists in python and return matches,python
+join list of lists in python,python
+How do I keep Python print from adding newlines or spaces?,python
+How to change the font size on a matplotlib plot,python
+Using Python 3 in virtualenv,python
+Return None if Dictionary key is not available,python
+Django gives Bad Request (400) when DEBUG = False,python
+How do you round UP a number in Python?,python
+How to use timeit module,python
+Find all occurrences of a substring in Python,python
+How can I selectively escape percent (%) in Python strings?,python
+What is the best (idiomatic) way to check the type of a Python variable?,python
+Relationship between scipy and numpy,python
+Strip HTML from strings in Python,python
+Remove all occurrences of a value from a Python list,python
+Search and replace a line in a file in Python,python
+How to check version of python modules?,python
+parsing boolean values with argparse,python
+pip: dealing with multiple Python versions?,python
+Python, Matplotlib, subplot: How to set the axis range?,python
+How can I get a list of all classes within current module in Python?,python
+Python try...except comma vs &#39;as&#39; in except,python
+What is the difference between an expression and a statement in Python?,python
+Is it possible to run a Python script as a service in Windows? If possible, how?,python
+Permanently add a directory to PYTHONPATH,python
+How can the euclidean distance be calculated with numpy?,python
+How can I convert a datetime object to milliseconds since epoch (unix time) in Python?,python
+how to get row count of pandas dataframe?,python
+Does Python support short-circuiting?,python
+How do I set the figure title and axes labels font size in Matplotlib?,python
+listing all functions in a python module,python
+Creating a new dict in Python,python
+How can I make sense of the `else` clause of Python loops?,python
+How to retrieve an element from a set without removing it?,python
+ImportError: Cannot import name X,python
+How to install pip with Python 3?,python
+Generating a PNG with matplotlib when DISPLAY is undefined,python
+numpy: access an array by column,python
+Is there any way to do HTTP PUT in python,python
+check if all elements in a list are identical,python
+How to clear python interpreter console?,python
+Which version of Python do I have installed?,python
+Initialise a list to a specific length in Python,python
+Finding what methods an object has,python
+Split a string by spaces -- preserving quoted substrings -- in Python,python
+What is the reason for having &#39;//&#39; in Python?,python
+Convert list of dictionaries to Dataframe,python
+Implement touch using Python?,python
+What is an alternative to execfile in Python 3?,python
+How do I remove a substring from the end of a string in Python?,python
+Is there a reason Python strings don&#39;t have a string length method?,python
+How do I remove/delete a virtualenv?,python
+Lazy Method for Reading Big File in Python?,python
+Print the full numpy array,python
+How to use Xpath in Python?,python
+What are some good Python ORM solutions?,python
+use a list of values to select rows from a pandas dataframe,python
+Numpy array dimensions,python
+Check if a given key already exists in a dictionary and increment it,python
+Sort a list of tuples by 2nd item (integer value),python
+What does asterisk * mean in Python?,python
+How to query as GROUP BY in django?,python
+Having Django serve downloadable files,python
+Are there static analysis tools for Python?,python
+Python: Check if a string represents an int, Without using Try/Except?,python
+How to get data recieved in Flask request,python
+Python pip install fails: invalid command egg_info,python
+How to serve static files in Flask,python
+How can I convert a character to a integer in Python, and viceversa?,python
+How to exit from Python without traceback?,python
+How do I execute a string containing Python code in Python?,python
+How to add to the pythonpath in windows 7?,python
+How do I integrate Ajax with Django applications?,python
+Heavy usage of Python at Google,python
+What is the difference between pip and conda?,python
+Web scraping with Python,python
+Printing Python version in output,python
+How do I get list of methods in a Python class?,python
+Is there a Python equivalent to Ruby&#39;s string interpolation?,python
+Seeking clarification on apparent contradictions regarding weakly typed languages,python
+Print a list in reverse order with range()?,python
+Python: Extract numbers from a string,python
+What exactly are Python&#39;s iterator, iterable, and iteration protocols?,python
+How do I get user IP address in django?,python
+Turn a string into a valid filename?,python
+How to uninstall Python 2.7 on a Mac OS X 10.6.4?,python
+How to filter the DataFrame rows of pandas by &quot;within&quot;/&quot;in&quot;?,python
+Python list of dictionaries search,python
+Python: How to ignore an exception and proceed?,python
+How to download image using requests,python
+Python debugging tips,python
+How do I filter ForeignKey choices in a Django ModelForm?,python
+Reading entire file in Python,python
+Pretty-printing of numpy.array,python
+In Python 2, what is the difference between &#39;/&#39; and &#39;//&#39; when used for division?,python
+Python read a single character from the user,python
+Does Python SciPy need BLAS?,python
+How to write inline if statement for print?,python
+Find and list duplicates in Python list,python
+Store output of subprocess.Popen call in a string,python
+How do I get a Cron like scheduler in Python?,python
+Why dict.get(key) instead of dict[key]?,python
+How does collections.defaultdict work?,python
+Remove final character from string (Python),python
+Is a Python list guaranteed to have its elements stay in the order they are inserted in?,python
+Making Python loggers output all messages to stdout in addition to log,python
+Stripping everything but alphanumeric chars from a string in Python,python
+Python date string to date object,python
+When is &quot;i += x&quot; different from &quot;i = i + x&quot; in Python?,python
+Why compile Python code?,python
+How do I create a slug in Django?,python
+Get MD5 hash of big files in Python,python
+How to comment out a block of Python code in Vim,python
+What can you use Python generator functions for?,python
+Multiple variables in Python &#39;with&#39; statement,python
+Python: defaultdict of defaultdict?,python
+How to percent-encode URL parameters in Python?,python
+How do I avoid the &quot;self.x = x; self.y = y; self.z = z&quot; pattern in __init__?,python
+ImportError: No module named requests,python
+Split python string every nth character?,python
+Why aren&#39;t python nested functions called closures?,python
+Run a python script from another python script, passing in args,python
+How are Python&#39;s Built In Dictionaries Implemented,python
+Python exit commands - why so many and when should each be used?,python
+Why is there no GIL in the Java Virtual Machine? Why does Python need one so bad?,python
+Python argparse: How to insert newline in the help text?,python
+Django datetime issues (default=datetime.now()),python
+Can &quot;list_display&quot; in a Django ModelAdmin display attributes of ForeignKey fields?,python
+Reimport a module in python while interactive,python
+Find full path of the Python interpreter?,python
+What&#39;s the bad magic number error?,python
+Python mysqldb: Library not loaded: libmysqlclient.18.dylib,python
+In Python, when to use a Dictionary, List or Set?,python
+Best way to log a Python exception,python
+Generating an MD5 checksum of a file,python
+How do I convert local time to UTC in Python?,python
+Adding 5 days to a date in Python,python
+find first list item that matches criteria,python
+How to get current CPU and RAM usage in Python?,python
+Redirect stdout to a file in Python?,python
+Is there a &quot;not equal&quot; operator in Python?,python
+Split by comma and strip whitespace in Python,python
+Python __str__ versus __unicode__,python
+Why is IoC / DI not common in Python?,python
+Django: &quot;projects&quot; vs &quot;apps&quot;,python
+What is the best way to implement nested dictionaries?,python
+Python: create object and add attributes to it,python
+How to write a Python module?,python
+What&#39;s the difference between filter and filter_by in SQLAlchemy?,python
+Sort a list by multiple attributes?,python
+How to get a complete list of object&#39;s methods and attributes?,python
+What&#39;s the difference between dist-packages and site-packages?,python
+How do I calculate the date six months from the current date using the datetime Python module?,python
+How to create a zip archive of a directory,python
+How to get console window width in python,python
+Compiled vs. Interpreted Languages,python
+DatabaseError: current transaction is aborted, commands ignored until end of transaction block,python
+&#39;import module&#39; or &#39;from module import&#39;,python
+How to terminate a python subprocess launched with shell=True,python
+Matplotlib: How to put individual tags for a scatter plot,python
+Is it possible to use pip to install a package from a private github repository?,python
+Using sphinx with Markdown instead of RST,python
+How do I get the parent directory in Python?,python
+How to send an email with Gmail as provider using Python?,python
+What is the ellipsis [...] in a Python list?,python
+Sending HTML email using Python,python
+Convert string representation of list to list in Python,python
+Changing the &quot;tick frequency&quot; on x or y axis in matplotlib?,python
+Read password from stdin,python
+Else clause on Python while statement,python
+Python dictionary: are keys() and values() always the same order?,python
+Flask - configure dev server to be visible across the network,python
+Saving utf-8 texts in json.dumps as UTF8, not as \u escape sequence,python
+Accessing dict keys like an attribute in Python?,python
+Why doesn&#39;t os.path.join() work in this case?,python
+Python multiprocessing pool.map for multiple arguments,python
+What&#39;s the best way to generate a UML diagram from Python source code?,python
+Why use Python&#39;s os module methods instead of executing shell commands directly?,python
+Why does the floating-point value of 4*0.1 look nice in Python 3 but 3*0.1 doesn&#39;t?,python
+Installing SciPy with pip,python
+Hiding axis text in matplotlib plots,python
+Python: how can I check if the key of an dictionary exists?,python
+Django: Why do some model fields clash with each other?,python
+Calculating arithmetic mean (average) in Python,python
+Get the name of current script with Python,python
+How to install Python MySQLdb module using pip?,python
+Rename a dictionary key,python
+How to hide output of subprocess in Python 2.7,python
+In Python, how do I iterate over a dictionary in sorted order?,python
+Using Django time/date widgets in custom form,python
+Print current call stack from a method in Python code,python
+Failed to install Python Cryptography package with PIP and setup.py,python
+How can I reference requirements.txt for the install_requires kwarg in setuptools&#39; setup.py file?,python
+Python setup.py develop vs install,python
+Choosing Java vs Python on Google App Engine,python
+Pelican 3.3 pelican-quickstart error &quot;ValueError: unknown locale: UTF-8&quot;,python
+Is there a way to use PhantomJS in Python?,python
+How do I clone a Django model instance object and save it to the database?,python
+How to start a background process in Python?,python
+Python vs Cpython,python
+Why return NotImplemented instead of raising NotImplementedError,python
+How to initialize a two-dimensional array in Python?,python
+How do I split a multi-line string into multiple lines?,python
+In practice, what are the main uses for the new &quot;yield from&quot; syntax in Python 3.3?,python
+How to fix: &quot;UnicodeDecodeError: &#39;ascii&#39; codec can&#39;t decode byte&quot;,python
+Why wasn&#39;t PyPy included in standard Python?,python
+How to get week number in Python?,python
+Create an empty list in python with certain size,python
+Converting datetime.date to UTC timestamp in Python,python
+How to perform OR condition in django queryset?,python
+How to get a random number between a float range?,python
+Python string.join(list) on object array rather than string array,python
+Case insensitive Python regular expression without re.compile,python
+Django set default form values,python
+When to use Tornado, when to use Twisted / Cyclone / GEvent / other,python
+How can I tell PyCharm what type a parameter is expected to be?,python
+Getting the index of the returned max or min item using max()/min() on a list,python
+Initializing a list to a known number of elements in Python,python
+find nearest value in numpy array,python
+How to delete items from a dictionary while iterating over it?,python
+Python -- return, return None, and no return at all,python
+Iterate a list with indexes in Python,python
+How to download large file in python with requests.py?,python
+How to execute a file within the python interpreter?,python
+How do I check if a given Python string is a substring of another one?,python
+What is the best way to call a Python script from another Python script?,python
+Programmatically saving image to Django ImageField,python
+Pandas writing dataframe to CSV file,python
+Python subprocess/Popen with a modified environment,python
+How do you log server errors on django sites,python
+How to get all possible combinations of a list’s elements?,python
+No Multiline Lambda in Python: Why not?,python
+python decorators with parameters,python
+Postgres: INSERT if does not exist already,python
+Django auto_now and auto_now_add,python
+Python: split a list based on a condition?,python
+Convert a number range to another range, maintaining ratio,python
+Check if multiple strings exist in another string,python
+Is Python strongly typed?,python
+How to invoke the super constructor?,python
+Print in one line dynamically,python
+What is the most efficient way to loop through dataframes with pandas?,python
+Python: Run function from the command line,python
+Python variable scope error,python
+How to check whether two lists are circularly identical in Python,python
+Why does (1 in [1,0] == True) evaluate to False?,python
+Python Infinity - Any caveats?,python
+Can a line of Python code know its indentation nesting level?,python
+How to print an error in Python?,python
+Deleting DataFrame row in Pandas based on column value,python
+How to check if a user is logged in (how to properly use user.is_authenticated)?,python
+Using javadoc for Python documentation,python
+How to send email attachments with Python,python
+Get the cartesian product of a series of lists?,python
+What do (lambda) function closures capture in Python?,python
+Is False == 0 and True == 1 in Python an implementation detail or is it guaranteed by the language?,python
+How can I get the source code of a Python function?,python
+How to change legend size with matplotlib.pyplot,python
+Can I force pip to reinstall the current version?,python
+Python: How to get a value of datetime.today() that is &quot;timezone aware&quot;?,python
+What is the Python equivalent for a case/switch statement?,python
+What is the fastest way to send 100,000 HTTP requests in Python?,python
+How to use a different version of python during NPM install?,python
+Getting method parameter names in python,python
+how to check if a file is a directory or regular file in python?,python
+Configuring so that pip install can work from github,python
+What is the correct syntax for &#39;else if&#39;?,python
+Python creating a dictionary of lists,python
+python design patterns,python
+Python format timedelta to string,python
+Add Variables to Tuple,python
+django import error - No module named core.management,python
+Writing Unicode text to a text file?,python
+How can I explicitly free memory in Python?,python
+Easiest way to rename a model using Django/South?,python
+Breaking out of nested loops,python
+Loading all modules in a folder in Python,python
+Use of &quot;global&quot; keyword in Python,python
+flask - how do you get a query string from flask,python
+Decode HTML entities in Python string?,python
+How do I check if a string is unicode or ascii?,python
+Is there a standardized method to swap two variables in Python?,python
+Django: Why do some model fields clash with each other?,python
+Calculating arithmetic mean (average) in Python,python
+Get the name of current script with Python,python
+How to install Python MySQLdb module using pip?,python
+Rename a dictionary key,python
+How to hide output of subprocess in Python 2.7,python
+In Python, how do I iterate over a dictionary in sorted order?,python
+Using Django time/date widgets in custom form,python
+Print current call stack from a method in Python code,python
+Failed to install Python Cryptography package with PIP and setup.py,python
+How can I reference requirements.txt for the install_requires kwarg in setuptools&#39; setup.py file?,python
+Python setup.py develop vs install,python
+Choosing Java vs Python on Google App Engine,python
+Pelican 3.3 pelican-quickstart error &quot;ValueError: unknown locale: UTF-8&quot;,python
+Is there a way to use PhantomJS in Python?,python
+How do I clone a Django model instance object and save it to the database?,python
+How to start a background process in Python?,python
+Python vs Cpython,python
+Why return NotImplemented instead of raising NotImplementedError,python
+How to initialize a two-dimensional array in Python?,python
+How do I split a multi-line string into multiple lines?,python
+In practice, what are the main uses for the new &quot;yield from&quot; syntax in Python 3.3?,python
+How to fix: &quot;UnicodeDecodeError: &#39;ascii&#39; codec can&#39;t decode byte&quot;,python
+Why wasn&#39;t PyPy included in standard Python?,python
+How to get week number in Python?,python
+Create an empty list in python with certain size,python
+Converting datetime.date to UTC timestamp in Python,python
+How to perform OR condition in django queryset?,python
+How to get a random number between a float range?,python
+Python string.join(list) on object array rather than string array,python
+Case insensitive Python regular expression without re.compile,python
+Django set default form values,python
+When to use Tornado, when to use Twisted / Cyclone / GEvent / other,python
+How can I tell PyCharm what type a parameter is expected to be?,python
+Getting the index of the returned max or min item using max()/min() on a list,python
+Initializing a list to a known number of elements in Python,python
+find nearest value in numpy array,python
+How to delete items from a dictionary while iterating over it?,python
+Python -- return, return None, and no return at all,python
+Iterate a list with indexes in Python,python
+How to download large file in python with requests.py?,python
+How to execute a file within the python interpreter?,python
+How do I check if a given Python string is a substring of another one?,python
+What is the best way to call a Python script from another Python script?,python
+Programmatically saving image to Django ImageField,python
+Pandas writing dataframe to CSV file,python
+Python subprocess/Popen with a modified environment,python
+How do you log server errors on django sites,python
+How to get all possible combinations of a list’s elements?,python
+No Multiline Lambda in Python: Why not?,python
+python decorators with parameters,python
+Postgres: INSERT if does not exist already,python
+Django auto_now and auto_now_add,python
+Python: split a list based on a condition?,python
+Convert a number range to another range, maintaining ratio,python
+Check if multiple strings exist in another string,python
+Is Python strongly typed?,python
+How to invoke the super constructor?,python
+Print in one line dynamically,python
+What is the most efficient way to loop through dataframes with pandas?,python
+Python: Run function from the command line,python
+Python variable scope error,python
+How to check whether two lists are circularly identical in Python,python
+Why does (1 in [1,0] == True) evaluate to False?,python
+Python Infinity - Any caveats?,python
+Can a line of Python code know its indentation nesting level?,python
+How to print an error in Python?,python
+Deleting DataFrame row in Pandas based on column value,python
+How to check if a user is logged in (how to properly use user.is_authenticated)?,python
+Using javadoc for Python documentation,python
+How to send email attachments with Python,python
+Get the cartesian product of a series of lists?,python
+What do (lambda) function closures capture in Python?,python
+Is False == 0 and True == 1 in Python an implementation detail or is it guaranteed by the language?,python
+How can I get the source code of a Python function?,python
+How to change legend size with matplotlib.pyplot,python
+Can I force pip to reinstall the current version?,python
+Python: How to get a value of datetime.today() that is &quot;timezone aware&quot;?,python
+What is the Python equivalent for a case/switch statement?,python
+What is the fastest way to send 100,000 HTTP requests in Python?,python
+How to use a different version of python during NPM install?,python
+Getting method parameter names in python,python
+how to check if a file is a directory or regular file in python?,python
+Configuring so that pip install can work from github,python
+What is the correct syntax for &#39;else if&#39;?,python
+Python creating a dictionary of lists,python
+python design patterns,python
+Python format timedelta to string,python
+Add Variables to Tuple,python
+django import error - No module named core.management,python
+Writing Unicode text to a text file?,python
+How can I explicitly free memory in Python?,python
+Easiest way to rename a model using Django/South?,python
+Breaking out of nested loops,python
+Loading all modules in a folder in Python,python
+Use of &quot;global&quot; keyword in Python,python
+flask - how do you get a query string from flask,python
+Decode HTML entities in Python string?,python
+How do I check if a string is unicode or ascii?,python
+Is there a standardized method to swap two variables in Python?,python
+Would the One Ring even work for anyone but Sauron?,scifi
+Who or what was Tom Bombadil?,scifi
+Could I fake death to stop being Force-choked?,scifi
+Why don&#39;t muggle-born wizards use Muggle technology to fight Death Eaters?,scifi
+Why didn&#39;t Gandalf or Frodo Fly to Mount Doom?,scifi
+How long was Bill Murray&#39;s character (Phil Davis) supposed to be in a time loop in the film &quot;Groundhog Day&quot;?,scifi
+Story where the number 3 is the monster?,scifi
+In what order should the Star Wars movies be watched?,scifi
+Which 2015 technologies were correctly predicted by Back to the Future II?,scifi
+Why does everyone think that the Millennium Falcon is a piece of junk?,scifi
+Are all Stormtroopers as poor soldiers as the ones in the movies?,scifi
+Are E.T. and Star Wars in the same universe?,scifi
+Whose underwear is this?,scifi
+Was Yoda fully sane on Dagobah?,scifi
+Is the basic premise of humans as a power source in The Matrix reasonable?,scifi
+Why did Douglas Adams pick 42 as the ultimate answer?,scifi
+Does Batman use Linux?,scifi
+Did Tolkien really explicitly consider Sam the true hero of LOTR?,scifi
+How did Dumbledore, or anyone, know Lily had sacrificed herself for Harry?,scifi
+If Luke Skywalker didn’t want to be found, why did he leave a map?,scifi
+Why did the Matrix simulate 1999 instead of a pre-computer year?,scifi
+Which &#39;finger&#39; was BB-8 sticking up?,scifi
+Why are ships in Star Wars so ridiculously easy to steal?,scifi
+Was the Millennium Falcon too slow?,scifi
+On Dagobah, do what, did Yoda?,scifi
+Why did Darth Vader die in Return of the Jedi?,scifi
+Hogwarts: So why aren&#39;t the kids &quot;doing it&quot;?,scifi
+Was Darth Vader REALLY a Sith?,scifi
+In-universe, is Aslan actually Jesus?,scifi
+Why didn&#39;t Sauron become invisible while wearing the One Ring?,scifi
+What is the origin of the &quot;Riker Chair Maneuver&quot;?,scifi
+When and why did the Enterprise get balls?,scifi
+How does Picard choose a warp speed?,scifi
+Was Aragorn&#39;s claim to the throne legitimate?,scifi
+Why are there so many 47s?,scifi
+Why does everyone face the same way on the transporter?,scifi
+Where did Harry&#39;s parents get all of their money from?,scifi
+Was the Cantina music deliberately off-tune or just an artifact of cheap production?,scifi
+Why would killing Darth Vader or the Emperor turn Luke to the Dark Side?,scifi
+Who created the Secret Stairs as a way into Mordor and for what purpose?,scifi
+What did Padm&#233; die of?,scifi
+What is the significance of Saruman&#39;s Ring?,scifi
+Why was Hermione not in Ravenclaw?,scifi
+Why is The Matrix tinted green?,scifi
+Could the Enterprise beam a vampire into a house she didn’t have permission to enter?,scifi
+If only the Sith deal in absolutes, why does Obi-Wan say it that way?,scifi
+Why didn&#39;t the basilisk bite in Chamber of Secrets destroy the Horcrux?,scifi
+Why doesn&#39;t the Discworld run out of water?,scifi
+Is there a Vulcan funeral blessing?,scifi
+What order should Asimov&#39;s Foundation series be read in?,scifi
+In Back to the Future, why was the speed 88 miles per hour?,scifi
+Does Katniss depict proper handling of a bow?,scifi
+Why and how did the Star Trek Universe evolve to a cashless/commerce-less society?,scifi
+What was the first Sci-Fi work to feature a spaceship?,scifi
+Why isn&#39;t the system identifiable using only BB-8&#39;s map?,scifi
+Story where scientist communicates with cities directly,scifi
+What is the end of 2001: A Space Odyssey about?,scifi
+Why were the Elves so great at archery?,scifi
+Why would the Force become so mysterious and unrecognized after only 20 years?,scifi
+In Star Trek - What&#39;s the Point of the Transporter Room?,scifi
+What&#39;s the story behind the Spock helmet?,scifi
+Was any character alive during all of the Star Wars episodes from I to VII?,scifi
+Why doesn&#39;t Hogwarts have more teachers?,scifi
+Why does Leia&#39;s accent change during A New Hope?,scifi
+Is Slytherin Evil?,scifi
+What does Gandalf mean by &quot;Secret Fire&quot;, &quot;Flame of Anor&quot; and &quot;Flame of Udun&quot;?,scifi
+How could a raw, untrained Force user be so adept at using the Force?,scifi
+How many times was Obi-Wan less than honest with Luke?,scifi
+What is Mario&#39;s full name?,scifi
+Is there an official Marvel Cinematic Universe viewing order?,scifi
+In &quot;The Matrix Revolutions&quot; How Does Neo Stop the Machine Weapons in the Real World?,scifi
+Why is Sauron called &quot;the Necromancer&quot;?,scifi
+Where does the archetypal image of the &#39;Grey&#39; alien come from?,scifi
+Is the Dark Side of the Force more powerful?,scifi
+Why would Snape set his office password to &#39;Dumbledore&#39;?,scifi
+Why did the Jedi want to bring balance to the Force?,scifi
+When &amp; How did Yoda come to know about the Rule of Two?,scifi
+How many axes did Gimli bring on the quest of the Fellowship?,scifi
+Which wars are &quot;Star Wars&quot;?,scifi
+What was the origin of Star Trek&#39;s Borg?,scifi
+Who is Anakin Skywalker&#39;s father?,scifi
+What do people in Westeros eat during Winter?,scifi
+Can wizards create their own spells?,scifi
+Why is Tony Stark in the Iron Man suit unaffected by G-forces, inertia and blunt force trauma?,scifi
+Why does Zaphod Beeblebrox call Ford Prefect &quot;Ford&quot; when they meet on the Heart of Gold?,scifi
+Why Do Jedi Use One Lightsaber in Combat?,scifi
+Is Thor the only Avenger that can&#39;t die?,scifi
+Was ST:VOY watered down?,scifi
+Do the Imperials know they are evil?,scifi
+Were the Smurfs the first to smurf their smurfs?,scifi
+How is Shelob&#39;s name known?,scifi
+What are Guinan&#39;s powers from Star Trek: TNG?,scifi
+Why Can&#39;t R2-D2 Talk?,scifi
+Boy transported to another planet where the being who owns the Earth lives,scifi
+Was Harry making a big mistake with his plan for Elder Wand?,scifi
+Why was Han Solo on Tatooine?,scifi
+Why was Gandalf involved with the Dwarves&#39; quest to rob Smaug?,scifi
+How much older was Hermione after her third year at Hogwarts?,scifi
+If diary Tom Riddle had succeeded, would there have been two Voldemorts?,scifi
+Did Palpatine intentionally lose to Mace Windu?,scifi
+Why was Gandalf afraid of the Balrog of Morgoth?,scifi
+When and how does Vader learn that Luke is his son?,scifi
+Why does everyone call Hagrid by his last name?,scifi
+Why aren&#39;t Muggles extinct?,scifi
+Are Jedi required to abstain from all sexual relations, or only from the ones involving emotional attachments?,scifi
+Where is Hill Valley?,scifi
+Why do we hear Leia&#39;s Theme during Kenobi&#39;s death?,scifi
+Why does Kylo Ren wear a mask?,scifi
+Why didn&#39;t Yoda and Obi-Wan kill Darth Vader and the Emperor? Why wait for Skywalker?,scifi
+Why was Darth Vader so careless?,scifi
+Does Lwaxana Troi ever talk to herself (as the computer voice)?,scifi
+Has an injured Flash ever used super-speed to walk on his hands?,scifi
+What&#39;s the recommended reading order of the Ender Wiggin books?,scifi
+Why Does Samwise Gamgee Call Frodo Baggins &#39;Mr. Frodo&#39;?,scifi
+What is a &quot;year&quot; in Westeros?,scifi
+Why does Millennium Falcon bank when turning in vacuum?,scifi
+What is the logical reason for bullying Spock?,scifi
+Why do the people in MarvelVerse dislike X-Men more than other superheroes?,scifi
+Why does Prof. Farnsworth run Planet Express?,scifi
+Is/was General Leia Organa expected to be in the next episodes (VIII and IX) of Star Wars?,scifi
+Why weren&#39;t the Three Rings for the Elven-kings destroyed as well?,scifi
+Were there science fiction stories written during the Middle Ages?,scifi
+Which was the first novel set in universes where P=NP?,scifi
+Is it true that The Doctor can only regenerate 12 times?,scifi
+What plot points are missing in the Harry Potter movies that are in the novels?,scifi
+Why was Susan treated so unkindly?,scifi
+Why did Anakin lose against Obi-Wan in &quot;Episode 3 - Revenge of the Sith&quot;?,scifi
+Why does an X-Wing have this name when there is no &quot;X&quot; in the Aurebesh alphabet?,scifi
+Why would Shelob own Sauron?,scifi
+Why aren&#39;t there any sieges in Lord of The Rings?,scifi
+Is there an actual army in 1984?,scifi
+Why would Dumbledore encourage people to call Voldemort Voldemort instead of Tom Riddle?,scifi
+Why was Sirius ever convicted?,scifi
+Does Aragorn wear pants?,scifi
+Does no one run in Star Trek?,scifi
+Why do the lightsaber moves of Luke Skywalker look so uncoordinated and crude compared to the prequels?,scifi
+Why not let a dwarf carry the One Ring to Mount Doom, since their will cannot be dominated by the rings of power?,scifi
+Tolkien calls Sauron Morgoth&#39;s Greatest Servant - But does he ever really earn that with his actions?,scifi
+Does Deadpool know he is breaking the 4th wall?,scifi
+Will Ezra&#39;s lightsaber revolutionize dueling?,scifi
+Weren&#39;t there originally going to be nine Star Wars films?,scifi
+Why does Darth Vader stop Boba Fett from shooting Chewie in The Empire Strikes Back?,scifi
+Where do teachers sleep at Hogwarts?,scifi
+Did J.K Rowling have the &#39;Tom Marvolo Riddle&#39; anagram set up from the start?,scifi
+Why didn&#39;t Qui-Gon Jinn use his Jedi mind tricks to exchange his Republic credits?,scifi
+Why did Lucas begin the episode numbering at IV?,scifi
+Where is the rest of Yoda&#39;s species?,scifi
+Are there any programmers in Star Trek?,scifi
+What&#39;s the &quot;official&quot; explanation for Harry&#39;s (and everyone else&#39;s) absence from muggle school?,scifi
+Was Rorschach&#39;s Pagliacci joke a real joke?,scifi
+How is canonicity of derivative works determined for Star Wars?,scifi
+What&#39;s the best order to read HP Lovecraft&#39;s novels?,scifi
+Why does the paper in Battlestar Galactica have the corners cut off?,scifi
+Why didn&#39;t Saruman take Narya from Gandalf?,scifi
+How is Gandalf the White a &quot;significantly more powerful figure&quot; than Gandalf the Gray?,scifi
+How can Data lose a chess game?,scifi
+Who is / was the &quot;Lord of the Rings&quot;?,scifi
+Is this Beverly Crusher?,scifi
+Does Data need to cut his hair?,scifi
+What is the reason that lightsabers have different colors?,scifi
+Why Did the Machines Even Bother With a Matrix?,scifi
+Why is it that after 8,000 years, technology in Westeros has not evolved in the world of the Game of Thrones?,scifi
+Why could Quirrell tolerate Harry&#39;s touch at the beginning of Philosopher&#39;s Stone?,scifi
+What are Gandalf&#39;s powers?,scifi
+Which seven kings does Saruman think Gandalf wants to control?,scifi
+What is the first reference to an internet of computers in science fiction?,scifi
+Are the crew of the Enterprise-D famous?,scifi
+In Stargate, how can you have a point of origin with only one coordinate?,scifi
+Why didn&#39;t Harry feel the Cruciatus Curse at the end of Deathly Hallows?,scifi
+How well-known is the theology of Middle-earth, in Middle-earth?,scifi
+Why do zombies eat our brains?,scifi
+Why was Hitchhiker&#39;s Guide censored?,scifi
+Since when has Darth Vader had a sense of humor?,scifi
+Invisibility should cause blindness: how does hard sf cope?,scifi
+What happened to Yoda?,scifi
+Why did Harry Potter intentionally lose the Resurrection Stone in the Forbidden Forest?,scifi
+Why aren&#39;t there any fighter carriers in the Star Trek universe?,scifi
+Did Peter Jackson ever explain why he left out the Scouring of the Shire?,scifi
+Why can&#39;t Transporter technology be used as a weapon?,scifi
+In the Avengers movie, why is Hulk&#39;s behaviour inconsistent?,scifi
+Did Eru Il&#250;vatar trip Gollum?,scifi
+Why not encase the One Ring in solid metal?,scifi
+Why did Gollum ever take off the ring in the first place?,scifi
+How does Cypher exit/enter the Matrix without an operator?,scifi
+Why is Cersei commonly referred to as &quot;Cersei Lannister&quot; instead of &quot;Cersei Baratheon&quot;?,scifi
+What is written on Darth Vader&#39;s Chest control panel?,scifi
+The Matrix: When Neo and Trinity shoot security/police are they actually killing real people?,scifi
+Why is invisibility the power granted by the One Ring?,scifi
+Why do people risk death by joining Starfleet if not for money or preservation of their homes?,scifi
+Why was the &quot;...philosophers stone&quot; retitled to &quot;... the sorcerer&#39;s stone&quot; for the US Market?,scifi
+How was construction of the Death Star(s) kept secret?,scifi
+Why was Han Solo acting like he’s never seen Chewbacca’s bowcaster before?,scifi
+What do the Death Stars do, other than destroying planets?,scifi
+Why was the identity of the Half-Blood Prince important to the story?,scifi
+Did Luke play any significant role in “Return of the Jedi?”,scifi
+Why does C-3PO have a silver lower leg in some scenes?,scifi
+Can anyone explain the Star Trek astrography (i.e. quadrants)?,scifi
+Why is killing someone using the Avada Kedavra spell considered worse or different than killing him with any other means?,scifi
+Why Does Gandalf Think Rohan Should &quot;Stand and Fight&quot;?,scifi
+The use of the word &quot;gun&quot; in The Hobbit,scifi
+Was Voyager really significantly slower than the Enterprise-D?,scifi
+Elvish tattoo - can it be translated into English?,scifi
+In Episode VI, what did the good guys really accomplish since the bad guys are back stronger in Episode VII?,scifi
+Why did Batman do so much better in his second fight with Bane?,scifi
+In Tolkien&#39;s opinion, does Tom Bombadil (and the concept of pacifism) actually hold any power?,scifi
+What is the largest (engineered) physical object dreamed of in science fiction?,scifi
+How come the Federation did not routinely use projectile weapons against the Borg?,scifi
+If a Jedi knight were frozen in carbonite, would they be able to use their Force powers?,scifi
+If the Borg assimilate a planet of idiots, does the Collective become dumber?,scifi
+Why couldn&#39;t the Jedi detect Senator Palpatine as having powers?,scifi
+Where did the Red Brick Road lead to?,scifi
+What research was being performed on Pinky and the Brain?,scifi
+Is Big Brother an actual person in the novel 1984?,scifi
+Why specifically was Obi-Wan Kenobi the &quot;only hope&quot; of Princess Leia?,scifi
+Why didn&#39;t they make the dinosaurs all male?,scifi
+What was Starbuck’s role?,scifi
+Why didn&#39;t Sauron fight in the final battle?,scifi
+What is the Joker&#39;s real name?,scifi
+Star Wars Imperial Ships: Oversized?,scifi
+Why did the Nazgul start on horseback?,scifi
+Why didn&#39;t Dumbledore realise that Moody had been replaced?,scifi
+Why didn&#39;t the Dursleys gladly ship Harry off to Hogwarts?,scifi
+Why is there an adult Dianoga living on a brand new Death Star?,scifi
+What does Gandalf intend to chat with Tom Bombadil about?,scifi
+Why didn&#39;t Gandalf and Elrond equip the Fellowship (especially hobbits) better?,scifi
+Is there a story behind the misquote, &quot;Luke, I am your father&quot;?,scifi
+If Dumbledore is the most powerful wizard (allegedly), why would he work at a glorified boarding school? Is there a role with more responsibility?,scifi
+Are the mountains surrounding Mordor natural?,scifi
+What&#39;s the purpose of earpiece Agent Smith is wearing?,scifi
+Why didn&#39;t Nero visit his homeworld to warn of its destruction?,scifi
+What happened to warp drives destroying the universe?,scifi
+What episodes of Doctor Who should I watch first?,scifi
+Why do some Jedi disappear when they die while others don&#39;t?,scifi
+Where does Gandalf Live?,scifi
+How was the Chosen One meant to bring balance to the Force?,scifi
+Time Travel story where an imprisoned psychopath kills people from his past?,scifi
+How many episodes of Star Trek &quot;didn&#39;t happen&quot;?,scifi
+Why did the One Ring betray Isildur?,scifi
+How do humans dominate the Federation in Star Trek?,scifi
+What makes the world so oblivious to Clark Kent&#39;s secret?,scifi
+What keeps a lightsaber from going on infinitely?,scifi
+What evidence is there supporting an alternative parentage for Jon Snow?,scifi
+Why did the fellowship not choose to pass the misty mountains further north or south?,scifi
+What is the benefit of an AT-AT walker over a conventional tank?,scifi
+Why do Hogwarts teachers have such strange names?,scifi
+Was Palpatine an effective ruler?,scifi
+Did Tolkien create any characters based on people he knew?,scifi
+Why did Eddard Stark keep Catelyn in the dark?,scifi
+Why would Vulcans be vegetarian in an era with replicators?,scifi
+Does it Matter if Han Shot First?,scifi
+Short story about Neurosurgeon uses nanobots to cure patients, &#39;reprograms&#39; ex-wife to fall back in love with him,scifi
+When Did George Lucas Make Up the Stuff About the Sith and Midichlorians?,scifi
+Why was a hobbit &quot;the most unlikely creature imaginable&quot; to pick up &quot;The One Ring&quot;?,scifi
+Who created the first Transformer?,scifi
+Why aren&#39;t alien planets as varied in climate as the Earth?,scifi
+Why were the Death Eaters so lenient during the fight at the Department of Mysteries?,scifi
+Safety railings in the Star Wars universe,scifi
+Are orcs and goblins really the same thing?,scifi
+Why do Tolkien&#39;s wizards look Human, and not Elven?,scifi
+Exactly how secret was the reveal in The Empire Strikes Back?,scifi
+Why didn&#39;t Molly Weasley remember the platform number?,scifi
+Why, exactly, does kryptonite hurt Superman?,scifi
+What did Godric Gryffindor have a sword for, anyway?,scifi
+Why didn&#39;t Harry want to be placed in Slytherin?,scifi
+Harry Potter: Why 7?,scifi
+What happens to Fawkes?,scifi
+Were McCoy&#39;s medical instruments Swedish salt shakers?,scifi
+Explanation of seasons in &quot;A Song of Ice and Fire&quot;,scifi
+Who actually sent the assassin to kill Bran?,scifi
+Why isn&#39;t there ever any mention of the Americas in Harry Potter?,scifi
+Why did Palpatine care about Anakin Skywalker in the Prequels given Palpatine&#39;s pretty good Force Vision?,scifi
+Where did King Arthur get his sword, Excalibur?,scifi
+Why did Red Squadron give their call signs in random order?,scifi
+During the war of the ring did Sauron or Saruman actually win any major battles?,scifi
+Has the autodestruct sequence ever not been aborted on a Starfleet vessel?,scifi
+Why have most Superhero movies ditched the &quot;Secret Identity&quot;?,scifi
+What happened to the Hobbits and the Dwarves after the Elves left?,scifi
+Why do lightsabers turn off when a jedi dies or drops it?,scifi
+What order should the Babylon 5 movies and series be watched in?,scifi
+Why do the Teenage Mutant Ninja Turtles wear masks?,scifi
+How do the Turtles get their pizza?,scifi
+Why does the Batmobile have a &quot;NO STEP&quot; sign?,scifi
+What is the architecture of the Floo Network?,scifi
+Has there ever been an instance in Star Trek where someone beamed into a solid object?,scifi
+Why are there humans in the Star Wars Universe?,scifi
+Why Did Gringotts Pay Out for Harry&#39;s Firebolt?,scifi
+Is there a hidden significance behind the fact Galadriel gave 3 hairs to Gimli instead of one?,scifi
+Why does C-3PO talk to R2-D2 in English?,scifi
+Why didn&#39;t anyone stop Luke from leaving the second Death Star?,scifi
+Do any Harry Potter characters turn from good to evil?,scifi
+What did Darth Vader mean by “There’ll be no one to stop us this time.” Who had “stopped” Vader—or the Empire—previously?,scifi
+Did Hermione ever fix her parents&#39; memories?,scifi
+Why is Leia a princess?,scifi
+Why did Voldemort assume that no-one knew about Room of Hidden Things?,scifi
+What is this man doing with a Starfleet mini-skirt?,scifi
+What would have happened if the Balrog of Moria had taken possession of The One Ring?,scifi
+Why did the Dwarves build Erebor with wide hallways big enough for dragons to fit in?,scifi
+Why did Sm&#233;agol turn into a &#39;creature&#39; when addicted to the ring, but not Bilbo Baggins?,scifi
+Why does Gollum calling the ring his own not alert Sauron?,scifi
+Were there any democracies in Middle-earth?,scifi
+Short story where human explorers accidentally blind an alien race,scifi
+Would Gollum qualify, as a Ringbearer, to go to the Undying Lands?,scifi
+What is Hermione Granger&#39;s ethnicity?,scifi
+Why hasn&#39;t Anakin Skywalker&#39;s Force Ghost advised Kylo Ren?,scifi
+What does Sauron need with mithril?,scifi
+Do Morpheus and his crew kill potential Ones?,scifi
+Are the Ferengi racially discriminated against by members of the Federation?,scifi
+Why did it seem like only Voldemort and Snape could fly?,scifi
+When Jedi lose parts of their body, does their midi-chlorian count and strength in the Force diminish?,scifi
+Nude time travel in Terminator Universe,scifi
+Why Did Sidious Tell Vader Who Luke Was?,scifi
+Why are there so few robots in Star Trek?,scifi
+Why did Obi-Wan leave Vader on Mustafar?,scifi
+Why does Arthur Dent need to bring a towel with him in the film version of &quot;Hitchhikers Guide to the Galaxy&quot;?,scifi
+Why do the Jedi say &quot;May the Force be with you&quot;?,scifi
+Why did Tony Stark keep the electromagnet in his chest?,scifi
+Why didn&#39;t Gimli know Moria had fallen?,scifi
+Do Lord of the Rings or The Silmarillion pass the Bechdel test?,scifi
+Can the Delorean meet its speed requirement without moving?,scifi
+Why hasn&#39;t Captain America been promoted?,scifi
+Why wouldn&#39;t Luke use his lightsaber to cut the feet off the Imperial Walker?,scifi
+Who was the fifth army in The Hobbit: The Battle of the Five Armies movie?,scifi
+Who was the old man at the beginning of The Force Awakens?,scifi
+Are Stormtroopers paid or rewarded in any way for their service?,scifi
+Why does Watney’s notebook in The Martian have four holes?,scifi
+Did Philip Dick watch Blade Runner before his death?,scifi
+If there are universal translators, why are some words/phrases not translated?,scifi
+If Obi-Wan and Yoda were trying to keep Luke safe from Vader, why would they let him keep the Skywalker name?,scifi
+How did &quot;Weird Al&quot; Yankovic predict &quot;The Phantom Menace&quot;?,scifi
+How does gravity work on Serenity?,scifi
+Why was Ron Weasley permitted to bring a rat to Hogwarts?,scifi
+Is Vader sincere with Luke in ESB?,scifi
+Why is The Wall so tall in Game of Thrones?,scifi
+Why didn&#39;t James&#39; love and sacrifice for Lily protect her?,scifi
+Which are the Two Towers in Lord of the Rings,scifi
+Are Tolkien&#39;s orcs immortal?,scifi
+Man serves a sentence for the murder he will be allowed to commit in the future,scifi
+Why is the stardate explicitly mentioned when creating a new Captain&#39;s log?,scifi
+Why do the Agents bother trying to get the Zion mainframe codes?,scifi
+Did Tolkien popularize the generic description of a wizard?,scifi
+Could Harry ruin the Regeneration potion by willingly giving blood?,scifi
+Why is &#39;Belgium&#39; the rudest word in Hitchiker&#39;s Guide to the Galaxy?,scifi
+Why isn&#39;t Captain America worthy of Mjolnir?,scifi
+Why doesn&#39;t anyone run a DNA test on Batman&#39;s blood?,scifi
+Why is the clone army so...small?,scifi
+Was Luke in “Return of the Jedi” really “better” than Obi Wan in “Revenge of the Sith?”,scifi
+What was Shepherd Book&#39;s past in Firefly?,scifi
+Firefly scenes with Han Solo in the background,scifi
+After Star Trek: The Next Generation, can I skip to Voyager without watching Deep Space Nine and not get spoiled?,scifi
+How old should you be when you begin Jedi training?,scifi
+Trying to identify &quot;I will measure the dust&quot; story,scifi
+Why exactly do the Death Eaters serve Lord Voldemort?,scifi
+What effect would the One Ring have on other people?,scifi
+Is C-3PO a slave?,scifi
+What is the recommended viewing order for young first-timers to watch Star Trek TV episodes and movies?,scifi
+How does Captain America&#39;s shield work?,scifi
+Was the casting of Alan Rickman as Snape based on the full knowledge of the future of that character?,scifi
+How Did &#201;owyn Slay the Witch King of Angmar if He Wasn&#39;t Alive?,scifi
+How to kill Wolverine?,scifi
+Has there ever been a good Sith?,scifi
+Did the trio (and others) go back to finish at Hogwarts?,scifi
+What is the true origin of the orcs?,scifi
+What color is smurf blood?,scifi
+Does the death penalty exist in comics?,scifi
+Did Darth Vader ever talk to R2-D2 again?,scifi
+Why didn&#39;t the machine kill Neo after he was ejected?,scifi
+Why would the elves help destroy the One Ring?,scifi
+Why didn&#39;t Yoda or Obi-Wan tell Luke the truth about his father?,scifi
+Why are Starfleet bridges positioned so vulnerably?,scifi
+How was Spider-Man persuaded to join the side he did?,scifi
+Is the Star Trek (2009) movie considered canon?,scifi
+When did Obi-Wan Kenobi learn that Anakin was &quot;dead&quot;?,scifi
+Was V&#39;ger responsible for the creation of the Borg?,scifi
+What order should I be reading the Discworld books in?,scifi
+In what order should Tolkien&#39;s writings on Middle-earth be read?,scifi
+Are there other governments in The Hunger Games world?,scifi
+Why do blaster bolts move slower than the speed of light?,scifi
+Why didn&#39;t Elrond or C&#237;rdan take the ring from Isildur by force and destroy it?,scifi
+Can you tell my robot to kill itself? (Three Laws),scifi
+Why was there a pit in the Emperor&#39;s chamber on Death Star?,scifi
+How does Elsa resolve the practical problems of living in an ice palace?,scifi
+Why were the &quot;Monsters, Inc.&quot; monsters told that touching kids would kill them?,scifi
+Why is Wednesday Addams named ... Wednesday?,scifi
+Why does Captain America need to exercise?,scifi
+Why did the Terminator need sunglasses?,scifi
+Which Sci-fi universe uses the most forms of FTL (Faster Than Light)?,scifi
+How did J.R.R. Tolkien learn about the events of his books? (In-Universe),scifi
+Why do the ellipses in the Star Wars opening crawl have four dots?,scifi
+What is this painting on the Enterprise showing?,scifi
+How does one leave platform nine and three-quarters?,scifi
+What exactly about Aunt Petunia is &quot;More than meets the eye&quot;?,scifi
+Why is the Star Wars universe not a post-scarcity economy?,scifi
+A Book where an Animal is advertising itself to be eaten,scifi
+Why did R2-D2 not fly in Return of the Jedi?,scifi
+Why did Luke Skywalker call Obi-Wan &quot;Ben&quot;?,scifi
+Why did the Trade Federation blockade Naboo?,scifi
+Why did the Borg name Locutus?,scifi
+What was Gandalf&#39;s plan for getting the Ring to Mt. Doom?,scifi
+Why four lights?,scifi
+Why didn&#39;t the IF want Peter Wiggin?,scifi
+What was the purpose of having Zion?,scifi
+Why didn&#39;t Sauron guard Mount Doom?,scifi
+Is there any proof that Jaime Lannister is actually a good swordsman?,scifi
+Why does Binary exist?,scifi
+What is Deanna Troi&#39;s accent?,scifi
+Why is JK Rowling considered &#39;bad at math&#39;?,scifi
+What&#39;s in Naboo&#39;s core, liquid water or plasma?,scifi
+Do students wear muggle clothing while not in classes at Hogwarts (like they do in the films)?,scifi
+Why are there no Imperial KX-series Security Droids in the original trilogy?,scifi
+Was the original Star Wars film originally called &quot;The Star Wars&quot;?,scifi
+How does the Doctor know how old he is?,scifi
+Does each season of Game of Thrones roughly equal a book?,scifi
+How could Count Dooku lose against Anakin Skywalker in a lightsaber battle?,scifi
+Were there ever any &quot;good&quot; Orcs?,scifi
+Why Does Vader say &quot;No disintegration&quot; to Boba Fett in particular?,scifi
+What is the point of evasive maneuvers in Star Trek?,scifi
+How did the Death Star move?,scifi
+Were there any canon examples of Harry being an innately powerful wizard?,scifi
+Is any reason given for the low sea level?,scifi
+Did the Ring Bearers and Gimli die in Valinor?,scifi
+Was the Sorcerer&#39;s (Philosopher&#39;s) Stone really that well protected?,scifi
+Why does Yoda mourn the Jedi after Order 66 is executed?,scifi
+Is Stan Lee playing the Watcher in all his cameos?,scifi
+Would Smaug have actually followed and allied with Sauron had he lived on?,scifi
+How did Molly Weasley make sauce out of nothing if Gamp&#39;s Law states that this is impossible?,scifi
+Were the Moon landings faked in Interstellar?,scifi
+Why doesn&#39;t Harry live with the Weasleys?,scifi
+What made R2-D2 reactivate in “The Force Awakens?”,scifi
+Did Saruman know about the Ents?,scifi
+Which Asimov story has malevolent 3-law AI?,scifi
+Was Gandalf &quot;meant&quot; to confront the Balrog?,scifi
+Why isn&#39;t the Memory Charm (Obliviate) an Unforgivable Curse?,scifi
+How could Harry and Ron bypass Hogwarts&#39; security in a flying Ford Anglia?,scifi
+What is the Positronic brain coined by Asimov?,scifi
+Is the Han/Leia vs Luke/Yoda timeline in The Empire Strikes Back broken?,scifi
+Was the thermal exhaust port on the Death Star really a design flaw?,scifi
+When did the red shirt careers change to yellow shirts in Star Trek and why?,scifi
+How does Superman shave?,scifi
+Why Was Obi Wan So Eager to Train Luke as a Jedi?,scifi
+Why isn&#39;t Obi-Wan&#39;s ghost young?,scifi
+How Did Harry Become a Horcrux?,scifi
+Who was the little girl in the matrix and why was she so important?,scifi
+Why Was It &#39;Essential&#39; That Voldemort Kill Harry Potter?,scifi
+Why was the riddle on the way to Moria written in elvish?,scifi
+What was the &quot;Watcher in the water&quot;?,scifi
+Why didn&#39;t Obi-Wan remember R2-D2 and C-3PO in A New Hope?,scifi
+A man takes riskier and riskier jobs (involving a transportation ring) for more money,scifi
+How do we know that the First Doctor was indeed the first?,scifi
+Are there any bad elves in the Lord of the Rings universe?,scifi
+Why did Peter Quill wait 26 years to open his mother&#39;s gift?,scifi
+Is Tony Stark an atheist?,scifi
+Since Voldemort knew that Dumbledore did not kill Grindelwald, why did he think that killing Snape was necessary for him to wield the elder wand?,scifi
+Does Gringotts employ any non-goblins?,scifi
+What was the first story to be set in the future?,scifi
+In Star Wars: A New Hope, why was one officer dressed in white?,scifi
+Why not continue to prevent murders?,scifi
+Why does everyone assume that the Architect was telling the truth about there being previous &quot;Ones&quot;?,scifi
+Who Erased Kamino from the Jedi-Archives?,scifi
+Who is the most powerful user of the Force?,scifi
+Is Magneto&#39;s power magnetism or can he manipulate all metals?,scifi
+Was Luke or Anakin &quot;The Chosen One&quot;?,scifi
+How do we know they were called &#39;Ewoks&#39;?,scifi
+Why didn&#39;t Luke become disfigured when he was electrocuted by the Emperor?,scifi
+Why was the Triwizard Cup used as the portkey?,scifi
+At what time can you start feeding Mogwai?,scifi
+Who was &quot;The Phantom Menace&quot;?,scifi
+Did Voldemort actually curse the job of Defense Against Dark Arts professor after being denied the position?,scifi
+What do wizard children do before attending Hogwarts?,scifi
+Why did all the Ringbearers leave Middle-earth in the end?,scifi
+Why was the Goblet of Fire portkey two-way?,scifi
+How did Voyager replace its photon torpedoes?,scifi
+What do they do with all the plates and cups in Star Trek?,scifi
+Why didn&#39;t Hermione use the Time-Turner to sleep more?,scifi
+Why did Voldemort need to drink Unicorn blood?,scifi
+Do any clones refuse Order 66?,scifi
+Were parts of Harry Potter inspired by James and the Giant Peach?,scifi
+Why did Obi Wan use his lightsaber in the Mos Eisley Cantina?,scifi
+Why did the stormtroopers care about hiding the fact that they killed the Jawas?,scifi
+Has the phrase &#39;Star Trek&#39; ever been used in Star Trek?,scifi
+Why does Gandalf show such reverence for Galadriel and Elrond?,scifi
+How are Stormtroopers uniquely identified in the field?,scifi
+When did pure-historical Doctor Who go out of fashion?,scifi
+Does Thor know that Thursday is named after him?,scifi
+What was the deal Lando made with Darth Vader?,scifi
+Who is now the Lord of Casterly Rock?,scifi
+Why did Harry tell Snape&#39;s secret to everyone?,scifi
+When did Darth Vader get his red lightsaber?,scifi
+How many different Enterprises were there?,scifi
+Are there any spells that a wizard/witch can cast without a wand in the Harry Potter universe?,scifi
+What is the viewing order of the re-imagined Battlestar Galactica?,scifi
+Did Luke accomplish anything by going to Cloud City?,scifi
+Why didn&#39;t a French actor play Captain Picard? What was the reaction to this on the part of the French?,scifi
+Do Non-Jedi (and Non-Sith) Use Lightsabers?,scifi
+How do Hobbits come to be so rich?,scifi
+Does &#39;Elder&#39; in the Elder Wand refer to the wood or its age?,scifi
+Why didn’t they just take the ring to Valinor?,scifi
+The Moriarty Sentience Problem - A.K.A. Why isn&#39;t the Enterprise computer considered sentient?,scifi
+When Frodo offers her the ring, is Galadriel really tempted, or just making a point?,scifi
+When will copyright restrictions expire on The Lord of the Rings?,scifi
+If vibranium absorbs kinetic energy, how can Captain America hurt people with his shield?,scifi
+Was Sauron aware of what Gandalf was?,scifi
+What was the origin of the meme where Batman slaps Robin?,scifi
+Did Harry Potter ever get on a Famous Witches and Wizards card?,scifi
+Why weren&#39;t Fred and George Weasley Placed in Ravenclaw?,scifi
+Is there evidence to suggest that Supreme Leader Snoke is Darth Plagueis?,scifi
+Was the Millennium Falcon a one-off or was it mass produced?,scifi
+Why does Seven of Nine pronounce &quot;Futile&quot; differently than Locutus?,scifi
+Potatoes were alive and sprouted on Mars: How were they preserved on the journey there?,scifi
+Why did the best potions master have greasy hair?,scifi
+What are those &quot;sticks&quot; on Jyn Erso&#39;s back?,scifi
+Significance of the origami Deckard found in Blade Runner,scifi
+Why didn’t Voyager fly to the end of the Bajoran wormhole in the Gamma Quadrant?,scifi
+Why did Tyrion visit the Wall?,scifi
+Did Sauron give any care to Saruman or was he just a pawn?,scifi
+Why aren&#39;t we all Borg?,scifi
+In the Aliens movie, what do the Xenomorphs eat?,scifi
+Did Darth Sidious and Vader ever discover how to cheat death?,scifi
+What happened to Winston Smith at the end of George Orwell’s “1984?”,scifi
+Why do people say that Peter Jackson can not make LOTR/Hobbit sequels?,scifi
+Why did O&#39;Brien start out as a transporter chief in TNG?,scifi
+How well does Shadow of Mordor fit into Middle-earth canon?,scifi
+Are there any known Sith from Yoda&#39;s species?,scifi
+Why does Star Trek use Celsius (SI system), not Fahrenheit (the imperial system)?,scifi
+Why wasn&#39;t Bilbo famous, by the time of LOTR?,scifi
+How does Ant-Man pick up a drop of water?,scifi
+Why didn&#39;t Yoda have any children to take care of him during his last days given that he lived up to 900 years old?,scifi
+Out of Universe, was Vader always planned to be Luke&#39;s father?,scifi
+The Dothraki cut their braids after defeat in battle, but when would a Dothraki be spared after being defeated?,scifi
+Do we know where Ridley Scott got the idea for the xenomorph inner-mouth?,scifi
+How was the cryogenization of Fry not discovered sooner?,scifi
+Why did Captain Needa apologize to Darth Vader?,scifi
+Was &quot;Worf&quot; from Star Trek: The Next Generation an afterthought?,scifi
+Does the intro sequence to the Game of Thrones TV series have any meaning?,scifi
+What was the intended ending of Monty Python and the Holy Grail?,scifi
+Why did the Emperor stop looking for Yoda?,scifi
+Why didn&#39;t Chewbacca get a medal after the battle of Yavin?,scifi
+Does the Rule of Two Serve any Actual Purpose?,scifi
+Why couldn&#39;t Harry see Thestrals at the end of Goblet of Fire?,scifi
+Lightsaber blade &quot;weight&quot; in-universe,scifi
+Who gets Muggle-born students onto Platform 9 3/4?,scifi
+Why didn&#39;t Vader let Luke kill the Emperor, or even kill him himself?,scifi
+Was Picard speaking French and being translated the entire time?,scifi
+What is on Steve Rogers&#39; list of things to watch?,scifi
+In Star Trek TNG, why does everyone have plants at the head of their beds?,scifi
+How did Gandalf elude and puzzle Sauron?,scifi
+What happened between Revenge of the Sith and A New Hope that made Vader believe he was more powerful than Kenobi?,scifi
+Has any Star Trek character appeared in all three division uniform colors?,scifi
+Did Data murder Lore?,scifi
+Did Vader ever learn that Sidious controlled both sides in the Clone Wars?,scifi
+Did Balrogs have their own language?,scifi
+Why does Hermione dislike Professor Trelawney from the start?,scifi
+Why does Worf receive only a reprimand for killing Duras in the episode, “Reunion?”,scifi
+What is the chronological order of the novels in Asimov&#39;s Foundation series?,scifi
+Why is the destination of the Discovery in 2001: A Space Odyssey Saturn in the book and Jupiter in the movie?,scifi
+Asimov - Start with Foundation or Robots,scifi
+What plot differences are there between the Game of Thrones TV series and the books?,scifi
+In The Lord of the Rings, what important background information is contained in the poems?,scifi
+Why does Hermione say she hadn&#39;t used a memory charm before?,scifi
+How do the Incredible Hulk&#39;s pants stay on but not his shirt?,scifi
+Was Gimli the last of his race?,scifi
+Is the humanoid appearance of most alien species in the Star Trek universe ever canonically addressed?,scifi
+Why was Gandalf so concerned about Gollum?,scifi
+Does Hogwarts teach non magical classes?,scifi
+Why was Marty present in his jump to 2015 in Back to the Future 2?,scifi
+Can the Doctor be female?,scifi
+If Galadriel had claimed the One Ring, would Sauron have become her servant, or would have Galadriel become his servant?,scifi
+What was Mr. Anderson (Neo) selling on discs to Choi?,scifi
+Why does Superman wear his underwear outside his pants?,scifi
+Why doesn&#39;t the Emperor control Dune (Arrakis) himself?,scifi
+Was Voldemort a Better Wizard Than Dumbledore?,scifi
+What purpose does Chewbacca&#39;s belt serve?,scifi
+What happened to the Joker in The Dark Knight Rises?,scifi
+Was the &quot;Eye of Sauron&quot; Sauron&#39;s actual physical form?,scifi
+Was Elrond, in Tolkien&#39;s opinion, more inherently powerful than Galadriel?,scifi
+Why didn&#39;t Tom Riddle kill Harry Potter in Chamber of Secrets?,scifi
+Why did Dumbledore say that Dudley had been mistreated by the Dursleys?,scifi
+Why did Frodo start his adventure 17 years after he inherited the One Ring?,scifi
+Why does Data have to use a computer in Star Trek?,scifi
+How does David Lightman in WarGames manage to hack a computer by dialing a number?,scifi
+Why does saying &quot;Swiper, no swiping!&quot; three times prevent Swiper from swiping?,scifi
+What&#39;s under the crystal bridge in Asgard?,scifi
+Looking for a really old novel where the people are geometric figures,scifi
+How big is the Death Star compared to the Executor,scifi
+Why does Quidditch allow faster brooms?,scifi
+Is the ending of Minority Report halo-induced?,scifi
+Why model Smaug after a cat?,scifi
+Was the Hulk based on Jekyll/Hyde?,scifi
+How is the Starkiller Base supposed to work more than one time, given how it draws its power?,scifi
+What is the intended crew complement of the Millennium Falcon?,scifi
+Why did C-3PO not have a red arm at the end of The Force Awakens?,scifi
+Why is Luke searching for the First Jedi Temple?,scifi
+How does the leek jinx in Harry Potter respect Gamp&#39;s Law?,scifi
+Was the T-Rex the same one?,scifi
+Was George Lucas involved with Rogue One?,scifi
+Why did Deanna Troi keep wearing a Starfleet uniform after Chain of Command?,scifi
+Don&#39;t replicators make the Ferengi rather pointless?,scifi
+Why couldn&#39;t Harry or anybody else see Peter Pettigrew aka Scabbers on the Marauder&#39;s Map when Lupin could?,scifi
+Did Sauron survive?,scifi
+Is it possible that Mace Windu survived his encounter with Sidious?,scifi
+Are the Weeping Angels Timelords,scifi
+How did the &quot;black liquid&quot; work in Prometheus?,scifi
+Star Trek: The Next Generation episode with a black snowman,scifi
+Short story about a boy and girl enclosed in an experiment and given injections to age rapidly,scifi
+Is anyone at Hogwarts married?,scifi
+Why doesn&#39;t The Flash&#39;s speed kill the people he saves?,scifi
+Why is there Iron in Iron Man&#39;s name when there&#39;s nothing iron about it?,scifi
+How can a storm cloud in Middle-earth &quot;move behind the sun&quot;?,scifi
+Why is Worf permitted to wear his sash but Ro can&#39;t wear her earpiece?,scifi
+What flaw in the Matrix was Neo supposed to correct?,scifi
+Why were the Imperials rude to Vader in the beginning of A New Hope?,scifi
+Which of Dumbledore&#39;s abilities make him the greatest wizard of the age?,scifi
+Why did Palpatine pick &#39;Vader&#39; as a name for Anakin?,scifi
+How many Ents were at the Entmoot?,scifi
+Who do these helmets belong to?,scifi
+In Dune, was the Golden Path really necessary?,scifi
+Are there any more races in Middle-earth?,scifi
+Did Leia know Luke was her brother when she kissed him?,scifi
+Why was Neville Longbottom in Gryffindor?,scifi
+Why would the Terminator ask for a weapon that surely only exists in the distant future?,scifi
+In what order should I watch the various Stargate TV Series?,scifi
+Why can latinum not be replicated?,scifi
+Why was Darth Vader given a downgraded version of General Grievous&#39;s mechanics?,scifi
+How long did it take for the Death Star (1) to reload?,scifi
+Why Couldn&#39;t a Time Turner Have been Used to Stop Voldemort?,scifi
+Kessel Run in 12 parsecs: screenplay error, or part of the movie?,scifi
+Is Tolkien&#39;s Middle-earth in our Universe?,scifi
+After Gandalf kills the Balrog of Moria, do any more Balrogs remain in Middle-earth?,scifi
+Why doesn&#39;t Quark wear a headdress?,scifi
+How did Jabba become such a powerful crime lord?,scifi
+Is it ever explained where Elsa got her powers?,scifi
+What exactly is worse than death?,scifi
+How could Dumbledore hire Hagrid when he wasn&#39;t Headmaster?,scifi
+Had JK Rowling seen King&#39;s Cross Station before writing the first book?,scifi
+Why are the Mimics so named?,scifi
+A short story where criminals are sent back in time as punishment?,scifi
+Why don&#39;t the Jedi use tutaminis instead of using their lightsabers?,scifi
+They defeated a ring-bearing Sauron once, why couldn&#39;t they do it again?,scifi
+Why don&#39;t survivors in the Walking Dead use spears?,scifi
+Which Star Trek character appeared on screen with the most different ranks?,scifi
+Is there a legal system in Middle Earth?,scifi
+Do you remember the memories that you&#39;ve placed in a pensieve?,scifi
+How did Darth Vader know the rebel base was on Hoth?,scifi
+Why does Inigo still have the six-fingered man&#39;s sword?,scifi
+Why are Stormtroopers stationed outside the Death Star near the turbolaser batteries adjacent to Bay 327?,scifi
+Where did the idea that TIE Fighters are weak and disposable come from?,scifi
+Why was R2-D2 smarter than other similar droids?,scifi
+Originator of the &quot;Gods Require Belief&quot; Trope,scifi
+Which episode of Star Trek: TNG is the image on the chat servers&#39; error pages taken from?,scifi
+Why are R2-D2 and C-3PO spelled phonetically in outside media?,scifi
+How does The Incredible Hulk change mass?,scifi
+Why do X-wings change wing configuration?,scifi
+Is Santa Claus a Time Lord?,scifi
+Why are the colors reversed between the blasters and lightsabers of the Republic/Rebels and Empire?,scifi
+Why isn&#39;t The Flash unstoppable?,scifi
+Does The Character of Jar-Jar Binks Serve An Actual Purpose in Star Wars?,scifi
+What kind of power was hoped-for/expected to be gained from the One Ring?,scifi
+Where was the first appearance of the idea that Batman is the real personality and Bruce is the mask?,scifi
+Why was Scrooge chosen for redemption?,scifi
+What does the blue pill in The Matrix actually do?,scifi
+Movie with magical book showing events of any day in history, except missing days of the Gregorian calendar change,scifi
+Short story about an endless space ship,scifi
+Not Again Qui-Gon Jinn?,scifi
+Unknown feature on Middle-earth&#39;s map?,scifi
+Was Tolkien the first to invent languages purely for fictional works?,scifi
+What does Voldemort mean when he asks Wormtail to &#39;milk&#39; Nagini?,scifi
+Why did Greedo shoot first?,scifi
+How much would a ticket to Jurassic World cost?,scifi
+Are any ships in Star Wars capable of intergalactic travel?,scifi
+Why doesn&#39;t Buzz know he&#39;s a toy?,scifi
+Are any Harry Potter characters completely redeemed?,scifi
+How did Dumbledore block the Avada Kedavra spell?,scifi
+Why doesn&#39;t Captain America accept the need for checks &amp; balances on superheroes?,scifi
+Why are there barcode readers on the bridge of the Enterprise?,scifi
+What is the name of the move that Obi-wan uses to remove Anakin&#39;s limbs?,scifi
+What are Imperial officers wearing here?,scifi
+What&#39;s the point of locked doors in Harry Potter?,scifi
+Why can&#39;t the rebels kill Vader like the clone troopers killed the Jedi in Order 66?,scifi
+Is the Klingon language fully realized, or just a handful of disconnected phrases?,scifi
+Lord of the Rings written to support constructed languages or the other way round?,scifi
+In canon, does Han Solo shoot first?,scifi
+What special powers did the Dwarf rings give their users?,scifi
+Is the Rebellion really good?,scifi
+Data being intimate with Tasha Yar - why was Data built with this capability?,scifi
+Can Thor&#39;s hammer be wielded by anyone in outer space?,scifi
+What is that high-pitched sound from all those 50s sci-fi B-movies?,scifi
+Why Did the Rebels Have to Fly Along the Death Star Trench?,scifi
+Is Joss Whedon&#39;s Firefly based on the Traveller RPG he played?,scifi
+Why didn&#39;t Gollum ever become a wraith?,scifi
+How is Data powered?,scifi
+Was Gollum always a hobbit?,scifi
+How did the cookfire get hot enough to melt gold in Game of Thrones?,scifi
+Why aren&#39;t there any main Federation battleships in the Star Trek universe?,scifi
+Why didn&#39;t Aragorn keep going with the army of the dead?,scifi
+What caused the apocalypse in the Hunger Games?,scifi
+Where did the Wizarding World think Harry was?,scifi
+Why is Max mad?,scifi
+Why did JK Rowling choose the name &#39;Harry&#39;?,scifi
+What were all those visions Rey saw?,scifi
+Who was the first robot to refer to organic lifeforms as &quot;meatbags&quot;?,scifi
+What actually is Arithmancy?,scifi
+What Marvel Superhero or Supervillain Has the Most Secret Identity?,scifi
+How did Trinity know that Neo would see a white rabbit (to follow)?,scifi
+What is Darth Vader holding on the cover of the original Star Wars novelization?,scifi
+Why did it take longer to go to Rivendell in The Hobbit than in The Fellowship of the Ring?,scifi
+Why isn&#39;t the religion of R&#39;hllor, The Lord of Light, dominant?,scifi
+What is &quot;the prop&quot; used in many Sci-Fi movies?,scifi
+What was in the syringe that Inara had in the pilot episode?,scifi
+Why do the Borg have such a hard time understanding individuality?,scifi
+Why do Borg move so poorly (like 50s movie robots)?,scifi
+What is a Hedge Knight?,scifi
+Has the light from the Star Wars galaxy reached us yet?,scifi
+How did Voldemort get his wand back?,scifi
+Why was the Narada drill at all necessary in Star Trek (2009)?,scifi
+What order should the Chronicles of Narnia books be read in?,scifi
+How did Tasha Yar know to make a farewell hologram?,scifi
+Why did Benjen Stark take the Black?,scifi
+What is the symbolism of the colors assigned to Istari wizards?,scifi
+Why do consoles explode in Star Trek?,scifi
+How did the AT-ATs get to the surface of Hoth?,scifi
+Why didn&#39;t Kenobi start training Luke earlier?,scifi
+How did Hagrid and Dumbledore know the Potters had been killed?,scifi
+In Star Trek, does the original die in teleportation?,scifi
+Why didn&#39;t Gollum grow old and die after he lost the One Ring to Bilbo?,scifi
+Why did Tony Stark build arc reactors into his extra Iron Man suits?,scifi
+Which films should I see before &quot;The Avengers&quot;?,scifi
+How does Bane eat?,scifi
+Why did Saruman not kill Gandalf?,scifi
+How could Fred and George have figured the exact password to the Marauder&#39;s map?,scifi
+What did Smaug eat for 60 years?,scifi
+Why did Darth Vader torture Han Solo in Cloud City?,scifi
+Why did HAL&#39;s voice slow down when he was disconnected?,scifi
+How could Harry have become an Auror?,scifi
+Was the Stone of Minas Tirith still dangerous after Sauron was destroyed?,scifi
+Did George Lucas ever meet Gene Roddenberry?,scifi
+Who are these Lego superheroes?,scifi
+Since Boromir wanted the One ring so badly, why didn&#39;t he volunteer to take it during the Council of Elrond?,scifi
+How did Kirk manage to get Captaincy of the Enterprise despite just graduating from Academy?,scifi
+Why does Kylo Ren&#39;s lightsaber look different from normal lightsabers?,scifi
+Does Voldemort know about the Invisibility Cloak?,scifi
+Why is the word &#39;Quidditch&#39; always capitalized?,scifi
+Why does Gandalf the White not remember his original name?,scifi
+What good did Snape do anyone by infiltrating the Death Eaters?,scifi
+What does a Ravenclaw do when they can&#39;t answer the riddle for their dormitory?,scifi
+Why is Towel Day on May 25th?,scifi
+First appearance of the &quot;wake up from a coma, discover the world has ended&quot; trope?,scifi
+What is Princess Zelda&#39;s full name?,scifi
+Is Lembas (Elven bread) magical?,scifi
+Cyberpunk story: Black samurai, skateboarding courier, Mafia selling pizza and Sumerian goddess as a computer virus,scifi
+Why did Moody eat the school&#39;s sausages?,scifi
+Why was Vader surprised that Obi-Wan&#39;s body disappeared?,scifi
+How does Quark attract customers to his bar given that the drinks and food can be gotten free from a replicator?,scifi
+Where does human waste go when going to the toilet in the Star Trek universe?,scifi
+Back To The Future Flaw - why don&#39;t Marty&#39;s parents recognize him in the new future?,scifi
+Where did the Q come from, before the Q Continuum?,scifi
+Etymology of the name, &quot;Voldemort.&quot;,scifi
+Why does R2-D2 try to electrocute Yoda?,scifi
+Why doesn&#39;t the Doctor duplicate himself when he has multiple medical emergencies at the same time?,scifi
+Are there any real-world basis to the traps in the Indiana Jones series?,scifi
+Identifying a story with a portal that only organic tissue can pass through,scifi
+What is the place that Gandalf falls to after the battle with the Balrog?,scifi
+Was Thor unworthy during &quot;The Avengers&quot;?,scifi
+Is James Doohan’s missing finger ever noticeable in Star Trek?,scifi
+Could the Hulk become powerful enough to break adamantium?,scifi
+How did Morpheus come to identify Neo as potentially being The One before he met him?,scifi
+Is the ring poem slightly inaccurate? Who wrote it?,scifi
+Were there any jokes in LOTR?,scifi
+What is this Klingon Santa saying?,scifi
+Why did Gandalf chase the Balrog down?,scifi
+Does Gollum know that others call him Gollum?,scifi
+Where did &quot;you shall not pass&quot; come from?,scifi
+How did Boba Fett know to hide in the Star Destroyer &quot;Avenger&quot;&#39;s garbage?,scifi
+Do Wizards pay Muggle taxes?,scifi
+Is Quidditch an inherently flawed sport?,scifi
+Who is the eponymous Jedi in Return of the Jedi?,scifi
+Could Khal Drogo&#39;s Khalasar really have defeated the Iron Throne?,scifi
+Why is the Death Star spherical?,scifi
+What is the first instance of a portal to another world?,scifi
+What&#39;s the deal with &quot;marshmelons&quot;?,scifi
+Did Tolkien ever specify that Orodruin was a volcano?,scifi
+How did Vader saving Luke turn him to the good side?,scifi
+Why isn&#39;t the Potter family in the pure-blood list?,scifi
+How many Gods are in Game of Thrones?,scifi
+How did Gandalf get each of his various names?,scifi
+Which button activates Skywalker&#39;s lightsaber, and why is it inconsistent?,scifi
+What was the flaw in Goblet of Fire?,scifi
+Did Padm&#233; have any family?,scifi
+Does the Wicked Witch of the West know she can be killed by water?,scifi
+What is King Koopa the king of?,scifi
+Why did Obi-Wan have to sneak around the Death Star?,scifi
+Why did companions have such high social standing?,scifi
+Kahless and Klingon Appearance,scifi
+How was Obi-Wan Kenobi able to hide his light side presence from Vader and the Emperor?,scifi
+How does the Iris on the stargate works when establishing a wormhole?,scifi
+Identify a story about genetically engineered Vampires,scifi
+How do people understand astromech droids?,scifi
+Did Princess Leia ever use The Force?,scifi
+Why does everyone in Firefly speak Chinese?,scifi
+How much money did Harry Potter have?,scifi
+Did Obi-wan Age Normally?,scifi
+Wasn&#39;t Harry&#39;s father just like Draco?,scifi
+What is the history between Q and Guinan?,scifi
+How does Galadriel know that Gandalf &#39;survives&#39; his encounter with the Balrog?,scifi
+Why was Crusher replaced with Pulaski who was replaced by Crusher?,scifi
+Why is Janeway an Admiral and Picard is not?,scifi
+Are there any female characters in the Hobbit?,scifi
+Why did Dumbledore hire Lockhart?,scifi
+Is &quot;Lord of the Rings&quot; a trilogy of books in Tolkien&#39;s opinion?,scifi
+Why didn&#39;t Sauron find Bilbo when he put on the ring like Frodo?,scifi
+Let There Be Light Story Identification,scifi
+Who or what is the oldest sentient being in Tolkien&#39;s lore?,scifi
+Why doesn&#39;t the wizarding world use computers?,scifi
+What caused Voldemort to become so Evil, or is his villainy &#39;inherent&#39;?,scifi
+Why doesn&#39;t the Terminator kill at the biker bar?,scifi
+Why was Sm&#233;agol affected by the ring so fast, while both Frodo and Sam could handle it without immediately trying to choke each other?,scifi
+How could Saruman lose the battle of Helm&#39;s Deep?,scifi
+Why specifically did Darth Vader choose Han Solo to test the carbonite freezing?,scifi
+Where do you park a Star Destroyer at the Death Star?,scifi
+What would Sauron have done had he recovered the Ring?,scifi
+Do the Q fear the Borg?,scifi
+Why Didn&#39;t The Winter Soldier Keep Captain America&#39;s Shield?,scifi
+Why didn&#39;t Gandalf know what the Palantir was?,scifi
+Why is it ok for C-3PO to disrespect Chewbacca?,scifi
+Where in the Star Wars original trilogy does this translucent green orb in a circular dish appear?,scifi
+What franchises are these weapons from?,scifi
+Why did this character name his son after Snape?,scifi
+Why did the Ewoks think C-3PO was a god?,scifi
+Why is R2-D2 considered a droid?,scifi
+Why was Anakin allowed to wear black robes?,scifi
+Why was Darth Vader more of a Jedi than Anakin?,scifi
+Is The Force binary or on a spectrum?,scifi
+James Potter and the Cloak of Invisibility - Why didn&#39;t he use it to hide the family from Voldemort?,scifi
+How do they travel so fast in Futurama?,scifi
+In which Star Trek: The Next Generation episodes did Patrick Stewart not appear?,scifi
+Pratchett Quote about Research and Development,scifi
+What is the origin of all Star Wars movies?,scifi
+What short story is about an invasion from metallic creatures?,scifi
+What is &quot;Blue Sun&quot; in Firefly?,scifi
+What is the best source/transfer to watch pre-&quot;Special Edition&quot; Star Wars?,scifi
+In the original Mad Max movie, is there actually any reference to an apocalypse?,scifi
+How does Mjolnir determine &#39;worth&#39;?,scifi
+Has there been any contact with life outside our own Milky Way in the Star Trek universe?,scifi
+Why did Vader not use the force to stop Luke from falling down in end of The Empire Strikes Back?,scifi
+What age group did Tolkien write The Hobbit for?,scifi
+In the Harry Potter Universe, Are People in Pictures Self-Aware?,scifi
+Is there FTL travel in the Aliens franchise?,scifi
+Is there any physical or mental cost to casting spells?,scifi
+Is Daenerys Targaryen immune to fire?,scifi
+Why would Sith Masters teach apprentices, at all?,scifi
+Did Yoda Intend On Training Leia As a Jedi?,scifi
+How would a metaphorical language such as in Darmok (ST:TNG S05E02) be taught?,scifi
+Did Obi-Wan Kenobi ever become more powerful?,scifi
+How does Stark Enterprises maintain its cashflow?,scifi
+Why Didn&#39;t Dumbledore Hear the Basilisk?,scifi
+Who in the DC Universe can stop Superman if he has a breakdown?,scifi
+What does the Spider-man symbol on 1980&#39;s comic covers mean?,scifi
+Is the age of Tony Stark consistent with the appearance of his father in the Captain America movie?,scifi
+Why did they name the movie &quot;Blade Runner&quot;?,scifi
+Did JRR Tolkien ever write any music for the many songs in The Lord of the Rings?,scifi
+How did Darth Sidious manage to diminish all of the Jedi&#39;s ability to use the Force?,scifi
+What are the rules and limits of Accio spell?,scifi
+Why can&#39;t the military kill the Walking Dead?,scifi
+How did the Millennium Falcon get from Hoth to Bespin without hyperdrive?,scifi
+The use of &#39;Darth&#39; as Vader&#39;s name, not title, in Star Wars,scifi
+In the Deep Space Nine Episode &quot;Defiant&quot;, what was the dispute between Riker &amp; O&#39;Brien?,scifi
+Did Gandalf cast a spell on Butterbur&#39;s beer?,scifi
+Is the planet called &quot;Earth That Was&quot; totally uninhabited?,scifi
+Why didn&#39;t the Jedi use Order 65?,scifi
+Where did they find the storm troopers for the original Star Wars trilogy movies?,scifi
+Would Gandalf have been promoted to the white if he had not fought the Balrog?,scifi
+How and when did Hermione find out she&#39;s a witch?,scifi
+Why didn&#39;t the Trace work in Goblet of Fire?,scifi
+Can a Jedi move faster than the speed of light?,scifi
+If Hermione had died on the hunt for the horcruxes, would her parents remember her?,scifi
+Why is there no electricity available in the Walking Dead Series?,scifi
+What happened to Gandalf the Grey&#39;s body when he was sent back as Gandalf the White?,scifi
+How did Dumbledore know that Slughorn was an armchair?,scifi
+Who wrote Tolkien&#39;s riddles?,scifi
+How do we reach Ultima?,scifi
+When did Superman stop leaping and start flying?,scifi
+Did Sauron and Finrod Felagund really get into a singing fight?,scifi
+Does the general public know who superheroes really are in the Marvel Cinematic Universe?,scifi
+Why did the Weasleys spend most of the money won in the lottery for a trip to Egypt?,scifi
+Do we ever see the hamster wheel that powers the Enterprise-D in a TNG episode or in &#39;Generations&#39;?,scifi
+Why didn&#39;t Voldemort kill Snape with Avada Kedavra?,scifi
+Has one actor ever played two different characters from Marvel?,scifi
+How does BB-8 move in the sand without skidding?,scifi
+What was C-3PO talking about when he said, “That’s funny, the damage doesn’t look as bad from out here.”,scifi
+Why did the Lars family need an astromech droid?,scifi
+Why would Charlie Weasley give up his old wand and give it to Ron?,scifi
+Why is EVE heavily armed and trigger-happy?,scifi
+Why is it considered admirable that Neville stood up to his friends?,scifi
+Why do Stormtroopers wear helmets indoors?,scifi
+How did the Republic have enough clones for... anything?,scifi
+How come Ferengi starships work?,scifi
+Was Harry&#39;s concern about Fleur&#39;s sister Gabrielle misplaced?,scifi
+Would Voldemort have succeeded if he simply ignored the prophecy?,scifi
+Given the multiple defeats at the hands of the Federation, why only one Borg Cube?,scifi
+Is there any evidence for the bet between Robert A. Heinlein and L. Ron Hubbard?,scifi
+In Stargate why can you go only in one direction through the gate but radio signals can go both ways?,scifi
+Does C-3PO ever do his job?,scifi
+General Grievous: what is he, actually?,scifi
+Why did Daenerys follow her brother&#39;s bidding at all? What was their relationship like before the events of the first episode?,scifi
+Why does Harry Potter wear glasses?,scifi
+Why was Jabba immune to Luke&#39;s powers of the Force in Return of the Jedi?,scifi
+What are the revisions in the (Revised Edition) of The Hobbit?,scifi
+Is the Empire racist?,scifi
+Why would any Federation starship (such as the Enterprise) have any spouses or youth onboard?,scifi
+Who really ordered the creation of the Clone Army?,scifi
+Does Red Skull die at the end of Captain America?,scifi
+Why was the Enterprise built on the ground?,scifi
+Did Daenerys&#39; stillborn have dragon features?,scifi
+In what order should Buffy and Angel be watched?,scifi
+Is Leia a better shot than Han and Luke?,scifi
+What did the general public know about Darth Vader?,scifi
+How does the Hogwarts Headmaster know whom to invite to school?,scifi
+Who&#39;s older: Treebeard or Tom Bombadil?,scifi
+Why does Yoda speak the way he does?,scifi
+How did the zombie outbreak start in the Walking Dead?,scifi
+Is There More to Arwen Than Her Obsessive Love for Aragorn?,scifi
+How did Gandalf get his staff back after being captured by Saruman in Orthanc?,scifi
+In the Starship Troopers movie, what remains of Robert A. Heinlein&#39;s original novel?,scifi
+Why was Kai Opaka written out of Star Trek: Deep Space Nine so early?,scifi
+Is there any canonical reference to the fate of the Blue Wizards: Alatar and Pallando?,scifi
+Should I watch Battlestar Galactica original show before watching the reboot?,scifi
+Why does Gollum address himself as &quot;we&quot;?,scifi
+Is Goldberry a regular mortal woman?,scifi
+Are most Star Wars characters illiterate?,scifi
+Origin of Darth Vader&#39;s name,scifi
+Is Sheldon right that Superman would have killed Lois when he caught her?,scifi
+Why doesn&#39;t the lightsaber cut the guardrail in Episode 6?,scifi
+Does Picard ever agree with Worf that the best course of action is to fire torpedos?,scifi
+Why did Drax call Gamora a whore?,scifi
+Is there any official evidence for the Pixar theory?,scifi
+What would be the effect of a Borg assimilating a Q?,scifi
+How on (middle) earth did E&#228;rendil kill a dragon as huge as Ancalagon?,scifi
+Where was the Rebel fleet&#39;s rendezvous point at the end of The Empire Strikes Back?,scifi
+Why are quarters on the Enterprise-D so spacious?,scifi
+Why is Thor an Avenger?,scifi
+Why are the names Sauron and Saruman so similar?,scifi
+Why does Gandalf think he&#39;s not strong enough to reveal himself to Sauron via the palantir,scifi
+How long until the rights of Marvel characters that 20th Century Fox own revert to Marvel Studios?,scifi
+Why (and since when) is the name &quot;Sol&quot; used instead of &quot;The Sun&quot;?,scifi
+Is this story about how Michael Dorn became Worf true?,scifi
+Did Tolkien think about language evolution when the speakers are immortal?,scifi
+Why would the First Order have lightsaber-resistant batons?,scifi
+Toilets in the Galaxy Far, Far Away,scifi
+What does Dumbledore&#39;s title &quot;Supreme Mugwump&quot; mean?,scifi
+Where does the second door in Captain Janeway&#39;s &#39;Ready Room&#39; lead?,scifi
+Were people in Wall•E illiterate?,scifi
+Why didn&#39;t Harry continue Dumbledore&#39;s Army sessions in the Half-Blood Prince?,scifi
+After Darth Vader was killed, did Luke tell anyone that he was his father?,scifi
+Did Tywin Lanister know Arya is not a commoner?,scifi
+How did Obi-Wan survive the trip to Naboo?,scifi
+Is the Doctor insane?,scifi
+What does Dolores Umbridge lack in her personality?,scifi
+When does Gandalf learn the nature of Durin’s Bane?,scifi
+Is the One Ring sentient?,scifi
+What would have happened if Neo had taken the red pill and blue pill at the same time?,scifi
+Why do Phineas and Ferb get 104 days of summer vacation?,scifi
+How does Professor McGonagall know about the Golden Trio&#39;s conversation?,scifi
+Is the Joker based on anything?,scifi
+What Happened to TK-421?,scifi
+What was Mordor&#39;s history before Sauron settled there?,scifi
+Why did the rebels need the Death Star plans?,scifi
+Why did the humans leave their original planet to found the colonies?,scifi
+Why and how can you hear explosions in space in Star Wars?,scifi
+What popularised the concept of Martians as little green men?,scifi
+In what time period does The Lord of the Rings take place in the real world?,scifi
+Why is there a lot of low-tech in Battlestar Galactica?,scifi
+Is the Stargate storyline continued after Stargate: Universe?,scifi
+What happened to Saruman&#39;s ring in the Fourth Age?,scifi
+Why could Data not use contractions?,scifi
+What does House Greyjoy&#39;s motto, &quot;We Do Not Sow&quot;, mean?,scifi
+Why would the Doctor be so sad when he was about to regenerate?,scifi
+Are Imperial Storm Troopers all clones?,scifi
+Why don&#39;t zombies eat each other?,scifi
+Did Mirri Maz Duur deliberately mistreat Drogo&#39;s wound?,scifi
+Could the Sorting Hat Have Told Dumbledore That Harry Was a Horcrux?,scifi
+Where were the locations of the districts in The Hunger Games?,scifi
+Can the Valar or Maiar die?,scifi
+Can the Elves do magic?,scifi
+How is it that Legolas always has a quiver full of arrows?,scifi
+Why are Walker bites in the Walking Dead fatal?,scifi
+Why did Superman hold back against The Flash in Justice League?,scifi
+Was Prince Adam really 11 when he was transformed?,scifi
+Who are the Avengers avenging?,scifi
+What is Petyr Baelish&#39;s endgame with Sansa?,scifi
+What does &quot;Seven&quot; and &quot;Nine&quot; mean in &quot;Seven of Nine&quot;?,scifi
+Why does Loki look &quot;sick&quot; when he first arrives on Earth?,scifi
+Why was it likely that the Ents went to their doom?,scifi
+Could Tom Bombadil have defeated Sauron?,scifi
+What keeps lightsabers from going through each other?,scifi
+Why wasn&#39;t James Potter his own Secret Keeper?,scifi
+What does the Starfleet insignia represent?,scifi
+What did Bilbo Baggins do while the Fellowship of the Ring went on their quest?,scifi
+Does the T-1000 use 3 hands in the helicopter chase scene?,scifi
+How does Princess Leia know Obi-Wan Kenobi is &quot;Ben&quot; Kenobi?,scifi
+How did Neo know it was Morpheus on the phone and what The Matrix is?,scifi
+What is the Economic system of the Potterverse?,scifi
+How was Smaug&#39;s treasure actually divided?,scifi

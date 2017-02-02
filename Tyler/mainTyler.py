@@ -30,7 +30,8 @@ def retrieveRank(question, topic):
     results = pysolr_client.search(question)
 
     #print results.docs
-    return results.docs[0]['body'][0]
+    return results.docs
+    #return results.docs[0]['body'][0]
     #return results.docs[0]['body'][0].split(',')[0].split(':')[1]
 
 #get the question
@@ -44,7 +45,10 @@ answer = retrieveRank(question, topic)
 
 print(answer)
 
+#whats a semicolon?
 
+#chance of thunderstorm?
+#how cold today?
 
 
 
