@@ -1,3 +1,5 @@
+# Parses a Posts.xml file into three input files, for NLC, retrieve, and rank
+
 import json, csv, sys
 import xml.etree.ElementTree as ET
 
@@ -6,7 +8,7 @@ import xml.etree.ElementTree as ET
 if __name__ == '__main__':
     docName = sys.argv[1]
     #Create NLC document, retrieve document, ranker csv
-    nlc = open(docName + '.nlc.csv', 'wb')
+    nlc = open(docName + '.nlc.csv', 'w+')
     nlcWrite = csv.writer(nlc)
 
     retrieveData = {}
@@ -27,7 +29,7 @@ if __name__ == '__main__':
 
 
             #Was having a unicode issue but solved it with this encode method
-            nlcWrite.writerow(["\"" + post.attrib['Body'].encode('utf8') + "\"", "ai"])
+            nlcWrite.writerow(["\"" + post.attrib['Body'] + "\"", "ai"])
             questions[post.attrib['Id']] = post.attrib['Body']
             rankData[post.attrib['Body']] = []
 
@@ -45,8 +47,8 @@ if __name__ == '__main__':
             rankData[parentQ].append((post.attrib['Id'], post.attrib['Score']))
 
     # Create and write to JSON file for retriever
-    retriever = open(docName + '.retrieve.json', 'wb')
-    json.dump(retrieveData, retriever)
+    retriever = open(docName + '.retrieve.json', 'w+')
+    json.dump(retrieveData, retriever, indent=4)
 
     # Convert rankData to appropriate format and write CSV file
     sortedLists = []
@@ -54,10 +56,11 @@ if __name__ == '__main__':
 
         #Had sortedList = rankData[q].sort(key=lambda tup: tup[1], reverse=True)
         #but since the .sort method doesnt return a list I changed it to:
-        sortedList = sorted(rankData[q], key=lambda tup: tup[1], reverse=True)
-        sortedLists.append([rankData[q]].extend(map(lambda tup: tup[0], sortedList)))
+        sortedList = sorted(rankData[q], key=lambda tup: int(tup[1]), reverse=True)
+        row = [q]
+        row.extend(map(lambda tup: tup[0], sortedList))
+        sortedLists.append(row)
 
-    ranker = open(docName + '.ranker.csv', 'wb')
+    ranker = open(docName + '.ranker.csv', 'w+')
     rankerWrite = csv.writer(ranker)
-    print(sortedLists)
     rankerWrite.writerows(sortedLists)
