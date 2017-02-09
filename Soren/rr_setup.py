@@ -54,19 +54,6 @@ else:
         print(config_status['message'])
 #%%
 #Create the collections
-def object_pairs_hook(pair):
-#    print('Read:')
-#    print(pair)
-    if(pair[0][0] == 'doc'):
-        return pair[0][1]
-    if(pair[0][0] == 'add'):
-        return [item[1] for item in pair]
-    d={}    
-    for item in pair:
-        d.update({item[0]:item[1]})
-#    print('Parsed as:')
-#    print(print(json.dumps(d,indent=2)))
-    return d
 collection_list = retrieve_and_rank.list_collections(solr_cluster_id=solr_cluster_id)
 for item in config['collections']:
     collection_name = item['name']
@@ -78,13 +65,34 @@ for item in config['collections']:
         print('Created Collection ' + collection_name )
         data_file_name = item['file_name']
         with open(data_file_name) as data_file:    
-            decoder = json.JSONDecoder(object_pairs_hook=object_pairs_hook)
-            data_str = data_file.read()
-            data = decoder.decode(data_str)
+            raw_data = json.load(data_file)
+            data = raw_data['documents']
         print('Loaded :' + str(len(data)) + ' records from ' + data_file_name)
         pysolr_client = retrieve_and_rank.get_pysolr_client(solr_cluster_id, collection_name)
-        for i in range(0, len(data),10):
+        rem = len(data)%10
+        if(len(data)%10 != 0 ):
+            response = pysolr_client.add(data[0:rem])
+            pysolr_client.commit()
+            print('Uploaded ' + str(rem) +'/' + str(len(data)) + ' records')
+        for i in range(rem, len(data),10):
             response = pysolr_client.add(data[i:i+10])
-    #        print(response)
             pysolr_client.commit()
             print('Uploaded ' + str(i+10) +'/' + str(len(data)) + ' records')
+#%%
+#Create rankers
+ranker_name = config['collections'][0]['name']
+ranker_training_file = config['collections'][0]['ranker_training_file']
+rankers = retrieve_and_rank.list_rankers()
+exists = False
+for item in rankers['rankers']:
+    if(item['name'] == ranker_name):
+        exists = True
+        break
+if(exists):
+    print('Ranker already exists')
+else:
+    with open(ranker_training_file, 'rb') as training_data:
+        response = retrieve_and_rank.create_ranker(training_data=training_data, name=ranker_name)
+    print(json.dumps(response), indent=2)
+    print("Ranker Created Successfully")
+
