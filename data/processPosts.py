@@ -30,6 +30,9 @@ if __name__ == '__main__':
 
             #Was having a unicode issue but solved it with this encode method
             nlcWrite.writerow(["\"" + post.attrib['Body'] + "\"", "ai"])
+
+
+            # Hey tyler, you need to process "post.attrib['Body']"
             questions[post.attrib['Id']] = post.attrib['Body']
             rankData[post.attrib['Body']] = []
 
