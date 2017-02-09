@@ -1,0 +1,21 @@
+{
+  "documents" : [
+    {
+      "doc" : {
+        "id" : 1,
+        "author" : "brenckman,m.",
+        "bibliography" : "j. ae. scs. 25, 1958, 324.",
+        "body" : " .",
+        "title" : "experimental investigation of the aerodynamics of a wing in a slipstream ."
+      }
+    },
+    {
+      "doc" : {
+        "id" : 2,
+        "author" : "ting-yili",
+        "bibliography" : ".",
+        "title" : "simple shear flow past a flat plate in an incompressible fluid of small viscosity ."
+      }
+    }
+  ]
+}
