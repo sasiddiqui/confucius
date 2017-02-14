@@ -9,8 +9,8 @@
     "collections": [
       {
         "name": "AI",
-        "file_name" : "../data/mod.Posts.xml.retrieve.json",
-        "ranker_training_file": "../data/mod.Posts.xml.ranker.csv"
+        "file_name" : "../data/Posts.xml.retrieve.json",
+        "ranker_training_file": "../data/Posts.xml.ranker.csv"
       }
     ]  
 }

@@ -84,6 +84,7 @@ ranker_name = config['collections'][0]['name']
 ranker_training_file = config['collections'][0]['ranker_training_file']
 rankers = retrieve_and_rank.list_rankers()
 exists = False
+ranker_id = 0
 for item in rankers['rankers']:
     if(item['name'] == ranker_name):
         exists = True
@@ -95,4 +96,4 @@ else:
         response = retrieve_and_rank.create_ranker(training_data=training_data, name=ranker_name)
     print(json.dumps(response, indent=2))
     print("Ranker Created Successfully")
-
+    ranker_id = response['ranker_id']
