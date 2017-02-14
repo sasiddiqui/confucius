@@ -22,6 +22,12 @@ if __name__ == '__main__':
     questions = {} # maps question IDs to question text
 
 
+    #Foloowing characters are special characters for Ranker. They have to be replaced
+    #'\"' (backslash + double quotes)
+    #'""' (doubke double quotes)
+    #'\n' (newlines)
+    for post in root:
+        post.attrib['Body'] = post.attrib['Body'].replace('\n', '<br>')#.replace('"','<dq>').replace(':','<cln>').replace(',','<comma>').replace(' ','<space>')
     #iterate through all row elements children of post element
     for post in root:
         if post.attrib["PostTypeId"] == '1':  #if post is question
@@ -60,10 +66,15 @@ if __name__ == '__main__':
         #Had sortedList = rankData[q].sort(key=lambda tup: tup[1], reverse=True)
         #but since the .sort method doesnt return a list I changed it to:
         sortedList = sorted(rankData[q], key=lambda tup: int(tup[1]), reverse=True)
-        row = [q]
-        row.extend(map(lambda tup: tup[0], sortedList))
+        answerIds = list(map(lambda tup: tup[0], sortedList))
+        answerScores = list(map(lambda tup: tup[1], sortedList))
+        row = answerIds + answerScores
+        row[::2] = answerIds
+        row[1::2] = answerScores
+        row.insert(0, q)
+        
         sortedLists.append(row)
 
     ranker = open(docName + '.ranker.csv', 'w+')
-    rankerWrite = csv.writer(ranker)
+    rankerWrite = csv.writer(ranker, escapechar='\\', quoting=csv.QUOTE_ALL)
     rankerWrite.writerows(sortedLists)

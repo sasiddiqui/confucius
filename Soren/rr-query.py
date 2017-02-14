@@ -74,12 +74,12 @@ with open('ranker_training_data.csv', 'rb') as training_data:
     print(json.dumps(retrieve_and_rank.create_ranker(training_data=training_data, name='Ranker Test'), indent=2))
 #%%
 # replace YOUR RANKER ID
-status = retrieve_and_rank.get_ranker_status('766366x22-rank-3332')
+status = retrieve_and_rank.get_ranker_status(ranker_id)
 print(json.dumps(status, indent=2))
 #%%
-# delete_results = retrieve_and_rank.delete_ranker('YOUR RANKER ID')
-# print(json.dumps(delete_results))
-
+delete_results = retrieve_and_rank.delete_ranker(ranker_id)
+print(json.dumps(delete_results))
+#%%
 # replace '42AF7Ex10-rank-47' with your ranker_id
 with open('ranker_answer_data.csv', 'rb') as answer_data:
     ranker_results = retrieve_and_rank.rank('766366x22-rank-3332', answer_data)
