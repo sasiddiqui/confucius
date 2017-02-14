@@ -93,6 +93,6 @@ if(exists):
 else:
     with open(ranker_training_file, 'rb') as training_data:
         response = retrieve_and_rank.create_ranker(training_data=training_data, name=ranker_name)
-    print(json.dumps(response), indent=2)
+    print(json.dumps(response, indent=2))
     print("Ranker Created Successfully")
 
