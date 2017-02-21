@@ -18,7 +18,7 @@ created_cluster = retrieve_and_rank.create_solr_cluster(cluster_name='Test Clust
 print(json.dumps(created_cluster, indent=2))
 #%%
 # Replace with your own solr_cluster_id
-solr_cluster_id = 'scff1b48f6_5178_4c7c_bac8_39fffaf6f83f'
+solr_cluster_id = 'sc5352d79e_c165_44a6_97ca_8384501d30dd'
 
 status = retrieve_and_rank.get_solr_cluster_status(
     solr_cluster_id=solr_cluster_id)
@@ -42,10 +42,11 @@ collections = retrieve_and_rank.list_collections(solr_cluster_id=solr_cluster_id
 print(json.dumps(collections, indent=2))
 
 #%%
-deleted_response = retrieve_and_rank.delete_collection(solr_cluster_id, 'programming', 'test-config')
+deleted_response = retrieve_and_rank.delete_collection(solr_cluster_id, 'AI', 'solr_config')
 print(json.dumps(deleted_response, indent=2))
 #%%
 pysolr_client = retrieve_and_rank.get_pysolr_client(solr_cluster_id, collections['collections'][0])
+#%%
 # Can also refer to config by name
 
 #Example search
