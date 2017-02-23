@@ -30,31 +30,33 @@ if __name__ == '__main__':
         post.attrib['Body'] = post.attrib['Body'].replace('\n', '<br>')#.replace('"','<dq>').replace(':','<cln>').replace(',','<comma>').replace(' ','<space>')
     #iterate through all row elements children of post element
     for post in root:
-        if post.attrib["PostTypeId"] == '1':  #if post is question
-            #add to NLC file
-
-
-            #Was having a unicode issue but solved it with this encode method
-            nlcWrite.writerow(["\"" + post.attrib['Body'] + "\"", "ai"])
-
-
-            # Hey tyler, you need to process "post.attrib['Body']"
-            questions[post.attrib['Id']] = post.attrib['Body']
-            rankData[post.attrib['Body']] = []
-
-        elif post.attrib["PostTypeId"] == '2': #post is an answer
-            parentQ = questions[post.attrib['ParentId']]
-
-
-            #Added commas between the elements here
-            retrieveData['documents'].append({'id': post.attrib['Id'],
-                                              'body': {
-                                                'question' : parentQ ,
-                                                'answer' : post.attrib['Body']
-                                              }})
-
-            rankData[parentQ].append((post.attrib['Id'], post.attrib['Score']))
-
+        try:
+            if post.attrib["PostTypeId"] == '1':  #if post is question
+                #add to NLC file
+    
+                if len(post.attrib['Body'].encode('utf8')) < 1024:
+                    #Was having a unicode issue but solved it with this encode method
+                    nlcWrite.writerow(["\"" + post.attrib['Body'] + "\"", "ai"])
+    
+    
+                # Hey tyler, you need to process "post.attrib['Body']"
+                questions[post.attrib['Id']] = post.attrib['Body']
+                rankData[post.attrib['Body']] = []
+    
+            elif post.attrib["PostTypeId"] == '2': #post is an answer
+                parentQ = questions[post.attrib['ParentId']]
+    
+    
+                #Added commas between the elements here
+                retrieveData['documents'].append({'id': post.attrib['Id'],
+                                                  'body': {
+                                                    'question' : parentQ ,
+                                                    'answer' : post.attrib['Body']
+                                                  }})
+    
+                rankData[parentQ].append((post.attrib['Id'], post.attrib['Score']))
+            except Exception:
+                continue
     # Create and write to JSON file for retriever
     retriever = open(docName + '.retrieve.json', 'w+')
     json.dump(retrieveData, retriever, indent=4)
