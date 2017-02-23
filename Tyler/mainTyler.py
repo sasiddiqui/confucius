@@ -1,4 +1,4 @@
-'''import json
+import json
 from watson_developer_cloud import NaturalLanguageClassifierV1
 from watson_developer_cloud import RetrieveAndRankV1
 
@@ -59,7 +59,5 @@ if response == 'no':
 #whats a semicolon?
 #chance of thunderstorm?
 #how cold today?
-
-'''
 
 
