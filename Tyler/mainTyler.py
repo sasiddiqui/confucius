@@ -1,4 +1,4 @@
-'''import json
+import json
 from watson_developer_cloud import NaturalLanguageClassifierV1
 from watson_developer_cloud import RetrieveAndRankV1
 
@@ -53,13 +53,4 @@ response = raw_input('is this what you were looking for?')
 if response == 'no':
     newTopic = raw_input('please enter the new topic')
     answer = retrieveRank(question, newTopic)
-    print(answer)
-
-
-#whats a semicolon?
-#chance of thunderstorm?
-#how cold today?
-
-'''
-
 
