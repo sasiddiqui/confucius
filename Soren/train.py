@@ -83,6 +83,7 @@ with open(RELEVANCE_FILE, 'rb') as csvfile:
             process = subprocess.Popen(shlex.split(curl_cmd), stdout=subprocess.PIPE)
             output = process.communicate()[0]
             if DEBUG:
+               print('Output:')
                print (output)
             try:
                parsed_json = json.loads(output)
@@ -92,11 +93,11 @@ with open(RELEVANCE_FILE, 'rb') as csvfile:
                print (curl_cmd)
                print ('Response:')
                print (output)
-               raise          
+               raise
             add_header = 'false'
 print ('Generating training data complete.')
 
-# Train the ranker with the training data that was generate above from the query/relevance input     
+# Train the ranker with the training data that was generate above from the query/relevance input
 ranker_curl_cmd = 'curl -k -X POST -u %s -F training_data=@%s -F training_metadata="{\\"name\\":\\"%s\\"}" %s' % (CREDS, TRAININGDATA, RANKERNAME, RANKERURL)
 if DEBUG:
     print (ranker_curl_cmd)
