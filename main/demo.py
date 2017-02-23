@@ -31,8 +31,8 @@ def retrieveRank(question, topic):
     results = pysolr_client.search(question)
 
     #print results.docs
-    return results.docs
-    #return results.docs[0]['body'][0]
+    #return results.docs
+    return results.docs[0]['body'][0]
     #return results.docs[0]['body'][0].split(',')[0].split(':')[1]
 
 #get the question
@@ -44,7 +44,7 @@ topic = classify('f5b432x172-nlc-3555', question)
 print('the topic is ' + topic)
 
 
-answer = retrieveRank(question, topic)
+answer = retrieveRank(question, topic).replace("\\n", "").replace("u'","").replace("answer':", "")
 
 print(answer)
 
@@ -52,5 +52,5 @@ print('')
 response = raw_input('is this what you were looking for?')
 if response == 'no':
     newTopic = raw_input('please enter the new topic')
-    answer = retrieveRank(question, newTopic)
+    answer = retrieveRank(question, newTopic.replace("\\n", "").replace("u'", "").replace("answer':", ""))
 
