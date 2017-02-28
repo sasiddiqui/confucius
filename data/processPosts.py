@@ -71,6 +71,7 @@ if __name__ == '__main__':
             sortedList = sorted(rankData[q], key=lambda tup: int(tup[1]), reverse=True)
             answerIds = list(map(lambda tup: tup[0], sortedList))
             answerScores = list(map(lambda tup: tup[1], sortedList))
+            answerScores = [x if x > 0 else 0 for x in answerScores]
             row = answerIds + answerScores
             row[::2] = answerIds
             row[1::2] = answerScores
