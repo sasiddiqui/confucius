@@ -1,14 +1,31 @@
+from __future__ import print_function
 import praw
+import json
 from praw.models import MoreComments
 
-#PRAW method
+
+#FILL OUT THIS FIRST
+subreddit = 'AskScience'
+limit = 10  #how many questions
+category = 'science' #DONT FORGET TO CHANGE THIS
+retrieveFile = 'redditRetrieve' + subreddit + '.json'
+NLCfile = 'redditNLC.csv'
+
+
+#PRAW credentials
 reddit = praw.Reddit(client_id='XarwttTqbYFghg',
                      client_secret='OzsZALZ9430Avf_jV83uq3Mxn10',
                      user_agent='my user agent')
-#print(reddit.read_only)
+titles = []
+nlcData = []
+retrieveData = {}
+retrieveData['documents'] = []
 
-for submission in reddit.subreddit('ama').hot(limit=100):
+idcount = 0
+for submission in reddit.subreddit(subreddit).top(limit=limit):
+
     title = submission.title
+    titles.append(title)
 
     comments = []
     for comment in submission.comments:
@@ -19,11 +36,25 @@ for submission in reddit.subreddit('ama').hot(limit=100):
     comments.sort(key=lambda comment: comment.score, reverse=True)
 
     if len(comments):
-        ans = comments[0].body.replace("\n", " ")
+        ans = comments[0].body
 
-    #write to NLC
+    #store data to write to NLC
     if len(title) + len(ans) <= 1024:
-        print (title + ' , ' + 'python')
+        nlcData.append(title + ' , ' + category)
 
-    #write to retrieve by generating JSON
+    #store data to write to the retriever
+    retrieveData['documents'].append({'id': idcount,'body': {'question': submission.title,'answer': ans}})
+
+    #increment id
+    idcount += 1
+
+#write to NLCData
+f= open(NLCfile, 'a')
+for line in nlcData:
+    print(line.encode('utf8'), file=f)
+f.close()
+
+#write to retrieveData
+retriever = open(retrieveFile, 'w+')
+json.dump(retrieveData, retriever, indent=4)
 
