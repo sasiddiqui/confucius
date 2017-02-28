@@ -5,13 +5,14 @@ from praw.models import MoreComments
 
 
 #FILL OUT THIS FIRST
-subreddit = 'AskScience'
+subreddit = 'AskHistorians'
 limit = 10  #how many questions
-category = 'science' #DONT FORGET TO CHANGE THIS
+category = 'history' #DONT FORGET TO CHANGE THIS
 retrieveFile = 'redditRetrieve' + subreddit + '.json'
 NLCfile = 'redditNLC.csv'
 RankerFile = 'redditRanker' + subreddit + '.csv'
-commentThresh = 5
+commentThresh = 10
+
 
 
 #PRAW credentials
@@ -40,9 +41,15 @@ for submission in reddit.subreddit(subreddit).top(limit=limit):
     #store the top n comments
     topScore = 0
     topComments = []  # each comment should be comment, score, id
-    if len(comments) > commentThresh:
-        for k in range(commentThresh):
+    numComments = len(comments)
+    if numComments > 0:
+
+        if numComments > commentThresh:
+            numComments = commentThresh
+
+        for k in range(numComments):
             topComments.append([comments[k].body, comments[k].score, comments[k]])
+
 
     #comments[2] = answerID
     #comments[1] = answerScore
@@ -57,9 +64,9 @@ for submission in reddit.subreddit(subreddit).top(limit=limit):
         retrieveData['documents'].append({'id': str(commentEntry[2]),'body': {'question': title,'answer': commentEntry[0]}})
 
         # store data to write to the ranker
-        answerSequence = answerSequence + ',' + str(commentEntry[2]) + ',' + str(commentEntry[1])
+        answerSequence = answerSequence + ',' + '\"' + str(commentEntry[2]) + '\"' + ',' + '\"' + str(commentEntry[1]) + '\"'
 
-    rankerData.append(title + answerSequence)
+    rankerData.append('\"' + title + '\"' + answerSequence)
 
 #write to NLCDataFile
 f= open(NLCfile, 'a')
