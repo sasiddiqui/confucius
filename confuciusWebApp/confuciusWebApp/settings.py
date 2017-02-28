@@ -54,7 +54,7 @@ ROOT_URLCONF = 'confuciusWebApp.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['confucius/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
