@@ -3,4 +3,9 @@ from django.http import HttpResponse
 
 # Create your views here.
 def index(request):
-    return HttpResponse("Hello, you are at the confucius index.")
+    return render(request, 'form.html')
+
+def search(request):
+    if request.method == 'POST':
+        search_id = request.POST.get('textfield', None)
+        return HttpResponse(search_id)
