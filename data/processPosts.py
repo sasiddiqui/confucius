@@ -27,36 +27,36 @@ if __name__ == '__main__':
     #'""' (doubke double quotes)
     #'\n' (newlines)
     for post in root:
-        post.attrib['Body'] = post.attrib['Body'].replace('\n', '<br>')#.replace('"','<dq>').replace(':','<cln>').replace(',','<comma>').replace(' ','<space>')
+        post.attrib['Body'] = post.attrib['Body'].replace('\n', '<br>').replace('"','<dq>').replace('%','<percent>')#.replace(':','<cln>').replace(',','<comma>').replace(' ','<space>')
     #iterate through all row elements children of post element
     for post in root:
         try:
             if post.attrib["PostTypeId"] == '1':  #if post is question
                 #add to NLC file
-    
+
                 if len(post.attrib['Body'].encode('utf8')) < 1024:
                     #Was having a unicode issue but solved it with this encode method
-                    nlcWrite.writerow(["\"" + post.attrib['Body'] + "\"", "ai"])
-    
-    
+                    nlcWrite.writerow(["\"" + post.attrib['Body'].encode('utf8') + "\"", "ai"])
+
+
                 # Hey tyler, you need to process "post.attrib['Body']"
-                questions[post.attrib['Id']] = post.attrib['Body']
-                rankData[post.attrib['Body']] = []
-    
+                questions[post.attrib['Id']] = post.attrib['Body'].encode('utf8')
+                rankData[post.attrib['Body'].encode('utf8')] = []
+
             elif post.attrib["PostTypeId"] == '2': #post is an answer
                 parentQ = questions[post.attrib['ParentId']]
-    
-    
+
+
                 #Added commas between the elements here
                 retrieveData['documents'].append({'id': post.attrib['Id'],
                                                   'body': {
                                                     'question' : parentQ ,
-                                                    'answer' : post.attrib['Body']
+                                                    'answer' : post.attrib['Body'].encode('utf8')
                                                   }})
-    
+
                 rankData[parentQ].append((post.attrib['Id'], post.attrib['Score']))
-            except Exception:
-                continue
+        except Exception:
+            continue
     # Create and write to JSON file for retriever
     retriever = open(docName + '.retrieve.json', 'w+')
     json.dump(retrieveData, retriever, indent=4)
@@ -67,15 +67,17 @@ if __name__ == '__main__':
 
         #Had sortedList = rankData[q].sort(key=lambda tup: tup[1], reverse=True)
         #but since the .sort method doesnt return a list I changed it to:
-        sortedList = sorted(rankData[q], key=lambda tup: int(tup[1]), reverse=True)
-        answerIds = list(map(lambda tup: tup[0], sortedList))
-        answerScores = list(map(lambda tup: tup[1], sortedList))
-        row = answerIds + answerScores
-        row[::2] = answerIds
-        row[1::2] = answerScores
-        row.insert(0, q)
-        
-        sortedLists.append(row)
+        if rankData[q] != [] :
+            sortedList = sorted(rankData[q], key=lambda tup: int(tup[1]), reverse=True)
+            answerIds = list(map(lambda tup: tup[0], sortedList))
+            answerScores = list(map(lambda tup: tup[1], sortedList))
+            answerScores = [x if int(x) > 0 else 0 for x in answerScores]
+            row = answerIds + answerScores
+            row[::2] = answerIds
+            row[1::2] = answerScores
+            row.insert(0, q)
+            sortedLists.append(row)
+
 
     ranker = open(docName + '.ranker.csv', 'w+')
     rankerWrite = csv.writer(ranker, escapechar='\\', quoting=csv.QUOTE_ALL)
