@@ -42,7 +42,7 @@ def get_topic(question):
 def get_answer(question):
     topic = classify('f5b432x172-nlc-3555', question)
     answer = retrieveRank(question, topic).replace("\\n", "").replace("u'","").replace("answer':", "")
-    return answer
+    return answer[1:-2]
 
 if __name__ == '__main__':
     #get the question
