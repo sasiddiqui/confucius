@@ -3,10 +3,12 @@
 
 import os, sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.append('~/Dropbox/Computer/Programming/Python/watson/confucius')
+sys.path.append('~/Dropbox/Computer/Programming/Python/watson/confucius/main')
 
 from unittest import TestCase
 from mock import patch
-import main.demo as demo
+import demo
 
 class TestDemo(TestCase):
     """Test the demo script"""
