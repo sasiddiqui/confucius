@@ -1,0 +1,16 @@
+{
+  "credentials": {
+    "url": "https://gateway.watsonplatform.net/retrieve-and-rank/api",
+    "password": "ANlCCDTtOHr4",
+    "username": "55729e6b-2d18-46f8-b6a0-3e87cdd80797"
+    },
+    "solr_cluster_name": "Test Cluster",
+    "solr_config_file": "solr_config.zip",
+    "collections": [
+      {
+        "name": "AI",
+        "file_name" : "../data/Posts.xml.retrieve.json",
+        "ranker_training_file": "../data/tra"
+      }
+    ]  
+}
