@@ -18,13 +18,9 @@ def index_post():
     if text=='':
 	return render_template('form.html')
     else:
-        with open('templates/answer.html', 'r+') as f:
-	    f.seek(0)
-	    f.write(demo.get_answer(text))
-	    f.truncate()
-       #return render_template('answer.html')
-        return render_template('form.html', answer='answer.html', text = text)
+        return render_template('form.html', answer=demo.get_answer(text), text = text)
 
 
 if __name__ == "__main__":
-    app.run()
+    extra_files = ['templates/answer.html',]
+    app.run(extra_files=extra_files)
