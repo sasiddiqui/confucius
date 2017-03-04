@@ -4,9 +4,11 @@ import json
 from praw.models import MoreComments
 
 #FILL OUT THIS FIRST
-subreddit = 'AskCulinary'
+subreddit = 'AskHistorians'
 limit = 150  #how many questions
-category = 'cooking' #DONT FORGET TO CHANGE THIS
+category = 'history' #DONT FORGET TO CHANGE THIS
+
+
 retrieveFile = 'redditRetrieve' + subreddit + '.json'
 NLCfile = 'redditNLC.csv'
 RankerFile = 'redditRanker' + subreddit + '.csv'
@@ -52,6 +54,7 @@ for submission in reddit.subreddit(subreddit).top(limit=limit):
 
     #store data to write to NLC
     if len(title) + len(category) <= 1024:
+        title = title.replace(',', '')
         nlcData.append(title + ' , ' + category)
 
     answerSequence = '' #answerid, answerscore
@@ -67,6 +70,8 @@ for submission in reddit.subreddit(subreddit).top(limit=limit):
 #write to NLCDataFile
 f= open(NLCfile, 'a')
 for line in nlcData:
+    line = line.replace('\n', ' ')
+    line = line.replace('"', '&quote')
     print(line.encode('utf8'), file=f)
 f.close()
 
