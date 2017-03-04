@@ -47,19 +47,20 @@ def get_answer(question):
 if __name__ == '__main__':
     #get the question
     question = raw_input('ask your question: ')
-    
+
     #classify the question
     topic = classify('f5b432x172-nlc-3555', question)
 
-    print('the topic is ' + topic)
+    print 'the topic is {0}'.format(topic)
 
     answer = retrieveRank(question, topic).replace("\\n", "").replace("u'","").replace("answer':", "")
 
-    print(answer)
+    print answer
 
-    print('')
     response = raw_input('is this what you were looking for?')
     if response == 'no':
         newTopic = raw_input('please enter the new topic')
         answer = retrieveRank(question, newTopic.replace("\\n", "").replace("u'", "").replace("answer':", ""))
+
+    print answer
 

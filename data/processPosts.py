@@ -1,5 +1,5 @@
 # Parses a Posts.xml file into three input files, for NLC, retrieve, and rank
-
+from __future__ import print_function
 import json, csv, sys
 import xml.etree.ElementTree as ET
 
@@ -7,9 +7,10 @@ import xml.etree.ElementTree as ET
 
 if __name__ == '__main__':
     docName = sys.argv[1]
+    topic = sys.argv[2]
     #Create NLC document, retrieve document, ranker csv
-    nlc = open(docName + '.nlc.csv', 'w+')
-    nlcWrite = csv.writer(nlc)
+    nlc = open('stackExchange' + '.nlc.csv', 'a')
+    #nlcWrite = csv.writer(nlc)
 
     retrieveData = {}
     retrieveData['documents'] = []
@@ -29,14 +30,23 @@ if __name__ == '__main__':
     for post in root:
         post.attrib['Body'] = post.attrib['Body'].replace('\n', '<br>').replace('"','<dq>').replace('%','<percent>')#.replace(':','<cln>').replace(',','<comma>').replace(' ','<space>')
     #iterate through all row elements children of post element
+
+    linesWritten = 0
     for post in root:
         try:
             if post.attrib["PostTypeId"] == '1':  #if post is question
                 #add to NLC file
 
-                if len(post.attrib['Body'].encode('utf8')) < 1024:
+                if len(post.attrib['Body'].encode('utf8')) < 1024 and linesWritten < 2500:
+                    writeString = post.attrib['Body'].encode('utf8')
+                    writeString = writeString.replace('\t', '<br>')
+                    writeString = writeString.replace(',', '')
+                    writeString = "".join(writeString.splitlines())
+
                     #Was having a unicode issue but solved it with this encode method
-                    nlcWrite.writerow(["\"" + post.attrib['Body'].encode('utf8') + "\"", "ai"])
+
+                    print (writeString + ',' + topic, file=nlc)
+                    linesWritten += 1
 
 
                 # Hey tyler, you need to process "post.attrib['Body']"
