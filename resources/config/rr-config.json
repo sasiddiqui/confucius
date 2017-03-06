@@ -9,8 +9,13 @@
     "collections": [
       {
         "name": "AI",
-        "file_name" : "../data/Posts.xml.retrieve.json",
-        "ranker_training_file": "../data/tra"
+        "file_name" : "resources/data/ai/Posts.xml.retrieve.json",
+        "ranker_training_file": "resources/data/ai/Posts.xml.retrieve.json"
+      },
+      {
+        "name": "Astronomy",
+        "file_name" : "resources/data/astronomy/Posts.xml.retrieve.json",
+        "ranker_training_file": "resources/data/astronomy/training.txt"
       }
     ]  
 }

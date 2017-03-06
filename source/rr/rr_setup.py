@@ -5,7 +5,7 @@ import time
 import json
 from watson_developer_cloud import RetrieveAndRankV1
 #%%
-with open('rr-config.json') as rr_config:
+with open('../../resources/config/rr-config.json') as rr_config:
     config = json.load(rr_config)
 retrieve_and_rank = RetrieveAndRankV1(
     username = config['credentials']['username'],
