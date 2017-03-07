@@ -27,7 +27,7 @@ if __name__ == '__main__':
     #'""' (doubke double quotes)
     #'\n' (newlines)
     for post in root:
-        post.attrib['Body'] = post.attrib['Body'].replace('\n', '<br>').replace('"','<dq>').replace('%','<percent>')#.replace(':','<cln>').replace(',','<comma>').replace(' ','<space>')
+        post.attrib['Body'] = post.attrib['Body'].replace('\n', '<br>').replace('"','<dq>').replace('%','<percent>').replace(':','<colon>').replace('\'', '<sq>')#.replace(',','<comma>').replace(' ','<space>')
     #iterate through all row elements children of post element
     for post in root:
         try:

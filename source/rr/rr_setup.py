@@ -5,7 +5,8 @@ import time
 import json
 from watson_developer_cloud import RetrieveAndRankV1
 #%%
-with open('../../resources/config/rr-config.json') as rr_config:
+root = '../../'
+with open(root + 'resources/config/rr-config.json') as rr_config:
     config = json.load(rr_config)
 retrieve_and_rank = RetrieveAndRankV1(
     username = config['credentials']['username'],
@@ -22,8 +23,8 @@ for item in solr_clusters_list['clusters']:
         solr_cluster = item
         break
 if(exists):
-    print(json.dumps(solr_cluster, indent=2))
-    print('Cluster already exists')
+    #print(json.dumps(solr_cluster, indent=2))
+    print(solr_cluster['cluster_name'] + ' already exists')
 else:
     solr_cluster = retrieve_and_rank.create_solr_cluster(cluster_name=cluster_name, cluster_size='1')
     print(json.dumps(solr_cluster, indent=2))
@@ -48,7 +49,7 @@ for item in solr_config_list['solr_configs']:
 if(exists):
     print('Solr config has already being uploaded')
 else:
-    with open(config['solr_config_file'], 'rb') as solr_config_file:
+    with open(root + config['solr_config_path'] + config['solr_config_file'], 'rb') as solr_config_file:
         
         config_status = retrieve_and_rank.create_config(solr_cluster_id, solr_config_name, solr_config_file)
         print(config_status['message'])
@@ -63,37 +64,38 @@ for item in config['collections']:
     except ValueError:
         collection = retrieve_and_rank.create_collection(solr_cluster_id, collection_name, solr_config_name)
         print('Created Collection ' + collection_name )
-        data_file_name = item['file_name']
+        data_file_name = root + item['file_name']
         with open(data_file_name) as data_file:    
             raw_data = json.load(data_file)
             data = raw_data['documents']
         print('Loaded :' + str(len(data)) + ' records from ' + data_file_name)
         pysolr_client = retrieve_and_rank.get_pysolr_client(solr_cluster_id, collection_name)
-        rem = len(data)%10
-        if(len(data)%10 != 0 ):
+        num = 100 #Records to be uploaded per iteration
+        rem = len(data)%num
+        if(len(data)%num != 0 ):
             response = pysolr_client.add(data[0:rem])
             pysolr_client.commit()
             print('Uploaded ' + str(rem) +'/' + str(len(data)) + ' records')
-        for i in range(rem, len(data),10):
-            response = pysolr_client.add(data[i:i+10])
+        for i in range(rem, len(data),num):
+            response = pysolr_client.add(data[i:i+num])
             pysolr_client.commit()
-            print('Uploaded ' + str(i+10) +'/' + str(len(data)) + ' records')
+            print('Uploaded ' + str(i+num) +'/' + str(len(data)) + ' records')
 #%%
 #Create rankers
-ranker_name = config['collections'][0]['name']
-ranker_training_file = config['collections'][0]['ranker_training_file']
-rankers = retrieve_and_rank.list_rankers()
-exists = False
-ranker_id = 0
-for item in rankers['rankers']:
-    if(item['name'] == ranker_name):
-        exists = True
-        break
-if(exists):
-    print('Ranker already exists')
-else:
-    with open(ranker_training_file, 'rb') as training_data:
-        response = retrieve_and_rank.create_ranker(training_data=training_data, name=ranker_name)
-    print(json.dumps(response, indent=2))
-    print("Ranker Created Successfully")
-    ranker_id = response['ranker_id']
+#ranker_name = config['collections'][0]['name']
+#ranker_training_file = config['collections'][0]['ranker_training_file']
+#rankers = retrieve_and_rank.list_rankers()
+#exists = False
+#ranker_id = 0
+#for item in rankers['rankers']:
+#    if(item['name'] == ranker_name):
+#        exists = True
+#        break
+#if(exists):
+#    print('Ranker already exists')
+#else:
+#    with open(ranker_training_file, 'rb') as training_data:
+#        response = retrieve_and_rank.create_ranker(training_data=training_data, name=ranker_name)
+#    print(json.dumps(response, indent=2))
+#    print("Ranker Created Successfully")
+#    ranker_id = response['ranker_id']

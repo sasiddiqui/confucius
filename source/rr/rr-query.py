@@ -42,18 +42,18 @@ collections = retrieve_and_rank.list_collections(solr_cluster_id=solr_cluster_id
 print(json.dumps(collections, indent=2))
 
 #%%
-deleted_response = retrieve_and_rank.delete_collection(solr_cluster_id, 'AI', 'solr_config')
+deleted_response = retrieve_and_rank.delete_collection(solr_cluster_id, 'ai', 'solr_config')
 print(json.dumps(deleted_response, indent=2))
 #%%
-pysolr_client = retrieve_and_rank.get_pysolr_client(solr_cluster_id, 'AI')
+pysolr_client = retrieve_and_rank.get_pysolr_client(solr_cluster_id, 'ai')
 #%%
 # Can also refer to config by name
 
 #Example search
 #pysolr_client.add([{'id': '1', 'body':'Who is the father of computing ?'}])
-results = pysolr_client.search('who discovered computers ?')
+results = pysolr_client.search("<p>In detective novels, the point is often that the reader gets enough information to solve the crime themselves. This <dq>puzzle<dq> aspect of detective novels is part of the attraction.</p><br><br><p>Often the difficulty for humans is to keep track of all the variables - events, items, motivations.<br><br>An AI would have an easier time keeping track of all the details, but would rely on real-world knowledge to prevent making crazy mistakes. For example, if it was stated that a character took the train, the AI would need to know that this is a method of transportation - that it changes the location property of an agent over time.</p><br><br><p>Has an AI ever been able to solve a detective mystery?</p>")
 print('{0} documents found'.format(len(results.docs)))
-print(results.docs)
+print(json.dumps(results.docs,indent=2))
 
 #%%
 with open('sample_document.json') as docs_file:    
