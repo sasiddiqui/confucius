@@ -6,19 +6,19 @@ natural_language_classifier = NaturalLanguageClassifierV1(
   password='OKwSvr3BdvKc')
 
 
-#  CLASSIFIER CREATION:
-with open('stackExchange.nlc.csv', 'rb') as training_data:
-  classifier = natural_language_classifier.create(
-    training_data=training_data,
-    name='demo3',
-    language='en'
-  )
-print(json.dumps(classifier, indent=2))
+# #  CLASSIFIER CREATION:
+# with open('stackExchange.nlc.csv', 'rb') as training_data:
+#   classifier = natural_language_classifier.create(
+#     training_data=training_data,
+#     name='demo3',
+#     language='en'
+#   )
+# print(json.dumps(classifier, indent=2))
 
 
 #CHECK THE STATUS of the classifier
-# status = natural_language_classifier.status('f5b42ex171-nlc-3644')
-# print (json.dumps(status, indent=2))
+status = natural_language_classifier.status('90e7acx197-nlc-170')
+print (json.dumps(status, indent=2))
 
 
 # #DELETE CLASSIFIERS
@@ -40,5 +40,5 @@ def classify(id, question):
     class_name = j['top_class']
     return class_name
 
-#question = raw_input('ask your question: ')
-#print (classify('f5b42ex171-nlc-3644', question))
+question = raw_input('ask your question: ')
+print (classify('90e7acx197-nlc-170', question))
