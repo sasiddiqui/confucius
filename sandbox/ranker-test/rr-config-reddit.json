@@ -1,0 +1,32 @@
+{
+  "credentials": {
+    "url": "https://gateway.watsonplatform.net/retrieve-and-rank/api",
+    "password": "ANlCCDTtOHr4",
+    "username": "55729e6b-2d18-46f8-b6a0-3e87cdd80797"
+    },
+    "solr_cluster_name": "Demo Cluster",
+    "solr_config_file": "solr_config.zip",
+    "solr_config_path": "resources/config/",
+    "collections": [
+      {
+        "name": "astronomy",
+        "file_name" : "resources/data/astronomy/redditRetrieveaskastronomy2.json",
+        "ranker_training_file": "resources/data/astronomy/training.txt"
+      },
+      {
+        "name": "cooking",
+        "file_name" : "resources/data/cooking/redditRetrieveAskCulinary2.json",
+        "ranker_training_file": "resources/data/cooking/training.txt"
+      },
+      {
+        "name": "history",
+        "file_name" : "resources/data/history/redditRetrieveAskHistorians2.json",
+        "ranker_training_file": "resources/data/history/training.txt"
+      },
+      {
+        "name": "music",
+        "file_name" : "resources/data/music/redditRetrieveaskmusic2.json",
+        "ranker_training_file": "resources/data/music/training.txt"
+      }   
+    ]  
+}
