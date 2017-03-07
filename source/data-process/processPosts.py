@@ -2,8 +2,8 @@
 
 import json, csv, sys
 import xml.etree.ElementTree as ET
-
-
+import random 
+#%%
 
 if __name__ == '__main__':
     docName = sys.argv[1]
@@ -60,8 +60,16 @@ if __name__ == '__main__':
     # Create and write to JSON file for retriever
     retriever = open(docName + '.retrieve.json', 'w+')
     json.dump(retrieveData, retriever, indent=4)
-
+    if(len(rankData) > 1500):#Reduce the length of the training data to approx 1500
+        ratio = 1500.0/len(rankData)
+        print(ratio)
+        temp = {}
+        for key in rankData:
+             if (random.random() < ratio):
+                 temp.update({key:rankData[key]})
+        rankData = temp
     # Convert rankData to appropriate format and write CSV file
+    
     sortedLists = []
     for q in rankData:
 
