@@ -8,10 +8,30 @@
     "solr_config_file": "solr_config.zip",
     "solr_config_path": "resources/config/",
     "collections": [
-       {
+      {
+        "name": "ai",
+        "file_name" : "resources/data/ai/ai.xml.retrieve.json",
+        "ranker_training_file": "resources/data/ai/ai.xml.retrieve.json"
+      },
+      {
+        "name": "astronomy",
+        "file_name" : "resources/data/astronomy/astronomy.xml.retrieve.json",
+        "ranker_training_file": "resources/data/astronomy/training.txt"
+      },
+      {
+        "name": "cooking",
+        "file_name" : "resources/data/cooking/cooking.xml.retrieve.json",
+        "ranker_training_file": "resources/data/cooking/training.txt"
+      },
+      {
+        "name": "history",
+        "file_name" : "resources/data/history/history.xml.retrieve.json",
+        "ranker_training_file": "resources/data/history/training.txt"
+      },
+      {
         "name": "music",
         "file_name" : "resources/data/music/music.xml.retrieve.json",
-        "ranker_training_file": "resources/data/music/trainingdata.txt"
+        "ranker_training_file": "resources/data/music/training.txt"
       }   
     ]  
 }

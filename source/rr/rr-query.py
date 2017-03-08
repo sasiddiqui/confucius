@@ -80,7 +80,7 @@ status = retrieve_and_rank.get_ranker_status('1eec74x28-rank-2104')
 print(json.dumps(status, indent=2))
 #%%
 #Delete a ranker
-delete_results = retrieve_and_rank.delete_ranker("1eec74x28-rank-1706")
+delete_results = retrieve_and_rank.delete_ranker("1eec74x28-rank-2165")
 print(json.dumps(delete_results))
 #%%1eec7cx29-rank-328
 # replace '42AF7Ex10-rank-47' with your ranker_id

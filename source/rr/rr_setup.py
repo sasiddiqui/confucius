@@ -82,8 +82,9 @@ for item in config['collections']:
             print('Uploaded ' + str(i+num) +'/' + str(len(data)) + ' records')
 #%%
 #Create rankers
-ranker_name = config['collections'][0]['name']
-ranker_training_file = root + config['collections'][0]['ranker_training_file']
+collection_name = 'astronomy'
+ranker_name = collection_name
+ranker_training_file = root + 'resources/data/' + collection_name +'/trainingdata.txt'
 rankers = retrieve_and_rank.list_rankers()
 exists = False
 ranker_id = 0
@@ -92,10 +93,10 @@ for item in rankers['rankers']:
         exists = True
         break
 if(exists):
-    print(ranker_name + 'Ranker already exists')
+    print(ranker_name + ' Ranker already exists')
 else:
     with open(ranker_training_file, 'rb') as training_data:
         response = retrieve_and_rank.create_ranker(training_data=training_data, name=ranker_name)
     print(json.dumps(response, indent=2))
-    print("Ranker Created Successfully")
+    print(ranker_name + " Ranker Created Successfully")
     ranker_id = response['ranker_id']

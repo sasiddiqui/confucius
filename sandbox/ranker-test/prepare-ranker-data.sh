@@ -1,6 +1,6 @@
 #!/bin/bash
 ROOT=../..
-DATASET=music
+DATASET=cooking
 INPUT_DATA=$ROOT/resources/data/$DATASET/$DATASET.xml.ranker.csv
 USERNAME=55729e6b-2d18-46f8-b6a0-3e87cdd80797
 PASSWORD=ANlCCDTtOHr4
