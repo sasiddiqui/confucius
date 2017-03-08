@@ -1,8 +1,9 @@
 import xml.etree.ElementTree as ET
 import json
 
-def parseRanker(filename):
-    root = ET.parse(filename).getroot()
+# Takes a string of xml that ranker returns, outputs a list of dictionaries describing each returned result
+def parseRanker(xml):
+    root = ET.fromstring(xml)
     result = []
 
     for doc in root[1]:
