@@ -16,9 +16,18 @@ def index():
 def index_post():
     text = request.form['text']
     if text=='':
-	return render_template('form.html')
+        return render_template('form.html')
     else:
-        return render_template('form.html', answer=demo.get_answer(text), text = text)
+        qname = text.replace(' ','_')
+#	with open('templates/answer.html', 'r+') as f:
+#	    f.seek(0)
+#	    f.write(demo.get_answer(text, '90e7acx197-nlc-170').encode('utf-8'))
+#	    f.truncate()
+        with open('templates/'+qname+'.html', 'w+') as f:
+            f.seek(0)
+            f.write(demo.get_answer(text, '90e7acx197-nlc-170').encode('utf-8'))
+            f.truncate()
+        return render_template('form.html', answer=qname+'.html', text = demo.get_answer(text, '90e7acx197-nlc-170'))
 
 
 if __name__ == "__main__":

@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<body>
-    <center><h1>Enter your question</h1>
-    <h2></h2>
-    <img src="confucius.jpg">
+<link rel="stylesheet" href="/static/style.css" type="text/css" />
+<body><div id="page">
+    <center>
+	<div id="logo">
+	    <h1><a>Enter your question</a></h1>
+	</div>
+    <br/>
+    <img src="/static/confucius.jpg">
     <form action="." method="POST">
         <input type="text" name="text">
         <input type="submit" name="form" value="Ask Confucius!">
     </form></center>
-    <br/>
+    <br/></div>
     {% if answer %}
-        <p>{{ answer }}</p>
-    {% endif %}
-    {% if text %}
-	<p>{{ text }}</p>
+        {% include answer %}
     {% endif %}
 </body>
 </html>
