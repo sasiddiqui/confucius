@@ -1,0 +1,1080 @@
+{
+  "documents": [
+    {
+      "body": "Attendance Policy\n", 
+      "id": 1
+    }, 
+    {
+      "body": "Attendance for this course is MANDATORY.  It is assumed that you will come to class for both lectures and for closed lab sessions.  A portion of your grade is based on participation and attendance - attendance is necessary to earn these points but not itself sufficient.  If you are forced by circumstances to miss a class, it is your responsibility to find out what information you may have missed - including both notes from the lecture and any announcements that may have been given in the class you missed.  We strongly suggest that you find a fellow student in the course early on in the semester to borrow notes from and/or pass on announcements to you in case an illness or other circumstances force you to miss a class session.\n", 
+      "id": 2
+    }, 
+    {
+      "body": "\n", 
+      "id": 3
+    }, 
+    {
+      "body": "Electronic Mail\n", 
+      "id": 4
+    }, 
+    {
+      "body": "\n", 
+      "id": 5
+    }, 
+    {
+      "body": "You will be expected to be able to use electronic mail to communicate personally with your instructor or grader or anyone else. Please get in the habit of checking your e-mail once every day or two.  Your instructor will use your OSU e-mail account when sending e-mail.  It is YOUR responsibility to ensure that this e-mail is properly received.  If you use an account other than your OSU e-mail account for e-mail, consider setting up your OSU account to forward to the account you use regularly.\n", 
+      "id": 6
+    }, 
+    {
+      "body": "When sending e-mail to your instructor or grader, please be aware that \"spam\" filters may intercept e-mail sent from an external account (e.g., sally@aol.com or bill@hotmail.com) and either delay it or prevent it from reaching your intended recipient.  We therefore strongly recommend sending e-mail from your OSU account.  Even if you do use your OSU e-mail, remember that it is your responsibility to follow-up with the instructor later to make sure that the instructor actually received your e-mail.  Never assume that \"no response\" means \"no problems\".\n", 
+      "id": 7
+    }, 
+    {
+      "body": "Web Pages\n", 
+      "id": 8
+    }, 
+    {
+      "body": "\n", 
+      "id": 9
+    }, 
+    {
+      "body": "You will be expected to be able to use a web browser to access the Internet. Essentially all course-related information will be available on-line through the appropriate course home page:\n", 
+      "id": 10
+    }, 
+    {
+      "body": "http://www.cse.ohio-state.edu/cse1223\n", 
+      "id": 11
+    }, 
+    {
+      "body": "For example, the course syllabus, all assignments, etc., are available this way. Some materials and assignments will appear incrementally during the course of the quarter.\n", 
+      "id": 12
+    }, 
+    {
+      "body": "Office Hours\n", 
+      "id": 13
+    }, 
+    {
+      "body": "Your instructor will hold regular office hours to answer questions about the course and the material.  In addition, you may attend the office hours of any other instructor teaching the CSE 1223 course if you cannot meet with your instructor during the assigned time.  You can find the schedule of office hours for CSE 1223 instructors at http://www.cse.ohio-state.edu/cse1223/currentsem/index.html. \n", 
+      "id": 14
+    }, 
+    {
+      "body": "If you need additional help understanding the material, don't hesitate to contact your instructor via email and/or in person, to schedule an appointment outside of their normal office hours.\n", 
+      "id": 15
+    }, 
+    {
+      "body": "\n", 
+      "id": 16
+    }, 
+    {
+      "body": "Computing\n", 
+      "id": 17
+    }, 
+    {
+      "body": "\n", 
+      "id": 18
+    }, 
+    {
+      "body": "The CSE Department has two computer labs where you can access the Java compiler. They are located in Caldwell Lab 112 and Baker 310. The labs are only open at certain times and the schedule is available at http://www.cse.ohio-state.edu/cs/labs/hours.shtml. Caldwell Lab 112 is generally staffed with a Java consultant.\n", 
+      "id": 19
+    }, 
+    {
+      "body": "During the hours the lab is open, a monitor or operator will be available to help with any machine problems. In addition, the lab is staffed with a consultant to help with problems in using the operating system, the editor, the debugger, and syntax questions. If the consultant suggests radical changes or changes you feel are not appropriate, use common sense and check with the instructor before making changes. Note that the consultants are not supposed to write portions of your program for you.\n", 
+      "id": 20
+    }, 
+    {
+      "body": "\n", 
+      "id": 21
+    }, 
+    {
+      "body": "You may also choose to work from home if you do not require any assistance from the consultants. However, you will have to install the appropriate software on your personal computer. The course instructors will not be able to assist you in setting up this sort of thing; which is not to say it is impossible, only that you shouldn't expect the instructors to help.\n", 
+      "id": 22
+    }, 
+    {
+      "body": "\n", 
+      "id": 23
+    }, 
+    {
+      "body": "The CSE Computing Services Help Desk staff are responsible for all the computers and your CSE accounts. If you have a problem with your password or username, visit them on the 8th floor of Dreese (DL 895, 292-6542).\n", 
+      "id": 24
+    }, 
+    {
+      "body": "\n", 
+      "id": 25
+    }, 
+    {
+      "body": "Exams\n", 
+      "id": 26
+    }, 
+    {
+      "body": "\n", 
+      "id": 27
+    }, 
+    {
+      "body": "If you expect to be unavailable for an exam, please make alternate arrangements in advance. You will need a documented, valid excuse for missing an exam. If you have trouble writing in English (and this goes for native English speakers as well as foreign students), practice! Points will be deducted for incomprehensible answers -- probably more than for wrong ones.\n", 
+      "id": 28
+    }, 
+    {
+      "body": "Please note the following important statement in the course syllabus: \"A passing grade on the final exam is required in order to receive a passing grade for the course.\"\n", 
+      "id": 29
+    }, 
+    {
+      "body": "\n", 
+      "id": 30
+    }, 
+    {
+      "body": "In addition to the posted exams (two midterms and a final exam) there may be any number of quizzes given during the course of the semester.  These quizzes will be factored into the homework grade as an additional homework assignment.  These quizzes may or may not be announced beforehand.\n", 
+      "id": 31
+    }, 
+    {
+      "body": "\n", 
+      "id": 32
+    }, 
+    {
+      "body": "Final Exam\n", 
+      "id": 33
+    }, 
+    {
+      "body": "\n", 
+      "id": 34
+    }, 
+    {
+      "body": "The final exam date has already been determined and can be found on the section information page here.  It is up to you to make sure that you attend the final exam.  Students who make travel plans that conflict with the exam time and request an earlier final exam will receive an automatic deduction of 30% off their final exam score.  Make sure that your travel plans include you taking your final exam on the date listed in the link above.  In the event of illness or other unforeseen emergency a make-up exam may be scheduled at the discretion of the instructor after the scheduled exam date.  Please bring such events to the attention of the instructor immediately to ensure that a final grade can be appropriately computed.  Note also that exceptions can be made for students in the military who are called up for active duty before the final exam date. \n", 
+      "id": 35
+    }, 
+    {
+      "body": "Assignments\n", 
+      "id": 36
+    }, 
+    {
+      "body": "\n", 
+      "id": 37
+    }, 
+    {
+      "body": "Homework and other written assignments should be done in a \"professional\" manner. This does not mean \"expensive\". It means that you should make your reports look nice in addition to having the right content. You are strongly encouraged to use a word processor to prepare them.  Homework assignment are required to be typed to receive full credit.\n", 
+      "id": 38
+    }, 
+    {
+      "body": "In addition, we will have specific design and coding standards, just like most professional programming organizations. Adherence to these standards will be worth a substantial fraction of each lab assignment.\n", 
+      "id": 39
+    }, 
+    {
+      "body": "\n", 
+      "id": 40
+    }, 
+    {
+      "body": "Remember that projects and homeworks are individual efforts and should be completed by each student on their own.  Closed labs are strongly encouraged to be completed by pairs of students.\n", 
+      "id": 41
+    }, 
+    {
+      "body": "Be sure to keep all graded material until you have received your final grade in the course.\n", 
+      "id": 42
+    }, 
+    {
+      "body": "\n", 
+      "id": 43
+    }, 
+    {
+      "body": "Late-Work Policies\n", 
+      "id": 44
+    }, 
+    {
+      "body": "\n", 
+      "id": 45
+    }, 
+    {
+      "body": "Homework assignments are due at the start of class on the due date and must be submitted to the Canvas/Carmen dropbox before the start of class. Late homework will not be accepted. If you will not be able to attend class on the day a homework is due, submit your homework before the due date.  \n", 
+      "id": 46
+    }, 
+    {
+      "body": "Project (programming) assignments are due at the deadline time on the due date. A penalty of 20% will be assessed for a project submitted one day (or part thereof) late, 50% will be assessed for two days (or part thereof) late, after which the project will not be accepted. The final project may not be turned in late.  Projects are due ONE HOUR BEFORE your class on the due date unless otherwise specified.\n", 
+      "id": 47
+    }, 
+    {
+      "body": "Make-up exams will only be given for students who have a documented, excused reason for missing the exam.  Typically this is a medical emergency of some kind (such as an illness) and requires a doctor's note to indicate why you were forced to miss an exam.  It is your responsibility to communicate with your instructor as soon as possible when you miss an exam.  If at all possible, e-mail your instructor the day of the exam before the exam to let them know that you will be missing the exam and will need to make it up.  If your emergency is such that you cannot communicate with them before the exam, make sure you get in touch with your instructor as soon as you are able to inform them of your documented, excused reason for missing the exam so that we can determine if a make-up will be allowed.\n", 
+      "id": 48
+    }, 
+    {
+      "body": "If you know in advance that you will miss an exam for a doucmented, excused reason, it is your responsibility to communicate this to the instructor in advance and provide documentation for your absence in advance of the exam.  Absences in this category include participating in a university-sponsored sport, participating in a university-sponsored performance (singing in the chorus or playing in a band competition), military service duties,or certain other events.  Bring these to your instructor as soon as you know of any conflict with the schedule.   Documentation for an absence like this presented after the exam has been given may not allow you to have a make-up exam, so it is in your best interest to be responsible for your schedule and keep your instructor informed as soon as you know of a conflict.\n", 
+      "id": 49
+    }, 
+    {
+      "body": "\n", 
+      "id": 50
+    }, 
+    {
+      "body": "Cooperation, Collaboration, and Professional Ethics\n", 
+      "id": 51
+    }, 
+    {
+      "body": "\n", 
+      "id": 52
+    }, 
+    {
+      "body": "The policy on collaboration with others is fairly liberal -- but please don't be tempted to test its limits. Certain things clearly will be permissible (e.g., discussing problems and solution approaches) and certain things clearly will not be permissible (e.g., passing off as your own the work of someone else). Some people think there is a fuzzy area in between. If you have doubts about the middle area, stay out of it; ask your instructor for assistance. Violations are surprisingly easy to detect and they must and will be dealt with according to OSU rules on academic misconduct.\n", 
+      "id": 53
+    }, 
+    {
+      "body": "You may ask the consultants or others for assistance with the computers, Windows, Eclipse, or Java (including interpreting the meanings of error messages and general advice about what causes them, but not including actually fixing the errors).\n", 
+      "id": 54
+    }, 
+    {
+      "body": "You may not write or otherwise record any part of your solution to an assignment while someone is helping you.\n", 
+      "id": 55
+    }, 
+    {
+      "body": "You may not take a physical or electronic copy of any part of a solution to an assignment from anyone.\n", 
+      "id": 56
+    }, 
+    {
+      "body": "You may not give a physical or electronic copy of any part of a solution to an assignment to anyone.\n", 
+      "id": 57
+    }, 
+    {
+      "body": "You may not show a physical or electronic copy of any part of a solution to an assignment to anyone.\n", 
+      "id": 58
+    }, 
+    {
+      "body": "You may not reference a physical or electronic copy of any part of a solution to an assignment to anyone.\n", 
+      "id": 59
+    }, 
+    {
+      "body": "One possibly ambiguous area involves talking to others about homework assignments and about the design, logic, and implementation of a program. You are encouraged to talk with others (especially others in the class) about these things. But do not give anyone or take from anyone written or recorded material, and in all cases please write up your own solution without assistance. If you feel the need to cheat on these rules or are not sure whether some activity would constitute cheating, please discuss your questions with your instructor first!\n", 
+      "id": 60
+    }, 
+    {
+      "body": "And just in case it is not clear from the statements above:\n", 
+      "id": 61
+    }, 
+    {
+      "body": "\n", 
+      "id": 62
+    }, 
+    {
+      "body": "You may not ask for any help on the internet to solve any assignments (homeworks and labs).\n", 
+      "id": 63
+    }, 
+    {
+      "body": "You may not search on the internet for any solutions to any of the assignments.\n", 
+      "id": 64
+    }, 
+    {
+      "body": "You may not use any partial or complete solution found on the internet to any of the assignments for any reason or purpose.\n", 
+      "id": 65
+    }, 
+    {
+      "body": "There is one other rule about professional ethics:\n", 
+      "id": 66
+    }, 
+    {
+      "body": "\n", 
+      "id": 67
+    }, 
+    {
+      "body": "You may not turn in an assignment solution from a previous quarter's offering of the course.\n", 
+      "id": 68
+    }, 
+    {
+      "body": "Please note that this last rule applies even if you have previously taken the course and you think it might save you some time to turn in an old solution. Lab assignments may change in subtle ways from one quarter to the next. Any homework or lab submission that gives evidence of having been prepared for a previous quarter's course offering will receive zero credit. Moreover, if there is reason to suspect you got the questionable solution from someone else who took the course in a previous quarter, it will be treated as academic misconduct just as if you had gotten it from someone else who is taking the course this quarter.\n", 
+      "id": 69
+    }, 
+    {
+      "body": "For other information about appropriate use of the laboratory computing facilities, please see the official policies for the departmental computing facilities.\n", 
+      "id": 70
+    }, 
+    {
+      "body": "\n", 
+      "id": 71
+    }, 
+    {
+      "body": "Accommodation for Disability\n", 
+      "id": 72
+    }, 
+    {
+      "body": "\n", 
+      "id": 73
+    }, 
+    {
+      "body": "If you need an accommodation based on the impact of a disability, you should contact your instructor to arrange an appointment as soon as possible.  At the appointment you and the instructor can discuss the course format, anticipate your needs and explore potential accommodations.  We rely on the Office for Disability Services for assistance in verifying the need for accommodations and developing accommodation strategies.  If you have not previously contacted the Office for Disability Services, we encourage you to do so.", 
+      "id": 74
+    }, 
+    {
+      "body": "Attendance Policy\n", 
+      "id": 75
+    }, 
+    {
+      "body": "Attendance for this course is MANDATORY", 
+      "id": 76
+    }, 
+    {
+      "body": "  It is assumed that you will come to class for both lectures and for closed lab sessions", 
+      "id": 77
+    }, 
+    {
+      "body": "  A portion of your grade is based on participation and attendance - attendance is necessary to earn these points but not itself sufficient", 
+      "id": 78
+    }, 
+    {
+      "body": "  If you are forced by circumstances to miss a class, it is your responsibility to find out what information you may have missed - including both notes from the lecture and any announcements that may have been given in the class you missed", 
+      "id": 79
+    }, 
+    {
+      "body": "  We strongly suggest that you find a fellow student in the course early on in the semester to borrow notes from and/or pass on announcements to you in case an illness or other circumstances force you to miss a class session", 
+      "id": 80
+    }, 
+    {
+      "body": "\n", 
+      "id": 81
+    }, 
+    {
+      "body": "\n", 
+      "id": 82
+    }, 
+    {
+      "body": "Electronic Mail\n", 
+      "id": 83
+    }, 
+    {
+      "body": "\n", 
+      "id": 84
+    }, 
+    {
+      "body": "You will be expected to be able to use electronic mail to communicate personally with your instructor or grader or anyone else", 
+      "id": 85
+    }, 
+    {
+      "body": " Please get in the habit of checking your e-mail once every day or two", 
+      "id": 86
+    }, 
+    {
+      "body": "  Your instructor will use your OSU e-mail account when sending e-mail", 
+      "id": 87
+    }, 
+    {
+      "body": "  It is YOUR responsibility to ensure that this e-mail is properly received", 
+      "id": 88
+    }, 
+    {
+      "body": "  If you use an account other than your OSU e-mail account for e-mail, consider setting up your OSU account to forward to the account you use regularly", 
+      "id": 89
+    }, 
+    {
+      "body": "\n", 
+      "id": 90
+    }, 
+    {
+      "body": "When sending e-mail to your instructor or grader, please be aware that \"spam\" filters may intercept e-mail sent from an external account (e", 
+      "id": 91
+    }, 
+    {
+      "body": "g", 
+      "id": 92
+    }, 
+    {
+      "body": ", sally@aol", 
+      "id": 93
+    }, 
+    {
+      "body": "com or bill@hotmail", 
+      "id": 94
+    }, 
+    {
+      "body": "com) and either delay it or prevent it from reaching your intended recipient", 
+      "id": 95
+    }, 
+    {
+      "body": "  We therefore strongly recommend sending e-mail from your OSU account", 
+      "id": 96
+    }, 
+    {
+      "body": "  Even if you do use your OSU e-mail, remember that it is your responsibility to follow-up with the instructor later to make sure that the instructor actually received your e-mail", 
+      "id": 97
+    }, 
+    {
+      "body": "  Never assume that \"no response\" means \"no problems\"", 
+      "id": 98
+    }, 
+    {
+      "body": "\n", 
+      "id": 99
+    }, 
+    {
+      "body": "Web Pages\n", 
+      "id": 100
+    }, 
+    {
+      "body": "\n", 
+      "id": 101
+    }, 
+    {
+      "body": "You will be expected to be able to use a web browser to access the Internet", 
+      "id": 102
+    }, 
+    {
+      "body": " Essentially all course-related information will be available on-line through the appropriate course home page:\n", 
+      "id": 103
+    }, 
+    {
+      "body": "http://www", 
+      "id": 104
+    }, 
+    {
+      "body": "cse", 
+      "id": 105
+    }, 
+    {
+      "body": "ohio-state", 
+      "id": 106
+    }, 
+    {
+      "body": "edu/cse1223\n", 
+      "id": 107
+    }, 
+    {
+      "body": "For example, the course syllabus, all assignments, etc", 
+      "id": 108
+    }, 
+    {
+      "body": ", are available this way", 
+      "id": 109
+    }, 
+    {
+      "body": " Some materials and assignments will appear incrementally during the course of the quarter", 
+      "id": 110
+    }, 
+    {
+      "body": "\n", 
+      "id": 111
+    }, 
+    {
+      "body": "Office Hours\n", 
+      "id": 112
+    }, 
+    {
+      "body": "Your instructor will hold regular office hours to answer questions about the course and the material", 
+      "id": 113
+    }, 
+    {
+      "body": "  In addition, you may attend the office hours of any other instructor teaching the CSE 1223 course if you cannot meet with your instructor during the assigned time", 
+      "id": 114
+    }, 
+    {
+      "body": "  You can find the schedule of office hours for CSE 1223 instructors at http://www", 
+      "id": 115
+    }, 
+    {
+      "body": "cse", 
+      "id": 116
+    }, 
+    {
+      "body": "ohio-state", 
+      "id": 117
+    }, 
+    {
+      "body": "edu/cse1223/currentsem/index", 
+      "id": 118
+    }, 
+    {
+      "body": "html", 
+      "id": 119
+    }, 
+    {
+      "body": " \n", 
+      "id": 120
+    }, 
+    {
+      "body": "If you need additional help understanding the material, don't hesitate to contact your instructor via email and/or in person, to schedule an appointment outside of their normal office hours", 
+      "id": 121
+    }, 
+    {
+      "body": "\n", 
+      "id": 122
+    }, 
+    {
+      "body": "\n", 
+      "id": 123
+    }, 
+    {
+      "body": "Computing\n", 
+      "id": 124
+    }, 
+    {
+      "body": "\n", 
+      "id": 125
+    }, 
+    {
+      "body": "The CSE Department has two computer labs where you can access the Java compiler", 
+      "id": 126
+    }, 
+    {
+      "body": " They are located in Caldwell Lab 112 and Baker 310", 
+      "id": 127
+    }, 
+    {
+      "body": " The labs are only open at certain times and the schedule is available at http://www", 
+      "id": 128
+    }, 
+    {
+      "body": "cse", 
+      "id": 129
+    }, 
+    {
+      "body": "ohio-state", 
+      "id": 130
+    }, 
+    {
+      "body": "edu/cs/labs/hours", 
+      "id": 131
+    }, 
+    {
+      "body": "shtml", 
+      "id": 132
+    }, 
+    {
+      "body": " Caldwell Lab 112 is generally staffed with a Java consultant", 
+      "id": 133
+    }, 
+    {
+      "body": "\n", 
+      "id": 134
+    }, 
+    {
+      "body": "During the hours the lab is open, a monitor or operator will be available to help with any machine problems", 
+      "id": 135
+    }, 
+    {
+      "body": " In addition, the lab is staffed with a consultant to help with problems in using the operating system, the editor, the debugger, and syntax questions", 
+      "id": 136
+    }, 
+    {
+      "body": " If the consultant suggests radical changes or changes you feel are not appropriate, use common sense and check with the instructor before making changes", 
+      "id": 137
+    }, 
+    {
+      "body": " Note that the consultants are not supposed to write portions of your program for you", 
+      "id": 138
+    }, 
+    {
+      "body": "\n", 
+      "id": 139
+    }, 
+    {
+      "body": "\n", 
+      "id": 140
+    }, 
+    {
+      "body": "You may also choose to work from home if you do not require any assistance from the consultants", 
+      "id": 141
+    }, 
+    {
+      "body": " However, you will have to install the appropriate software on your personal computer", 
+      "id": 142
+    }, 
+    {
+      "body": " The course instructors will not be able to assist you in setting up this sort of thing; which is not to say it is impossible, only that you shouldn't expect the instructors to help", 
+      "id": 143
+    }, 
+    {
+      "body": "\n", 
+      "id": 144
+    }, 
+    {
+      "body": "\n", 
+      "id": 145
+    }, 
+    {
+      "body": "The CSE Computing Services Help Desk staff are responsible for all the computers and your CSE accounts", 
+      "id": 146
+    }, 
+    {
+      "body": " If you have a problem with your password or username, visit them on the 8th floor of Dreese (DL 895, 292-6542)", 
+      "id": 147
+    }, 
+    {
+      "body": "\n", 
+      "id": 148
+    }, 
+    {
+      "body": "\n", 
+      "id": 149
+    }, 
+    {
+      "body": "Exams\n", 
+      "id": 150
+    }, 
+    {
+      "body": "\n", 
+      "id": 151
+    }, 
+    {
+      "body": "If you expect to be unavailable for an exam, please make alternate arrangements in advance", 
+      "id": 152
+    }, 
+    {
+      "body": " You will need a documented, valid excuse for missing an exam", 
+      "id": 153
+    }, 
+    {
+      "body": " If you have trouble writing in English (and this goes for native English speakers as well as foreign students), practice! Points will be deducted for incomprehensible answers -- probably more than for wrong ones", 
+      "id": 154
+    }, 
+    {
+      "body": "\n", 
+      "id": 155
+    }, 
+    {
+      "body": "Please note the following important statement in the course syllabus: \"A passing grade on the final exam is required in order to receive a passing grade for the course", 
+      "id": 156
+    }, 
+    {
+      "body": "\"\n", 
+      "id": 157
+    }, 
+    {
+      "body": "\n", 
+      "id": 158
+    }, 
+    {
+      "body": "In addition to the posted exams (two midterms and a final exam) there may be any number of quizzes given during the course of the semester", 
+      "id": 159
+    }, 
+    {
+      "body": "  These quizzes will be factored into the homework grade as an additional homework assignment", 
+      "id": 160
+    }, 
+    {
+      "body": "  These quizzes may or may not be announced beforehand", 
+      "id": 161
+    }, 
+    {
+      "body": "\n", 
+      "id": 162
+    }, 
+    {
+      "body": "\n", 
+      "id": 163
+    }, 
+    {
+      "body": "Final Exam\n", 
+      "id": 164
+    }, 
+    {
+      "body": "\n", 
+      "id": 165
+    }, 
+    {
+      "body": "The final exam date has already been determined and can be found on the section information page here", 
+      "id": 166
+    }, 
+    {
+      "body": "  It is up to you to make sure that you attend the final exam", 
+      "id": 167
+    }, 
+    {
+      "body": "  Students who make travel plans that conflict with the exam time and request an earlier final exam will receive an automatic deduction of 30% off their final exam score", 
+      "id": 168
+    }, 
+    {
+      "body": "  Make sure that your travel plans include you taking your final exam on the date listed in the link above", 
+      "id": 169
+    }, 
+    {
+      "body": "  In the event of illness or other unforeseen emergency a make-up exam may be scheduled at the discretion of the instructor after the scheduled exam date", 
+      "id": 170
+    }, 
+    {
+      "body": "  Please bring such events to the attention of the instructor immediately to ensure that a final grade can be appropriately computed", 
+      "id": 171
+    }, 
+    {
+      "body": "  Note also that exceptions can be made for students in the military who are called up for active duty before the final exam date", 
+      "id": 172
+    }, 
+    {
+      "body": " \n", 
+      "id": 173
+    }, 
+    {
+      "body": "Assignments\n", 
+      "id": 174
+    }, 
+    {
+      "body": "\n", 
+      "id": 175
+    }, 
+    {
+      "body": "Homework and other written assignments should be done in a \"professional\" manner", 
+      "id": 176
+    }, 
+    {
+      "body": " This does not mean \"expensive\"", 
+      "id": 177
+    }, 
+    {
+      "body": " It means that you should make your reports look nice in addition to having the right content", 
+      "id": 178
+    }, 
+    {
+      "body": " You are strongly encouraged to use a word processor to prepare them", 
+      "id": 179
+    }, 
+    {
+      "body": "  Homework assignment are required to be typed to receive full credit", 
+      "id": 180
+    }, 
+    {
+      "body": "\n", 
+      "id": 181
+    }, 
+    {
+      "body": "In addition, we will have specific design and coding standards, just like most professional programming organizations", 
+      "id": 182
+    }, 
+    {
+      "body": " Adherence to these standards will be worth a substantial fraction of each lab assignment", 
+      "id": 183
+    }, 
+    {
+      "body": "\n", 
+      "id": 184
+    }, 
+    {
+      "body": "\n", 
+      "id": 185
+    }, 
+    {
+      "body": "Remember that projects and homeworks are individual efforts and should be completed by each student on their own", 
+      "id": 186
+    }, 
+    {
+      "body": "  Closed labs are strongly encouraged to be completed by pairs of students", 
+      "id": 187
+    }, 
+    {
+      "body": "\n", 
+      "id": 188
+    }, 
+    {
+      "body": "Be sure to keep all graded material until you have received your final grade in the course", 
+      "id": 189
+    }, 
+    {
+      "body": "\n", 
+      "id": 190
+    }, 
+    {
+      "body": "\n", 
+      "id": 191
+    }, 
+    {
+      "body": "Late-Work Policies\n", 
+      "id": 192
+    }, 
+    {
+      "body": "\n", 
+      "id": 193
+    }, 
+    {
+      "body": "Homework assignments are due at the start of class on the due date and must be submitted to the Canvas/Carmen dropbox before the start of class", 
+      "id": 194
+    }, 
+    {
+      "body": " Late homework will not be accepted", 
+      "id": 195
+    }, 
+    {
+      "body": " If you will not be able to attend class on the day a homework is due, submit your homework before the due date", 
+      "id": 196
+    }, 
+    {
+      "body": "  \n", 
+      "id": 197
+    }, 
+    {
+      "body": "Project (programming) assignments are due at the deadline time on the due date", 
+      "id": 198
+    }, 
+    {
+      "body": " A penalty of 20% will be assessed for a project submitted one day (or part thereof) late, 50% will be assessed for two days (or part thereof) late, after which the project will not be accepted", 
+      "id": 199
+    }, 
+    {
+      "body": " The final project may not be turned in late", 
+      "id": 200
+    }, 
+    {
+      "body": "  Projects are due ONE HOUR BEFORE your class on the due date unless otherwise specified", 
+      "id": 201
+    }, 
+    {
+      "body": "\n", 
+      "id": 202
+    }, 
+    {
+      "body": "Make-up exams will only be given for students who have a documented, excused reason for missing the exam", 
+      "id": 203
+    }, 
+    {
+      "body": "  Typically this is a medical emergency of some kind (such as an illness) and requires a doctor's note to indicate why you were forced to miss an exam", 
+      "id": 204
+    }, 
+    {
+      "body": "  It is your responsibility to communicate with your instructor as soon as possible when you miss an exam", 
+      "id": 205
+    }, 
+    {
+      "body": "  If at all possible, e-mail your instructor the day of the exam before the exam to let them know that you will be missing the exam and will need to make it up", 
+      "id": 206
+    }, 
+    {
+      "body": "  If your emergency is such that you cannot communicate with them before the exam, make sure you get in touch with your instructor as soon as you are able to inform them of your documented, excused reason for missing the exam so that we can determine if a make-up will be allowed", 
+      "id": 207
+    }, 
+    {
+      "body": "\n", 
+      "id": 208
+    }, 
+    {
+      "body": "If you know in advance that you will miss an exam for a doucmented, excused reason, it is your responsibility to communicate this to the instructor in advance and provide documentation for your absence in advance of the exam", 
+      "id": 209
+    }, 
+    {
+      "body": "  Absences in this category include participating in a university-sponsored sport, participating in a university-sponsored performance (singing in the chorus or playing in a band competition), military service duties,or certain other events", 
+      "id": 210
+    }, 
+    {
+      "body": "  Bring these to your instructor as soon as you know of any conflict with the schedule", 
+      "id": 211
+    }, 
+    {
+      "body": "   Documentation for an absence like this presented after the exam has been given may not allow you to have a make-up exam, so it is in your best interest to be responsible for your schedule and keep your instructor informed as soon as you know of a conflict", 
+      "id": 212
+    }, 
+    {
+      "body": "\n", 
+      "id": 213
+    }, 
+    {
+      "body": "\n", 
+      "id": 214
+    }, 
+    {
+      "body": "Cooperation, Collaboration, and Professional Ethics\n", 
+      "id": 215
+    }, 
+    {
+      "body": "\n", 
+      "id": 216
+    }, 
+    {
+      "body": "The policy on collaboration with others is fairly liberal -- but please don't be tempted to test its limits", 
+      "id": 217
+    }, 
+    {
+      "body": " Certain things clearly will be permissible (e", 
+      "id": 218
+    }, 
+    {
+      "body": "g", 
+      "id": 219
+    }, 
+    {
+      "body": ", discussing problems and solution approaches) and certain things clearly will not be permissible (e", 
+      "id": 220
+    }, 
+    {
+      "body": "g", 
+      "id": 221
+    }, 
+    {
+      "body": ", passing off as your own the work of someone else)", 
+      "id": 222
+    }, 
+    {
+      "body": " Some people think there is a fuzzy area in between", 
+      "id": 223
+    }, 
+    {
+      "body": " If you have doubts about the middle area, stay out of it; ask your instructor for assistance", 
+      "id": 224
+    }, 
+    {
+      "body": " Violations are surprisingly easy to detect and they must and will be dealt with according to OSU rules on academic misconduct", 
+      "id": 225
+    }, 
+    {
+      "body": "\n", 
+      "id": 226
+    }, 
+    {
+      "body": "You may ask the consultants or others for assistance with the computers, Windows, Eclipse, or Java (including interpreting the meanings of error messages and general advice about what causes them, but not including actually fixing the errors)", 
+      "id": 227
+    }, 
+    {
+      "body": "\n", 
+      "id": 228
+    }, 
+    {
+      "body": "You may not write or otherwise record any part of your solution to an assignment while someone is helping you", 
+      "id": 229
+    }, 
+    {
+      "body": "\n", 
+      "id": 230
+    }, 
+    {
+      "body": "You may not take a physical or electronic copy of any part of a solution to an assignment from anyone", 
+      "id": 231
+    }, 
+    {
+      "body": "\n", 
+      "id": 232
+    }, 
+    {
+      "body": "You may not give a physical or electronic copy of any part of a solution to an assignment to anyone", 
+      "id": 233
+    }, 
+    {
+      "body": "\n", 
+      "id": 234
+    }, 
+    {
+      "body": "You may not show a physical or electronic copy of any part of a solution to an assignment to anyone", 
+      "id": 235
+    }, 
+    {
+      "body": "\n", 
+      "id": 236
+    }, 
+    {
+      "body": "You may not reference a physical or electronic copy of any part of a solution to an assignment to anyone", 
+      "id": 237
+    }, 
+    {
+      "body": "\n", 
+      "id": 238
+    }, 
+    {
+      "body": "One possibly ambiguous area involves talking to others about homework assignments and about the design, logic, and implementation of a program", 
+      "id": 239
+    }, 
+    {
+      "body": " You are encouraged to talk with others (especially others in the class) about these things", 
+      "id": 240
+    }, 
+    {
+      "body": " But do not give anyone or take from anyone written or recorded material, and in all cases please write up your own solution without assistance", 
+      "id": 241
+    }, 
+    {
+      "body": " If you feel the need to cheat on these rules or are not sure whether some activity would constitute cheating, please discuss your questions with your instructor first!\n", 
+      "id": 242
+    }, 
+    {
+      "body": "And just in case it is not clear from the statements above:\n", 
+      "id": 243
+    }, 
+    {
+      "body": "\n", 
+      "id": 244
+    }, 
+    {
+      "body": "You may not ask for any help on the internet to solve any assignments (homeworks and labs)", 
+      "id": 245
+    }, 
+    {
+      "body": "\n", 
+      "id": 246
+    }, 
+    {
+      "body": "You may not search on the internet for any solutions to any of the assignments", 
+      "id": 247
+    }, 
+    {
+      "body": "\n", 
+      "id": 248
+    }, 
+    {
+      "body": "You may not use any partial or complete solution found on the internet to any of the assignments for any reason or purpose", 
+      "id": 249
+    }, 
+    {
+      "body": "\n", 
+      "id": 250
+    }, 
+    {
+      "body": "There is one other rule about professional ethics:\n", 
+      "id": 251
+    }, 
+    {
+      "body": "\n", 
+      "id": 252
+    }, 
+    {
+      "body": "You may not turn in an assignment solution from a previous quarter's offering of the course", 
+      "id": 253
+    }, 
+    {
+      "body": "\n", 
+      "id": 254
+    }, 
+    {
+      "body": "Please note that this last rule applies even if you have previously taken the course and you think it might save you some time to turn in an old solution", 
+      "id": 255
+    }, 
+    {
+      "body": " Lab assignments may change in subtle ways from one quarter to the next", 
+      "id": 256
+    }, 
+    {
+      "body": " Any homework or lab submission that gives evidence of having been prepared for a previous quarter's course offering will receive zero credit", 
+      "id": 257
+    }, 
+    {
+      "body": " Moreover, if there is reason to suspect you got the questionable solution from someone else who took the course in a previous quarter, it will be treated as academic misconduct just as if you had gotten it from someone else who is taking the course this quarter", 
+      "id": 258
+    }, 
+    {
+      "body": "\n", 
+      "id": 259
+    }, 
+    {
+      "body": "For other information about appropriate use of the laboratory computing facilities, please see the official policies for the departmental computing facilities", 
+      "id": 260
+    }, 
+    {
+      "body": "\n", 
+      "id": 261
+    }, 
+    {
+      "body": "\n", 
+      "id": 262
+    }, 
+    {
+      "body": "Accommodation for Disability\n", 
+      "id": 263
+    }, 
+    {
+      "body": "\n", 
+      "id": 264
+    }, 
+    {
+      "body": "If you need an accommodation based on the impact of a disability, you should contact your instructor to arrange an appointment as soon as possible", 
+      "id": 265
+    }, 
+    {
+      "body": "  At the appointment you and the instructor can discuss the course format, anticipate your needs and explore potential accommodations", 
+      "id": 266
+    }, 
+    {
+      "body": "  We rely on the Office for Disability Services for assistance in verifying the need for accommodations and developing accommodation strategies", 
+      "id": 267
+    }, 
+    {
+      "body": "  If you have not previously contacted the Office for Disability Services, we encourage you to do so", 
+      "id": 268
+    }, 
+    {
+      "body": "", 
+      "id": 269
+    }
+  ]
+}

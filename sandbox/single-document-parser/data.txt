@@ -1,0 +1,74 @@
+Attendance Policy
+Attendance for this course is MANDATORY.  It is assumed that you will come to class for both lectures and for closed lab sessions.  A portion of your grade is based on participation and attendance - attendance is necessary to earn these points but not itself sufficient.  If you are forced by circumstances to miss a class, it is your responsibility to find out what information you may have missed - including both notes from the lecture and any announcements that may have been given in the class you missed.  We strongly suggest that you find a fellow student in the course early on in the semester to borrow notes from and/or pass on announcements to you in case an illness or other circumstances force you to miss a class session.
+
+Electronic Mail
+
+You will be expected to be able to use electronic mail to communicate personally with your instructor or grader or anyone else. Please get in the habit of checking your e-mail once every day or two.  Your instructor will use your OSU e-mail account when sending e-mail.  It is YOUR responsibility to ensure that this e-mail is properly received.  If you use an account other than your OSU e-mail account for e-mail, consider setting up your OSU account to forward to the account you use regularly.
+When sending e-mail to your instructor or grader, please be aware that "spam" filters may intercept e-mail sent from an external account (e.g., sally@aol.com or bill@hotmail.com) and either delay it or prevent it from reaching your intended recipient.  We therefore strongly recommend sending e-mail from your OSU account.  Even if you do use your OSU e-mail, remember that it is your responsibility to follow-up with the instructor later to make sure that the instructor actually received your e-mail.  Never assume that "no response" means "no problems".
+Web Pages
+
+You will be expected to be able to use a web browser to access the Internet. Essentially all course-related information will be available on-line through the appropriate course home page:
+http://www.cse.ohio-state.edu/cse1223
+For example, the course syllabus, all assignments, etc., are available this way. Some materials and assignments will appear incrementally during the course of the quarter.
+Office Hours
+Your instructor will hold regular office hours to answer questions about the course and the material.  In addition, you may attend the office hours of any other instructor teaching the CSE 1223 course if you cannot meet with your instructor during the assigned time.  You can find the schedule of office hours for CSE 1223 instructors at http://www.cse.ohio-state.edu/cse1223/currentsem/index.html. 
+If you need additional help understanding the material, don't hesitate to contact your instructor via email and/or in person, to schedule an appointment outside of their normal office hours.
+
+Computing
+
+The CSE Department has two computer labs where you can access the Java compiler. They are located in Caldwell Lab 112 and Baker 310. The labs are only open at certain times and the schedule is available at http://www.cse.ohio-state.edu/cs/labs/hours.shtml. Caldwell Lab 112 is generally staffed with a Java consultant.
+During the hours the lab is open, a monitor or operator will be available to help with any machine problems. In addition, the lab is staffed with a consultant to help with problems in using the operating system, the editor, the debugger, and syntax questions. If the consultant suggests radical changes or changes you feel are not appropriate, use common sense and check with the instructor before making changes. Note that the consultants are not supposed to write portions of your program for you.
+
+You may also choose to work from home if you do not require any assistance from the consultants. However, you will have to install the appropriate software on your personal computer. The course instructors will not be able to assist you in setting up this sort of thing; which is not to say it is impossible, only that you shouldn't expect the instructors to help.
+
+The CSE Computing Services Help Desk staff are responsible for all the computers and your CSE accounts. If you have a problem with your password or username, visit them on the 8th floor of Dreese (DL 895, 292-6542).
+
+Exams
+
+If you expect to be unavailable for an exam, please make alternate arrangements in advance. You will need a documented, valid excuse for missing an exam. If you have trouble writing in English (and this goes for native English speakers as well as foreign students), practice! Points will be deducted for incomprehensible answers -- probably more than for wrong ones.
+Please note the following important statement in the course syllabus: "A passing grade on the final exam is required in order to receive a passing grade for the course."
+
+In addition to the posted exams (two midterms and a final exam) there may be any number of quizzes given during the course of the semester.  These quizzes will be factored into the homework grade as an additional homework assignment.  These quizzes may or may not be announced beforehand.
+
+Final Exam
+
+The final exam date has already been determined and can be found on the section information page here.  It is up to you to make sure that you attend the final exam.  Students who make travel plans that conflict with the exam time and request an earlier final exam will receive an automatic deduction of 30% off their final exam score.  Make sure that your travel plans include you taking your final exam on the date listed in the link above.  In the event of illness or other unforeseen emergency a make-up exam may be scheduled at the discretion of the instructor after the scheduled exam date.  Please bring such events to the attention of the instructor immediately to ensure that a final grade can be appropriately computed.  Note also that exceptions can be made for students in the military who are called up for active duty before the final exam date. 
+Assignments
+
+Homework and other written assignments should be done in a "professional" manner. This does not mean "expensive". It means that you should make your reports look nice in addition to having the right content. You are strongly encouraged to use a word processor to prepare them.  Homework assignment are required to be typed to receive full credit.
+In addition, we will have specific design and coding standards, just like most professional programming organizations. Adherence to these standards will be worth a substantial fraction of each lab assignment.
+
+Remember that projects and homeworks are individual efforts and should be completed by each student on their own.  Closed labs are strongly encouraged to be completed by pairs of students.
+Be sure to keep all graded material until you have received your final grade in the course.
+
+Late-Work Policies
+
+Homework assignments are due at the start of class on the due date and must be submitted to the Canvas/Carmen dropbox before the start of class. Late homework will not be accepted. If you will not be able to attend class on the day a homework is due, submit your homework before the due date.  
+Project (programming) assignments are due at the deadline time on the due date. A penalty of 20% will be assessed for a project submitted one day (or part thereof) late, 50% will be assessed for two days (or part thereof) late, after which the project will not be accepted. The final project may not be turned in late.  Projects are due ONE HOUR BEFORE your class on the due date unless otherwise specified.
+Make-up exams will only be given for students who have a documented, excused reason for missing the exam.  Typically this is a medical emergency of some kind (such as an illness) and requires a doctor's note to indicate why you were forced to miss an exam.  It is your responsibility to communicate with your instructor as soon as possible when you miss an exam.  If at all possible, e-mail your instructor the day of the exam before the exam to let them know that you will be missing the exam and will need to make it up.  If your emergency is such that you cannot communicate with them before the exam, make sure you get in touch with your instructor as soon as you are able to inform them of your documented, excused reason for missing the exam so that we can determine if a make-up will be allowed.
+If you know in advance that you will miss an exam for a doucmented, excused reason, it is your responsibility to communicate this to the instructor in advance and provide documentation for your absence in advance of the exam.  Absences in this category include participating in a university-sponsored sport, participating in a university-sponsored performance (singing in the chorus or playing in a band competition), military service duties,or certain other events.  Bring these to your instructor as soon as you know of any conflict with the schedule.   Documentation for an absence like this presented after the exam has been given may not allow you to have a make-up exam, so it is in your best interest to be responsible for your schedule and keep your instructor informed as soon as you know of a conflict.
+
+Cooperation, Collaboration, and Professional Ethics
+
+The policy on collaboration with others is fairly liberal -- but please don't be tempted to test its limits. Certain things clearly will be permissible (e.g., discussing problems and solution approaches) and certain things clearly will not be permissible (e.g., passing off as your own the work of someone else). Some people think there is a fuzzy area in between. If you have doubts about the middle area, stay out of it; ask your instructor for assistance. Violations are surprisingly easy to detect and they must and will be dealt with according to OSU rules on academic misconduct.
+You may ask the consultants or others for assistance with the computers, Windows, Eclipse, or Java (including interpreting the meanings of error messages and general advice about what causes them, but not including actually fixing the errors).
+You may not write or otherwise record any part of your solution to an assignment while someone is helping you.
+You may not take a physical or electronic copy of any part of a solution to an assignment from anyone.
+You may not give a physical or electronic copy of any part of a solution to an assignment to anyone.
+You may not show a physical or electronic copy of any part of a solution to an assignment to anyone.
+You may not reference a physical or electronic copy of any part of a solution to an assignment to anyone.
+One possibly ambiguous area involves talking to others about homework assignments and about the design, logic, and implementation of a program. You are encouraged to talk with others (especially others in the class) about these things. But do not give anyone or take from anyone written or recorded material, and in all cases please write up your own solution without assistance. If you feel the need to cheat on these rules or are not sure whether some activity would constitute cheating, please discuss your questions with your instructor first!
+And just in case it is not clear from the statements above:
+
+You may not ask for any help on the internet to solve any assignments (homeworks and labs).
+You may not search on the internet for any solutions to any of the assignments.
+You may not use any partial or complete solution found on the internet to any of the assignments for any reason or purpose.
+There is one other rule about professional ethics:
+
+You may not turn in an assignment solution from a previous quarter's offering of the course.
+Please note that this last rule applies even if you have previously taken the course and you think it might save you some time to turn in an old solution. Lab assignments may change in subtle ways from one quarter to the next. Any homework or lab submission that gives evidence of having been prepared for a previous quarter's course offering will receive zero credit. Moreover, if there is reason to suspect you got the questionable solution from someone else who took the course in a previous quarter, it will be treated as academic misconduct just as if you had gotten it from someone else who is taking the course this quarter.
+For other information about appropriate use of the laboratory computing facilities, please see the official policies for the departmental computing facilities.
+
+Accommodation for Disability
+
+If you need an accommodation based on the impact of a disability, you should contact your instructor to arrange an appointment as soon as possible.  At the appointment you and the instructor can discuss the course format, anticipate your needs and explore potential accommodations.  We rely on the Office for Disability Services for assistance in verifying the need for accommodations and developing accommodation strategies.  If you have not previously contacted the Office for Disability Services, we encourage you to do so.

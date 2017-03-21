@@ -35,25 +35,27 @@ print(json.dumps(deleted_response, indent=2))
 configs = retrieve_and_rank.list_configs(solr_cluster_id=solr_cluster_id)
 print(json.dumps(configs, indent=2))
 #%%
-collection = retrieve_and_rank.create_collection(solr_cluster_id, 'programming', 'test-config')
+collection = retrieve_and_rank.create_collection(solr_cluster_id, 'cse1223_raw_text', 'solr_config')
 print(json.dumps(collection, indent=2))
 #%%
 collections = retrieve_and_rank.list_collections(solr_cluster_id=solr_cluster_id)
 print(json.dumps(collections, indent=2))
 
 #%%
-deleted_response = retrieve_and_rank.delete_collection(solr_cluster_id, 'AI', 'solr_config')
+deleted_response = retrieve_and_rank.delete_collection(solr_cluster_id, 'ai', 'solr_config')
 print(json.dumps(deleted_response, indent=2))
 #%%
-pysolr_client = retrieve_and_rank.get_pysolr_client(solr_cluster_id, 'AI')
+pysolr_client = retrieve_and_rank.get_pysolr_client(solr_cluster_id, 'cse1223_raw_text')
 #%%
 # Can also refer to config by name
 
+
+pysolr_client.add(output['documents'])
+#%%
 #Example search
-#pysolr_client.add([{'id': '1', 'body':'Who is the father of computing ?'}])
-results = pysolr_client.search('who discovered computers ?')
+results = pysolr_client.search("Are there any office hours for this course ?")
 print('{0} documents found'.format(len(results.docs)))
-print(results.docs)
+print(json.dumps(results.docs,indent=2))
 
 #%%
 with open('sample_document.json') as docs_file:    
@@ -76,11 +78,11 @@ with open('ranker_training_data.csv', 'rb') as training_data:
     print(json.dumps(retrieve_and_rank.create_ranker(training_data=training_data, name='Ranker Test'), indent=2))
 #%%
 # replace YOUR RANKER ID
-status = retrieve_and_rank.get_ranker_status('1eec74x28-rank-1706')
+status = retrieve_and_rank.get_ranker_status('1eec74x28-rank-2104')
 print(json.dumps(status, indent=2))
 #%%
 #Delete a ranker
-delete_results = retrieve_and_rank.delete_ranker("1eec7cx29-rank-328")
+delete_results = retrieve_and_rank.delete_ranker("1eec74x28-rank-2165")
 print(json.dumps(delete_results))
 #%%1eec7cx29-rank-328
 # replace '42AF7Ex10-rank-47' with your ranker_id
@@ -88,7 +90,7 @@ with open('ranker_answer_data.csv', 'rb') as answer_data:
     ranker_results = retrieve_and_rank.rank('766366x22-rank-3332', answer_data)
     print(json.dumps(ranker_results, indent=2))
 #%%
-ranker_id = '1eec74x28-rank-1706'
+ranker_id = '1eec74x28-rank-2104'
 data = {'answers': + 10}
-url = '/v1/solr_clusters/'+solr_cluster_id+'/solr/'+'AI'+'/fcselect?q='+'What is a backprop'+'&ranker_id='+ranker_id
+url = '/v1/solr_clusters/'+solr_cluster_id+'/solr/'+'music'+'/fcselect?q='+'What the notes of music ?'+'&ranker_id='+ranker_id
 results = retrieve_and_rank.request(method='GET',url=url,accept_json=False)

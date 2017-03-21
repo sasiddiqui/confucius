@@ -4,13 +4,34 @@
     "password": "ANlCCDTtOHr4",
     "username": "55729e6b-2d18-46f8-b6a0-3e87cdd80797"
     },
-    "solr_cluster_name": "Test Cluster",
+    "solr_cluster_name": "Demo Cluster",
     "solr_config_file": "solr_config.zip",
+    "solr_config_path": "resources/config/",
     "collections": [
       {
-        "name": "AI",
-        "file_name" : "../data/Posts.xml.retrieve.json",
-        "ranker_training_file": "../data/tra"
-      }
+        "name": "ai",
+        "file_name" : "resources/data/ai/ai.xml.retrieve.json",
+        "ranker_training_file": "resources/data/ai/ai.xml.retrieve.json"
+      },
+      {
+        "name": "astronomy",
+        "file_name" : "resources/data/astronomy/astronomy.xml.retrieve.json",
+        "ranker_training_file": "resources/data/astronomy/training.txt"
+      },
+      {
+        "name": "cooking",
+        "file_name" : "resources/data/cooking/cooking.xml.retrieve.json",
+        "ranker_training_file": "resources/data/cooking/training.txt"
+      },
+      {
+        "name": "history",
+        "file_name" : "resources/data/history/history.xml.retrieve.json",
+        "ranker_training_file": "resources/data/history/training.txt"
+      },
+      {
+        "name": "music",
+        "file_name" : "resources/data/music/music.xml.retrieve.json",
+        "ranker_training_file": "resources/data/music/training.txt"
+      }   
     ]  
 }
