@@ -1,10 +1,11 @@
 import json
-from watson_developer_cloud import RetrieveAndRankV1
-
+#from watson_developer_cloud import RetrieveAndRankV1
+from ConfuciusRR import ConfuciusRetrieveAndRankV1
 #%%
-with open('rr-config.json') as rr_config:
+
+with open('../../resources/config/rr-config.json') as rr_config:
     config = json.load(rr_config)
-retrieve_and_rank = RetrieveAndRankV1(
+retrieve_and_rank = ConfuciusRetrieveAndRankV1(
     username = config['credentials']['username'],
     password= config['credentials']['password'])
 
@@ -18,7 +19,7 @@ created_cluster = retrieve_and_rank.create_solr_cluster(cluster_name='Test Clust
 print(json.dumps(created_cluster, indent=2))
 #%%
 # Replace with your own solr_cluster_id
-solr_cluster_id = 'sc5352d79e_c165_44a6_97ca_8384501d30dd'
+solr_cluster_id = 'sc0cbccce5_6f9c_41fa_86c5_1532f6a45e64'
 
 status = retrieve_and_rank.get_solr_cluster_status(
     solr_cluster_id=solr_cluster_id)
@@ -90,7 +91,12 @@ with open('ranker_answer_data.csv', 'rb') as answer_data:
     ranker_results = retrieve_and_rank.rank('766366x22-rank-3332', answer_data)
     print(json.dumps(ranker_results, indent=2))
 #%%
+solr_cluster_id = 'sc0cbccce5_6f9c_41fa_86c5_1532f6a45e64'
 ranker_id = '1eec74x28-rank-2104'
-data = {'answers': + 10}
+#data = {'answers': + 10}
 url = '/v1/solr_clusters/'+solr_cluster_id+'/solr/'+'music'+'/fcselect?q='+'What the notes of music ?'+'&ranker_id='+ranker_id
 results = retrieve_and_rank.request(method='GET',url=url,accept_json=False)
+#%%
+solr_cluster_id = 'sc0cbccce5_6f9c_41fa_86c5_1532f6a45e64'
+ranker_id = '1eec74x28-rank-2104'
+results = retrieve_and_rank.rank(solr_cluster_id, ranker_id, 'music', 'What are the notes of music ?')

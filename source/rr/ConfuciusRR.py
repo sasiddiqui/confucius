@@ -1,10 +1,11 @@
+import xml.etree.ElementTree as ET
 import json
 import pysolr
 from watson_developer_cloud.watson_developer_cloud_service import \
     WatsonDeveloperCloudService
 
 
-class RetrieveAndRankV1(WatsonDeveloperCloudService):
+class ConfuciusRetrieveAndRankV1(WatsonDeveloperCloudService):
     default_url = 'https://gateway.watsonplatform.net/retrieve-and-rank/api'
 
     def __init__(self, url=default_url, **kwargs):
@@ -107,12 +108,32 @@ class RetrieveAndRankV1(WatsonDeveloperCloudService):
                             url='/v1/rankers/{0}'.format(ranker_id),
                             accept_json=True)
 
-    def rank(self, ranker_id, answer_data, top_answers=10):
-        data = {'answers': + top_answers}
-        return self.request(method='POST',
-                            url='/v1/rankers/{0}/rank'.format(ranker_id),
-                            files=[('answer_data', answer_data)], data=data,
-                            accept_json=True)
+    def rank(self, solr_cluster_id, ranker_id, ranker_name, question):
+        #top_answers = 10
+        #data = {'answers': + top_answers}
+        url = '/v1/solr_clusters/'+solr_cluster_id+'/solr/'+ranker_name+'/fcselect?q='+question+'&ranker_id='+ranker_id
+        #print(url)
+        results = self.request(method='GET',url=url, accept_json=False)
+        #The results has a memebre variable 'text', which contains teh results in form of an xml
+        #Takes a string of xml that ranker returns, outputs a list of dictionaries describing each returned result
+        
+        root = ET.fromstring(results.text.encode('utf-8'))
+        result = []
+
+        for doc in root[1]:
+            ans = doc[0][0].text.replace("'", '"').replace('\\xa0', ' ')
+
+            dic = {}
+            dic['body'] = json.loads(ans)['answer']
+            dic['id'] = doc[1].text
+            dic['version'] = doc[2].text
+            dic['score'] = doc[3].text
+            dic['vector'] = doc[4].text
+            dic['confidence'] = doc[5].text
+    
+            result.append(dic)
+
+        return result
 
     def delete_ranker(self, ranker_id):
         return self.request(method='DELETE',
