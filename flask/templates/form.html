@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="/static/style.css" type="text/css" />
+<body><div id="page">
+    <center>
+	<div id="logo">
+	    <h1><a>Enter your question</a></h1>
+	</div>
+    <br/>
+    <img src="/static/confucius.jpg">
+    <form action="." method="POST">
+        <input type="text" name="text">
+        <input type="submit" name="form" value="Ask Confucius!">
+    </form></center>
+    <br/></div>
+    {% if answer %}
+        {% include answer %}
+    {% endif %}
+</body>
+</html>
+
