@@ -1,6 +1,6 @@
 import json
 from watson_developer_cloud import NaturalLanguageClassifierV1
-from watson_developer_cloud import RetrieveAndRankV1
+from source.rr.ConfuciusRR import ConfuciusRetrieveAndRankV1
 
 natural_language_classifier = NaturalLanguageClassifierV1(
   username='74173aac-8171-4054-b2db-fa873012069e',
@@ -14,12 +14,11 @@ def classify(id, question):
     return class_name
 
 #RR function
-def retrieveRank(question, topic):
-    root = '../../../'
-    with open(root + 'rr-config.json') as credentials_file:
+def retrieve(question, topic):
+    with open('resources/config/rr-config.json') as credentials_file:
         credentials = json.load(credentials_file)
 
-    retrieve_and_rank = RetrieveAndRankV1(
+    retrieve_and_rank = ConfuciusRetrieveAndRankV1(
         username=credentials['credentials']['username'],
         password=credentials['credentials']['password'])
 
@@ -31,15 +30,23 @@ def retrieveRank(question, topic):
 
     # Example search
     results = pysolr_client.search(question)
-
-    #ranker search
-
-
-    #print results.docs
-    #return results.docs
     return results.docs[0]['body'][0]
-    #return results.docs[0]['body'][0].split(',')[0].split(':')[1]
 
+def rank(question, topic):
+    with open('resources/config/rr-config.json') as credentials_file:
+        credentials = json.load(credentials_file)
+
+    retrieve_and_rank = ConfuciusRetrieveAndRankV1(
+        username=credentials['credentials']['username'],
+        password=credentials['credentials']['password'])
+
+    solr_clusters = retrieve_and_rank.list_solr_clusters()
+    solr_cluster_id = solr_clusters['clusters'][1]['solr_cluster_id']
+
+    ranker_id = '1eec74x28-rank-2104'
+    results = retrieve_and_rank.rank(solr_cluster_id, ranker_id, topic, question)
+    return results[0]['body']
+    
 # def get_topic(question, id):
 #     topic = classify(id, question)
 #     return topic
@@ -57,9 +64,11 @@ if __name__ == '__main__':
     topic = classify('90e7acx197-nlc-170', question)
     print 'the topic is {0}'.format(topic)
 
-    answer = retrieveRank(question, topic).replace("\\n", "").replace("u'","").replace("answer':", "")
+    answer = retrieve(question, topic).replace("\\n", "").replace("u'","").replace("answer':", "")
+    answerRank = rank(question, topic).replace("\\n", "").replace("u'","").replace("answer':", "")
     print answer
     print('')
+    print answerRank
 
     response = raw_input('is this what you were looking for?')
     if response == 'no':

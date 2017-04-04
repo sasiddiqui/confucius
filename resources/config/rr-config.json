@@ -11,27 +11,32 @@
       {
         "name": "ai",
         "file_name" : "resources/data/ai/ai.xml.retrieve.json",
-        "ranker_training_file": "resources/data/ai/ai.xml.retrieve.json"
+        "ranker_training_file": "resources/data/ai/ai.xml.retrieve.json",
+        "ranker_id": ""
       },
       {
         "name": "astronomy",
         "file_name" : "resources/data/astronomy/astronomy.xml.retrieve.json",
-        "ranker_training_file": "resources/data/astronomy/training.txt"
+        "ranker_training_file": "resources/data/astronomy/training.txt",
+        "ranker_id": "1eec7cx29-rank-2154"
       },
       {
         "name": "cooking",
         "file_name" : "resources/data/cooking/cooking.xml.retrieve.json",
-        "ranker_training_file": "resources/data/cooking/training.txt"
+        "ranker_training_file": "resources/data/cooking/training.txt",
+        "ranker_id": "1eec74x28-rank-2168"
       },
       {
         "name": "history",
         "file_name" : "resources/data/history/history.xml.retrieve.json",
-        "ranker_training_file": "resources/data/history/training.txt"
+        "ranker_training_file": "resources/data/history/training.txt",
+        "ranker_id": "1eec74x28-rank-2166"
       },
       {
         "name": "music",
         "file_name" : "resources/data/music/music.xml.retrieve.json",
-        "ranker_training_file": "resources/data/music/training.txt"
+        "ranker_training_file": "resources/data/music/training.txt",
+        "ranker_id": "1eec74x28-rank-2104"
       }   
     ]  
 }
