@@ -30,9 +30,12 @@ def index_post():
 #	    f.truncate()
         with open('templates/temp/'+qname+'.html', 'w+') as f:
             f.seek(0)
-            f.write(demo.get_answer(text, '90e7acx197-nlc-170').encode('utf-8'))
+            f.write('<br/><p>Retrieve data:</p><br/>')
+            f.write(demo.get_retrieve(text, '90e7acx197-nlc-170').encode('utf-8'))
+            f.write('<br/><p>Rank data:</p><br/>')
+	    f.write(demo.get_rank(text, '90e7acx197-nlc-170').encode('utf-8'))
             f.truncate()
-        return render_template('form.html', answer='temp/'+qname+'.html', text = demo.get_answer(text, '90e7acx197-nlc-170'))
+        return render_template('form.html', answer='temp/'+qname+'.html', text = demo.get_rank(text, '90e7acx197-nlc-170'))
 
 
 if __name__ == "__main__":
