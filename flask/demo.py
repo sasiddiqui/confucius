@@ -15,7 +15,7 @@ def classify(id, question):
 
 #RR function
 def retrieve(question, topic):
-    with open('resources/config/rr-config.json') as credentials_file:
+    with open('rr-config.json') as credentials_file:
         credentials = json.load(credentials_file)
 
     retrieve_and_rank = ConfuciusRetrieveAndRankV1(
@@ -30,15 +30,16 @@ def retrieve(question, topic):
 
     # Example search
     results = pysolr_client.search(question)
-    return retrieve_and_rank.removeCharTags(results.docs[0]['body'][0])
+    return retrieve_and_rank.removeCharTags(results.docs[0]['body'][0].split("', 'question",1)[0])
 
 def get_topic(question, id):
     topic = classify('90e7acx197-nlc-170', question)
     return topic
 
 def get_retrieve(question, id):
+    topic = classify(id, question)
     answer = retrieve(question, topic).replace("\\n", "").replace("u'","").replace("answer':", "")
-    return answer
+    return answer[4:-2]
 
 def get_rank(question, id):
     topic = classify('90e7acx197-nlc-170', question)
