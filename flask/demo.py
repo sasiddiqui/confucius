@@ -39,7 +39,7 @@ def get_topic(question, id):
 def get_retrieve(question, id):
     topic = classify(id, question)
     answer = retrieve(question, topic).replace("\\n", "").replace("u'","").replace("answer':", "")
-    return answer[4:-2]
+    return answer[4:]
 
 def get_rank(question, id):
     topic = classify('90e7acx197-nlc-170', question)

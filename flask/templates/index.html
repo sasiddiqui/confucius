@@ -9,16 +9,16 @@
 		<title>Ask Confucius</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 8]><script src="/static/assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="/static/assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="/static/assets/css/ie8.css" /><![endif]-->
 	</head>
 	<body id="top">
 
 		<!-- Header -->
 			<header id="header">
 				<div class="inner">
-					<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
+					<a href="#" class="image avatar"><img src="/static/images/avatar.jpg" alt="" /></a>
 					<h1> <strong>I am Confucius</strong></h1><br />
 					Wiser than Google
 				</div>
@@ -30,21 +30,21 @@
 						<h2>Ask Confucius</h2>
 						<div class="row">
 							<div class="8u 12u$(small)">
-								<form method="post" action="#">
+								<form action="." method="POST">
 									<div class="row uniform 50%">
 										<div class="12u$"><textarea name="question" id="question" placeholder="Enter your question here" rows="1"></textarea></div>
 									</div>
+									<br/><br/>
+                                                                        <input type="submit" value="Ask Confucius" />
 								</form>
-								<ul class="actions">
-									<li><input type="submit" value="Ask Confucius" /></li>
-								</ul>
 							</div>
 						</div>
 					</section>	
 					
 					<section id="two">
-					  <h4>Answer</h4>
-					  <blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+					  	{% if answer %}
+							{% include answer %}
+						{% endif %}
 					</section>
 			</div>
 
@@ -56,19 +56,18 @@
 					<li><a href="mailto:sorengoyal@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
 				</ul>
 				<ul>
-				  <h5><a href="projects/resume.pdf">Download Resume</a></h5>
 				<ul class="copyright">
 					<li> Updated Jan 2017</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 				</ul>
 			</footer>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+			<script src="/static/assets/js/jquery.min.js"></script>
+			<script src="/static/assets/js/jquery.poptrox.min.js"></script>
+			<script src="/static/assets/js/skel.min.js"></script>
+			<script src="/static/assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="/static/assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="/static/assets/js/main.js"></script>
 
 	</body>
 </html>
