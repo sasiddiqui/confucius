@@ -70,11 +70,11 @@ if __name__ == '__main__':
     print('')
     print answerRank
 
-    response = raw_input('is this what you were looking for?')
-    if response == 'no':
-        newTopic = raw_input('please enter the new topic')
-        answer = rank(question, newTopic.replace("\\n", "").replace("u'", "").replace("answer':", ""))
-        print answer
+    # response = raw_input('is this what you were looking for?')
+    # if response == 'no':
+    #     newTopic = raw_input('please enter the new topic')
+    #     answer = rank(question, newTopic.replace("\\n", "").replace("u'", "").replace("answer':", ""))
+    #     print answer
 
 
 
