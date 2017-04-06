@@ -45,7 +45,7 @@ def rank(question, topic):
 
     ranker_id = 0
     for collection in credentials['collections']:
-        print collection['name']
+        #print collection['name']
         if(collection['name'] == topic):
             ranker_id = collection['ranker_id']
     results = retrieve_and_rank.rank(solr_cluster_id, ranker_id, topic, question)
@@ -65,13 +65,13 @@ if __name__ == '__main__':
     #question = raw_input('ask your question: ')
 
     #classify the question
-    topic = classify('90e7acx197-nlc-170', question)
-    print 'the topic is {0}'.format(topic)
+    #topic = classify('90e7acx197-nlc-170', question)
+    #print 'the topic is {0}'.format(topic)
 
     questions = [ 'Is playing piano easier than guitar ?',
     'What exciting projects are travelling through space ?',
     'How hot was the big bang ?',
-    'Why were the spartans successful against the Persians and Athenians ?']
+    'Why were the spartans successful against the Athenians ?']
     
     for question in questions:
         topic = classify('90e7acx197-nlc-170', question)
@@ -83,12 +83,16 @@ if __name__ == '__main__':
             print answer
             print('******************')
             print answerRank
+            raw_input()
+            print 'retrive , rank'
         else:
             print answerRank
             print('******************')
             print answer
+            raw_input()
+            print 'rank, retrive'
         print '******************\n*******************'
-        raw_input()
+        
             
 
     response = raw_input('is this what you were looking for?')
