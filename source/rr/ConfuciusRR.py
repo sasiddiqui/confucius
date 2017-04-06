@@ -142,5 +142,5 @@ class ConfuciusRetrieveAndRankV1(WatsonDeveloperCloudService):
         return self.request(method='DELETE',
                             url='/v1/rankers/{0}'.format(ranker_id),
                             accept_json=True)
-    def removeCharTags(text):
+    def removeCharTags(self, text):
         return text.replace('<colon', ':').replace('<percent>','%').replace('<dq>', '\"').replace('<sq>','\'')

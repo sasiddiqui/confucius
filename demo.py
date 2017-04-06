@@ -30,7 +30,7 @@ def retrieve(question, topic):
 
     # Example search
     results = pysolr_client.search(question)
-    return results.docs[0]['body'][0]
+    return retrieve_and_rank.removeCharTags(results.docs[0]['body'][0])
 
 def rank(question, topic):
     with open('resources/config/rr-config.json') as credentials_file:
@@ -45,7 +45,7 @@ def rank(question, topic):
 
     ranker_id = '1eec74x28-rank-2104'
     results = retrieve_and_rank.rank(solr_cluster_id, ranker_id, topic, question)
-    return results[0]['body']
+    return retrieve_and_rank.removeCharTags(results[0]['body'])
     
 # def get_topic(question, id):
 #     topic = classify(id, question)
@@ -73,7 +73,7 @@ if __name__ == '__main__':
     response = raw_input('is this what you were looking for?')
     if response == 'no':
         newTopic = raw_input('please enter the new topic')
-        answer = retrieveRank(question, newTopic.replace("\\n", "").replace("u'", "").replace("answer':", ""))
+        answer = rank(question, newTopic.replace("\\n", "").replace("u'", "").replace("answer':", ""))
         print answer
 
 
