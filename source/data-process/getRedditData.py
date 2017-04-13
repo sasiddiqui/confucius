@@ -4,13 +4,13 @@ import json
 from praw.models import MoreComments
 
 #FILL OUT THIS FIRST
-subreddit = 'AskHistorians'
-category = 'history' #DONT FORGET TO CHANGE THIS
+subreddit = 'askastronomy'
+category = 'astronomy' #DONT FORGET TO CHANGE THIS
 
-limit = 150  #how many questions
-retrieveFile = 'redditRetrieve' + subreddit + '.json'
+limit = 1000  #how many questions
+retrieveFile = 'redditRetrieve' + category + '.json'
 NLCfile = 'redditNLC.csv'
-RankerFile = 'redditRanker' + subreddit + '.csv'
+RankerFile = 'redditRanker' + category + '.csv'
 commentThresh = 4
 
 #PRAW credentials
@@ -66,7 +66,7 @@ for submission in reddit.subreddit(subreddit).top(limit=limit):
             answer = commentEntry[0].replace(':', '<colon>').replace('%','<percent>').replace('\"','<dq>').replace('\n', '<br>').replace('\'','<sq>')
 
             # store data to write to the retriever
-            retrieveData['documents'].append({'id': str(commentEntry[2]),'body': {'question': title,'answer': '<p>' + commentEntry[0] + '</p>'}})
+            retrieveData['documents'].append({'id': str(commentEntry[2]),'body': {'question': title,'answer': '<p>' + answer + '</p>'}})
 
             # store data to write to the ranker
             answerSequence = answerSequence + ',' + '\"' + str(commentEntry[2]) + '\"' + ',' + '\"' + str(commentEntry[1]) + '\"'
