@@ -4,8 +4,8 @@ import json
 from praw.models import MoreComments
 
 #FILL OUT THIS FIRST
-subreddit = 'askastronomy'
-category = 'astronomy' #DONT FORGET TO CHANGE THIS
+subreddit = 'askmusic'
+category = 'music' #DONT FORGET TO CHANGE THIS
 
 limit = 1000  #how many questions
 retrieveFile = 'redditRetrieve' + category + '.json'
