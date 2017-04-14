@@ -5,7 +5,7 @@ learnprogramming	programming
 relationship_advice	relationships 
 techsupport	tech 
 AskCulinary	cooking 
-AskEngineers	tech
+AskEngineers	engineering
 AskSocialScience	science	
 AskMen    men  
 askastronomy	astronomy 

@@ -5,8 +5,8 @@ from praw.models import MoreComments
 from multiprocessing import Process
 
 #FILL OUT THIS FIRST
-subreddit = "askastronomy"
-category = "astronomy" #DONT FORGET TO CHANGE THIS
+subreddit = "AskElectronics"
+category = "tech" #DONT FORGET TO CHANGE THIS
 
 #PRAW credentials
 reddit = praw.Reddit(client_id='XarwttTqbYFghg',
