@@ -3,5 +3,4 @@
 tags
 .coverage
 *.~lock.*
-resources/data/*
 *log*
