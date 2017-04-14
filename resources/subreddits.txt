@@ -1,0 +1,15 @@
+truegaming	gaming  
+AskHistorians	history 
+AskWomen	women 
+learnprogramming	programming	
+relationship_advice	relationships 
+techsupport	tech 
+AskCulinary	cooking 
+AskEngineers	tech
+AskSocialScience	science	
+AskMen    men  
+askastronomy	astronomy 
+AskMusic	music
+AskScience   science
+AskStatistics     math
+AskElectronics    tech
