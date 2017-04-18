@@ -8,7 +8,6 @@ import os
 
 def processFile(path, fileName, topic):
 
-    topic = topic
     #Create NLC document, retrieve document, ranker csv
     nlc = open(path + 'data/stackExchange.nlc.csv', 'a')
     #nlcWrite = csv.writer(nlc)
@@ -95,14 +94,19 @@ def processFile(path, fileName, topic):
     rankerWrite = csv.writer(ranker, escapechar='\\', quoting=csv.QUOTE_ALL)
     rankerWrite.writerows(sortedLists)
 
+#MUST FILL THIS OUT IF WANT CUSTOM TOPICS!
 topics = ['astronomy', 'science', 'science', 'cs', 'engineering', 'gaming', 'history', 'science', 'programming', 'stats']
+
 path = '/Users/tyler/PycharmProjects/confucius/source/data-process/'
 d = os.listdir(path + '/raw')
 
 idx = 0
 for f in d:
     if '.xml' in f:
-        processFile(path,str(f),topics[idx])
+        topic = f.split('.')
+        topic = topic[0]
+        processFile(path,str(f),topic) #use this if no custom topics
+        #processFile(path, str(f), topics[idx])  #use this only for custom topics
         idx += 1
 
 
