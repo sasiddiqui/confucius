@@ -31,9 +31,9 @@ for submission in reddit.subreddit(subreddit).top(limit=limit):
     #get all the top level comments in that submission
     comments = []
     for comment in submission.comments:
-        if isinstance(comment, MoreComments):
-            continue
-        comments.append(comment)
+        if not isinstance(comment, MoreComments) and comment.score > 0:
+            comments.append(comment)
+
 
     #sort the comments by upvotes
     comments.sort(key=lambda comment: comment.score, reverse=True)
@@ -61,16 +61,16 @@ for submission in reddit.subreddit(subreddit).top(limit=limit):
     answerSequence = '' #answerid, answerscore
     if len(topComments) > 0:
 
-        for commentEntry in topComments:
+        for topComment in topComments:
             #filter characters
             title = title.replace(':', '<colon>').replace('%','<percent>').replace('\"','<dq>').replace('\n', '<br>').replace('\'','<sq>')
-            answer = commentEntry[0].replace(':', '<colon>').replace('%','<percent>').replace('\"','<dq>').replace('\n', '<br>').replace('\'','<sq>')
+            answer = topComment[0].replace(':', '<colon>').replace('%', '<percent>').replace('\"', '<dq>').replace('\n', '<br>').replace('\'', '<sq>')
 
             # store data to write to the retriever
-            retrieveData['documents'].append({'id': str(commentEntry[2]),'body': {'question': title,'answer': '<p>' + answer + '</p>'}})
+            retrieveData['documents'].append({'id': str(topComment[2]), 'body': {'question': title, 'answer': '<p>' + answer + '</p>'}})
 
             # store data to write to the ranker
-            answerSequence = answerSequence + ',' + '\"' + str(commentEntry[2]) + '\"' + ',' + '\"' + str(commentEntry[1]) + '\"'
+            answerSequence = answerSequence + ',' + '\"' + str(topComment[2]) + '\"' + ',' + '\"' + str(topComment[1]) + '\"'
 
         rankerData.append('\"' + '<p>' + title + '</p>' + '\"' + answerSequence)
 
