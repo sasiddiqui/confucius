@@ -1,0 +1,12 @@
+{
+  "credentials": {
+    "url": "https://gateway.watsonplatform.net/retrieve-and-rank/api",
+    "password": "ANlCCDTtOHr4",
+    "username": "55729e6b-2d18-46f8-b6a0-3e87cdd80797"
+    },
+    "solr_cluster_name": "Reddit Cluster",
+    "solr_config_file": "solr_config.zip",
+    "solr_config_path": "resources/config/",
+    "collection_name": "reddit_data",
+    "collection_file_count": "15"
+}
