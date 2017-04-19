@@ -2315,7 +2315,44 @@
 			table.alt tfoot {
 				border-top: 0;
 			}
+/* Confidence Meter */
+  input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	.confidence-meter {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		background-color: #ff0000;
+		border-radius: 0.35em;
+		border: solid 3px #efefef;
+		color: #787878 !important;
+		/*cursor: pointer;*/
+		display: inline-block;
+		font-weight: 400;
+		height: 2.75em;
+		height: calc(2.75em + 6px);
+		line-height: 2.75em;
+/*		min-width: 1em;*/
+		width: calc(2.75em + 6px);
+		padding: 0.1em 0.1em;
+		text-align: center;
+		text-decoration: none;
+		white-space: nowrap;
+	}
 
+	input[type="submit"]:hover,
+	input[type="reset"]:hover,
+	input[type="button"]:hover,
+	.confidence-meter:hover {
+		border-color: #efefef;
+		color: #787878 !important;
+	}
 /* Button */
 
 	input[type="submit"],
@@ -2465,9 +2502,9 @@
 
 	#header {
 		background-color: #1f1815;
-		background-attachment: fixed;								fixed;
+		background-attachment: scroll,								fixed;
 		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
-		background-position: top left;							top left;
+		background-position: top left,							top left;
 		background-repeat: repeat;
 		background-size: auto,								auto 100%;
 		color: rgba(255, 255, 255, 0.5);
