@@ -1,4 +1,5 @@
 #Tyler
+#This script only generates NLC training data
 
 from __future__ import print_function
 

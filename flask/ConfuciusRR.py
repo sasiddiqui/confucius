@@ -109,23 +109,25 @@ class ConfuciusRetrieveAndRankV1(WatsonDeveloperCloudService):
                             accept_json=True)
 
     def rank(self, solr_cluster_id, ranker_id, ranker_name, question):
-        #top_answers = 10
-        #data = {'answers': + top_answers}
-        url = '/v1/solr_clusters/'+solr_cluster_id+'/solr/'+ranker_name+'/fcselect?q='+question+'&ranker_id='+ranker_id
-        #print(url)
-        results = self.request(method='GET',url=url, accept_json=False)
-        #The results has a memebre variable 'text', which contains teh results in form of an xml
-        #Takes a string of xml that ranker returns, outputs a list of dictionaries describing each returned result
-        
+        # top_answers = 10
+        # data = {'answers': + top_answers}
+        url = '/v1/solr_clusters/' + solr_cluster_id + '/solr/' + ranker_name + '/fcselect?q=' + question + '&ranker_id=' + ranker_id
+        # print(url)
+        results = self.request(method='GET', url=url, accept_json=False)
+        # The results has a memebre variable 'text', which contains teh results in form of an xml
+        # Takes a string of xml that ranker returns, outputs a list of dictionaries describing each returned result
+
         root = ET.fromstring(results.text.encode('utf-8'))
         result = []
 
         for doc in root[1]:
             ans = doc[0][0].text.replace("'", '"').replace('\\xa0', ' ')
-            #Code to remove some invalid char that might have sneaked in
+            # Code to remove some invalid char that might have sneaked in
             start = ans.index('<p>')
             end = ans.index('</p>')
-            ans = ans[:start] + ans[start:end].replace('"','<dq>') + ans[end:]
+            ans = ans[:start] + ans[start:end].replace('"', '<dq>') + ans[
+                                                                      end:]  # removing double quotes from inside of the string
+            ans = ans.replace('u' + chr(34), '"').replace('\\', '')
             dic = {}
             dic['body'] = json.loads(ans)['answer']
             dic['id'] = doc[1].text
@@ -133,7 +135,7 @@ class ConfuciusRetrieveAndRankV1(WatsonDeveloperCloudService):
             dic['score'] = doc[3].text
             dic['vector'] = doc[4].text
             dic['confidence'] = doc[5].text
-    
+
             result.append(dic)
 
         return result
@@ -142,5 +144,6 @@ class ConfuciusRetrieveAndRankV1(WatsonDeveloperCloudService):
         return self.request(method='DELETE',
                             url='/v1/rankers/{0}'.format(ranker_id),
                             accept_json=True)
+
     def removeCharTags(self, text):
-        return text.replace('<colon>', ':').replace('<percent>','%').replace('<dq>', '\"').replace('<sq>','\'')
+        return text.replace('<colon>', ':').replace('<percent>', '%').replace('<dq>', '\"').replace('<sq>', '\'')

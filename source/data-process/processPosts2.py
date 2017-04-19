@@ -97,7 +97,7 @@ def processFile(path, fileName, topic):
 #MUST FILL THIS OUT IF WANT CUSTOM TOPICS!
 topics = ['astronomy', 'science', 'science', 'cs', 'engineering', 'gaming', 'history', 'science', 'programming', 'stats']
 
-path = '/Users/tyler/PycharmProjects/confucius/source/data-process/'
+path = '/home/tyler/PycharmProjects/confucius/source/data-process/' #MUSt CHANGE BEFORE RUNNING
 d = os.listdir(path + '/raw')
 
 idx = 0

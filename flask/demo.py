@@ -1,4 +1,5 @@
 import json
+import os
 from watson_developer_cloud import NaturalLanguageClassifierV1
 from ConfuciusRR import ConfuciusRetrieveAndRankV1
 
@@ -22,8 +23,9 @@ def retrieve(question, topic):
         username=credentials['credentials']['username'],
         password=credentials['credentials']['password'])
 
-    solr_clusters = retrieve_and_rank.list_solr_clusters()
-    solr_cluster_id = solr_clusters['clusters'][1]['solr_cluster_id']
+    #solr_clusters = retrieve_and_rank.list_solr_clusters()
+    #solr_cluster_id = solr_clusters['clusters'][1]['solr_cluster_id']
+    solr_cluster_id = 'scc3ecccbb_2901_4275_b4d7_11342899dca1'
 
     pysolr_client = retrieve_and_rank.get_pysolr_client(solr_cluster_id, topic)
     # Can also refer to config by name
@@ -32,27 +34,7 @@ def retrieve(question, topic):
     results = pysolr_client.search(question)
     return retrieve_and_rank.removeCharTags(results.docs[0]['body'][0].split("', 'question",1)[0])
 
-def get_topic(question, id):
-    topic = classify('90e7acx197-nlc-170', question)
-    return topic
-
-def get_retrieve(question, id):
-    topic = classify(id, question)
-    answer = retrieve(question, topic).replace("\\n", "").replace("u'","").replace("answer':", "")
-    return answer[4:]
-
-def get_rank(question, id):
-    topic = classify('90e7acx197-nlc-170', question)
-    answerRank = rank(question, topic).replace("\\n", "").replace("u'","").replace("answer':", "")
-    return answerRank
-
-
-
-def remove_html():
-    if os.path.exists("templates"):
-        return true
-    return false
-
+#rank function
 def rank(question, topic):
     with open('rr-config.json') as credentials_file:
         credentials = json.load(credentials_file)
@@ -61,20 +43,46 @@ def rank(question, topic):
         username=credentials['credentials']['username'],
         password=credentials['credentials']['password'])
 
-    solr_clusters = retrieve_and_rank.list_solr_clusters()
-    solr_cluster_id = solr_clusters['clusters'][1]['solr_cluster_id']
+    #solr_clusters = retrieve_and_rank.list_solr_clusters()
+    #solr_cluster_id = solr_clusters['clusters'][1]['solr_cluster_id']
+    solr_cluster_id = 'scc3ecccbb_2901_4275_b4d7_11342899dca1'
 
-    ranker_id = '1eec74x28-rank-2104'
+    ranker_id = '1eec74x28-rank-5332'
     results = retrieve_and_rank.rank(solr_cluster_id, ranker_id, topic, question)
     return retrieve_and_rank.removeCharTags(results[0]['body'])
-    
+
+
+def get_topic(question, id):
+    #topic = classify(id, question)
+    topic = 'reddit_data'
+    return topic
+
+def get_retrieve(question, id):
+    #topic = classify(id, question)
+    topic = 'reddit_data'
+    answer = retrieve(question, topic).replace("\\n", "").replace("u'","").replace("answer':", "")
+    return answer[4:]
+
+def get_rank(question, id):
+    #topic = classify(id, question)
+    topic = 'reddit_data'
+    answerRank = rank(question, topic).replace("\\n", "").replace("u'","").replace("answer':", "")
+    return answerRank
+
+
+def remove_html():
+    if os.path.exists("templates"):
+        return True
+    return False
+
 
 if __name__ == '__main__':
     #get the question
     question = raw_input('ask your question: ')
 
     #classify the question
-    topic = classify('90e7acx197-nlc-170', question)
+    #topic = classify('90e7acx197-nlc-170', question)
+    topic = 'reddit_data'
     print 'the topic is {0}'.format(topic)
 
     answer = retrieve(question, topic).replace("\\n", "").replace("u'","").replace("answer':", "")
@@ -83,11 +91,7 @@ if __name__ == '__main__':
     print('')
     print answerRank
 
-    response = raw_input('is this what you were looking for?')
-    if response == 'no':
-        newTopic = raw_input('please enter the new topic')
-        answer = rank(question, newTopic.replace("\\n", "").replace("u'", "").replace("answer':", ""))
-        print answer
+
 
 
 
