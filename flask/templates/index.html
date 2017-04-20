@@ -32,7 +32,7 @@
 							<div class="8u 12u$(small)">
 								<form action="." method="POST">
 									<div class="row uniform 50%">
-										<div class="12u$"><textarea name="question" id="question" placeholder="Enter your question here" rows="1"></textarea></div>
+										<div class="12u$"><input type="text" name="question" placeholder="Enter your question here" rows="1"/></div>
 									</div>
 									<br/><br/>
                                                                         <input type="submit" value="Ask Confucius" />
@@ -41,11 +41,11 @@
 						</div>
 					</section>	
 					
-					<section id="two">
+				<!--	<section id="two"> -->
 					  	{% if answer %}
 							{% include answer %}
 						{% endif %}
-					</section>
+				<!--	</section> -->
 			</div>
 
 		<!-- Footer -->

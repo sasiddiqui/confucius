@@ -49,7 +49,8 @@ def rank(question, topic):
 
     ranker_id = '1eec74x28-rank-5332'
     results = retrieve_and_rank.rank(solr_cluster_id, ranker_id, topic, question)
-    return retrieve_and_rank.removeCharTags(results[0]['body'])
+    return (retrieve_and_rank.removeCharTags(results[0]['body']), retrieve_and_rank.removeCharTags(results[0]['confidence']))
+
 
 
 def get_topic(question, id):
@@ -66,8 +67,9 @@ def get_retrieve(question, id):
 def get_rank(question, id):
     #topic = classify(id, question)
     topic = 'reddit_data'
-    answerRank = rank(question, topic).replace("\\n", "").replace("u'","").replace("answer':", "")
-    return answerRank
+    t1,t2 = rank(question, topic)
+    t1.replace("\\n", "").replace("u'","").replace("answer':","")
+    return t1, t2
 
 
 def remove_html():
@@ -84,13 +86,10 @@ if __name__ == '__main__':
     #topic = classify('90e7acx197-nlc-170', question)
     topic = 'reddit_data'
     print 'the topic is {0}'.format(topic)
-
-    answer = retrieve(question, topic).replace("\\n", "").replace("u'","").replace("answer':", "")
-    answerRank = rank(question, topic).replace("\\n", "").replace("u'","").replace("answer':", "")
-    print answer
-    print('')
-    print answerRank
-
+    t1,t2 = get_rank(question, 2)
+    print t1
+    print ''
+    print t2
 
 
 
