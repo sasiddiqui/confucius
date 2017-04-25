@@ -124,10 +124,13 @@ class ConfuciusRetrieveAndRankV1(WatsonDeveloperCloudService):
             ans = doc[0][0].text.replace("'", '"').replace('\\xa0', ' ')
             #Code to remove some invalid char that might have sneaked in
             start = ans.index('<p>')
-            end = ans.index('</p>')
-            ans = ans[:start] + ans[start:end].replace('"','<dq>') + ans[end:] #removing double quotes from inside of the string
+            temp = list(ans)
+            temp.reverse()
+            end = ans.rfind('</p>')
+            ans = ans[:start] + ans[start:end].replace('"','<dq>')+ ans[end:] #removing double quotes from inside of the string
             ans = ans.replace('u'+chr(34), '"').replace('\\','')
             dic = {}
+            print(ans)
             dic['body'] = json.loads(ans)['answer']
             dic['id'] = doc[1].text
             dic['version'] = doc[2].text
